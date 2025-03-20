@@ -1,29 +1,29 @@
-📌 Point Of Sale (POS)
+# 📌 Point Of Sale (POS)
 
 A POS system for restaurants, bars, and retail stores, streamlining orders, sales, and inventory management.
 
-🚀 Features
+## 🚀 Features
 
-📦 Product Management
+### 📦 Product Management
 
-Create and manage products,
+- Create and manage products,
 
-Add ingredients to products (optional)
+- Add ingredients to products (optional)
 
-Automatically calculate cost price, VAT-excluded price, and VAT-included price with margin and tax
+- Automatically calculate cost price, VAT-excluded price, and VAT-included price with margin and tax
 
-Auto-calculate product stock based on ingredient inventory levels
+- Auto-calculate product stock based on ingredient inventory levels
 
-🍽️ Ingredient Management
+### 🍽️ Ingredient Management
 
-Add and manage ingredients
+- Add and manage ingredients
 
-Track ingredient usage in products
+- Track ingredient usage in products
 
-Maintain ingredient stock levels
+- Maintain ingredient stock levels
 
-🛒 Order Management
+### 🛒 Order Management
 
-Create and manage orders
+- Create and manage orders
 
-Process and complete orders
+- Process and complete orders
