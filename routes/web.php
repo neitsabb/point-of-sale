@@ -12,7 +12,7 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('storage/{file}', function ($file) {
-    return response()->file(storage_path('app/public/'.$file));
+    return response()->file(storage_path('app/public/' . $file));
 })->name('storage');
 
 Route::middleware(['auth', 'verified'])->group(function () {
@@ -36,6 +36,12 @@ Route::middleware(['auth', 'verified'])->group(function () {
         ->group(function () {
             Route::get('/', [IngredientController::class, 'index'])
                 ->name('index');
+
+            Route::post('/store', [IngredientController::class, 'store'])
+                ->name('store');
+
+            Route::put('/update', [IngredientController::class, 'store'])
+                ->name('update');
         });
 
     Route::prefix('/categories')
@@ -65,5 +71,5 @@ Route::middleware(['auth', 'verified'])->group(function () {
         });
 });
 
-require __DIR__.'/settings.php';
-require __DIR__.'/auth.php';
+require __DIR__ . '/settings.php';
+require __DIR__ . '/auth.php';

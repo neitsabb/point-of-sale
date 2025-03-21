@@ -19,10 +19,11 @@ return new class extends Migration
                 ->default('https://placehold.co/32x32');
             $table->string('name');
             $table->float('price');
-            $table->string('description');
+            $table->string('description')
+                ->nullable();
             $table->enum(
                 'unit',
-                array_map(fn ($unit) => $unit->value, IngredientUnit::cases())
+                array_map(fn($unit) => $unit->value, IngredientUnit::cases())
             )->default(IngredientUnit::UNIT->value);
             $table->integer('stock_quantity')
                 ->default(0);
