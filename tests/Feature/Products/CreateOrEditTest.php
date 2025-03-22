@@ -28,11 +28,11 @@ it('creates a product and it appears in the list with correct price values', fun
 		->assertInertia(
 			fn($page) =>
 			$page->component('products')
-				->has('products', 1)
-				->where('products.0.name', 'Test Product')
-				->where('products.0.price.without_tax', 10)
-				->where('products.0.price.with_margin', 12)
-				->where('products.0.price.selling_price', 14.52)
+				->has('products.data', 1)
+				->where('products.data.0.name', 'Test Product')
+				->where('products.data.0.price.without_tax', 10)
+				->where('products.data.0.price.with_margin', 12)
+				->where('products.data.0.price.selling_price', 14.52)
 		);
 });
 
@@ -68,10 +68,10 @@ it('updates a product and it appears in the list with correct price values', fun
 		->assertInertia(
 			fn($page) =>
 			$page->component('products')
-				->has('products', 1)
-				->where('products.0.name', 'Updated Product')
-				->where('products.0.price.without_tax', 15)
-				->where('products.0.price.with_margin', 18)
-				->where('products.0.price.selling_price', 21.78)
+				->has('products.data', 1)
+				->where('products.data.0.name', 'Updated Product')
+				->where('products.data.0.price.without_tax', 15)
+				->where('products.data.0.price.with_margin', 18)
+				->where('products.data.0.price.selling_price', 21.78)
 		);
 });
