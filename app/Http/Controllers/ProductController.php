@@ -11,21 +11,24 @@ use Illuminate\Support\Facades\Storage;
 use App\Http\Resources\CategoryResource;
 use App\Http\Resources\IngredientResource;
 use App\Http\Requests\StoreOrUpdateProductRequest;
+use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
         return inertia('products', [
             'products' => ProductResource::collection(
-                Product::withCount('ingredients')->with('ingredients', 'category')->get()
+                Product::withCount('ingredients')
+                    ->with('ingredients', 'category')
+                    ->withFilters(
+                        $request->only(['search', 'category_id', 'status'])
+                    )
+                    ->paginate(10)
             ),
-            'ingredients' => IngredientResource::collection(
-                Ingredient::all()
-            ),
-            'categories' => CategoryResource::collection(
-                Category::all()
-            ),
+            'ingredients' => IngredientResource::collection(Ingredient::all()),
+            'categories' => CategoryResource::collection(Category::all()),
+            'filters' => $request->only(['search', 'category_id', 'status'])
         ]);
     }
 

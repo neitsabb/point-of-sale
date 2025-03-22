@@ -343,6 +343,12 @@ export const IngredientListItem = ({
 };
 
 const IngredientQuantityInput = ({ unit, quantity, setQuantity }: { unit: string; quantity: number; setQuantity: (quantity: number) => void }) => {
+    const handleQuantityChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const newQuantity = parseFloat(e.target.value);
+        if (newQuantity < 0 || isNaN(newQuantity)) return; // Empêche les quantités négatives
+        setQuantity(newQuantity);
+    };
+
     return (
         <div
             className={cn(
@@ -354,7 +360,7 @@ const IngredientQuantityInput = ({ unit, quantity, setQuantity }: { unit: string
                 className="disabled:bg-muted w-full outline-none"
                 step={0.5}
                 value={quantity}
-                onChange={(e) => setQuantity(parseFloat(e.target.value))}
+                onChange={handleQuantityChange}
                 placeholder="Quantité"
             />
             <span>{unit}</span>

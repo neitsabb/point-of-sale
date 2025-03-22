@@ -2,10 +2,13 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Query\Builder as QueryBuilder;
 
 class Product extends Model
 {
@@ -40,54 +43,96 @@ class Product extends Model
 
     /**
      * Get the cost price of the product depends on ingredient's price
-     * @return float|int
      */
-    public function getCostPriceAttribute(): float|int
+    public function costPrice(): Attribute
     {
-        return $this->ingredients->sum(
-            fn($ingredient) => $ingredient->price * $ingredient->pivot->quantity
+        return Attribute::make(
+            get: fn() => $this->ingredients->sum(
+                fn($ingredient) => $ingredient->price * $ingredient->pivot->quantity
+            )
         );
     }
 
     /**
      * Calculate the price of the product without tax, without applying the margin.
      * This price is the base price without margin and tax.
-     * @return float
      */
-    public function getSellingPriceWithoutTaxAttribute(): float
+    public function sellingPriceWithoutTax(): Attribute
     {
-        return $this->auto_price_enabled
-            ? $this->cost_price
-            : $this->price;
+        return Attribute::make(
+            get: fn() => $this->auto_price_enabled ? $this->cost_price : $this->price
+        );
     }
 
     /**
      * Calculate the selling price with margin
-     * @return float
      */
-    public function getSellingPriceWithMarginAttribute(): float
+    public function sellingPriceWithMargin(): Attribute
     {
-        return $this->selling_price_without_tax * (1 + $this->margin / 100);
+        return Attribute::make(
+            get: fn() => $this->selling_price_without_tax * (1 + $this->margin / 100)
+        );
     }
 
     /**
      * Calculate the selling price with tax by applying the tax rate
-     * @return float
      */
-    public function getSellingPriceWithTaxAttribute(): float
+    public function sellingPriceWithTax(): Attribute
     {
-        $priceWithTax = $this->selling_price_with_margin * (1 + $this->tax / 100);
-
-        return $this->round_price_enabled
-            ? $this->roundPrice($priceWithTax)
-            : round($priceWithTax, 2);
+        return Attribute::make(
+            get: function () {
+                $priceWithTax = $this->selling_price_with_margin * (1 + $this->tax / 100);
+                return $this->round_price_enabled
+                    ? $this->roundPrice($priceWithTax)
+                    : round($priceWithTax, 2);
+            }
+        );
     }
 
+    /**
+     * Scope to filter products
+     */
+    public function scopeWithFilters(Builder $query, array $filters): Builder
+    {
+        return $query
+            ->when($filters['search'] ?? null, fn($q, $search) => $q->search($search))
+            ->when($filters['category_id'] ?? null, fn($q, $categoryId) => $q->forCategory($categoryId))
+            ->when($filters['status'] ?? null, fn($q, $status) => $q->withStatus($status));
+    }
+
+    /**
+     * Search products by name
+     */
+    public function scopeSearch(Builder $query, string $searchTerm): Builder
+    {
+        return $query->where('name', 'LIKE', "%{$searchTerm}%");
+    }
+
+    /**
+     * Filter products by category
+     */
+    public function scopeForCategory(Builder $query, int $categoryId): Builder
+    {
+        return $query->where('category_id', $categoryId);
+    }
+
+    /**
+     * Filter products by status of ingredients
+     */
+    public function scopeWithStatus(Builder $query, string $status): Builder
+    {
+        return $query->whereHas('ingredients', function ($subQuery) use ($status) {
+            match ($status) {
+                'in_stock' => $subQuery->inStock(),
+                'out_of_stock' => $subQuery->outOfStock(),
+                'critical' => $subQuery->critical(),
+                default => null
+            };
+        });
+    }
 
     /**
      * Round the price to the nearest 0.30, 0.50 or 0.70
-     * @param float $price
-     * @return float
      */
     private function roundPrice(float $price): float
     {

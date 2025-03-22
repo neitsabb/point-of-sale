@@ -129,3 +129,8 @@ export interface Order {
     total_amount: number;
     created_at: string;
 }
+
+export interface ProductsFilters {
+    category_id: string | null;
+    status: string | null;
+}
