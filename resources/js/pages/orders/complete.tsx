@@ -10,96 +10,10 @@ import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { CartItem, useCart } from '@/hooks/use-cart';
 import { cn } from '@/lib/utils';
-import { Category, Ingredient, Order, OrderTypeEnum, Product } from '@/types';
+import { Category, Ingredient, Order, Product } from '@/types';
 import { router, usePage } from '@inertiajs/react';
 
-// Types simplifiés pour l'exemple
-const mockProducts = [
-    {
-        id: '1',
-        name: 'Scrambled Eggs With Toast',
-        description: 'Farm-fresh scrambled eggs served with toast',
-        price: 16.99,
-        image: '/api/placeholder/320/200',
-        category_id: '1',
-    },
-    {
-        id: '2',
-        name: 'Greek Yogurt Parfait',
-        description: 'A harmonious blend of creamy Greek yogurt with fruit and honey',
-        price: 21.49,
-        image: '/api/placeholder/320/200',
-        category_id: '1',
-    },
-    {
-        id: '3',
-        name: 'Vegetable Omelette',
-        description: 'Made with farm-fresh eggs filled with a medley of colorful vegetables',
-        price: 17.09,
-        image: '/api/placeholder/320/200',
-        category_id: '1',
-    },
-    {
-        id: '4',
-        name: 'Smoked Salmon Bagel',
-        description: 'A savory and satisfying breakfast with cream cheese and smoked salmon',
-        price: 18.99,
-        image: '/api/placeholder/320/200',
-        category_id: '1',
-    },
-    {
-        id: '5',
-        name: 'French Toast & Potato',
-        description: 'Cinnamon dusted French toast with sides of freshly cooked breakfast potatoes',
-        price: 19.36,
-        image: '/api/placeholder/320/200',
-        category_id: '1',
-    },
-    {
-        id: '6',
-        name: 'Belgian Waffles',
-        description: 'Fluffy waffles with a crisp golden exterior and a soft interior',
-        price: 19.49,
-        image: '/api/placeholder/320/200',
-        category_id: '1',
-    },
-];
-
-const mockCategories = [
-    { id: '0', name: 'Tous', products_count: 23 },
-    { id: '1', name: 'Breakfast', products_count: 13 },
-    { id: '2', name: 'Fastfood', products_count: 9 },
-    { id: '3', name: 'Soups', products_count: 11 },
-    { id: '4', name: 'Pasta', products_count: 9 },
-    { id: '5', name: 'Snack', products_count: 9 },
-];
-
-const mockIngredients = [
-    { id: '1', name: 'Extra Egg', price: 1.5 },
-    { id: '2', name: 'Bacon', price: 2.0 },
-    { id: '3', name: 'Cheese', price: 1.0 },
-    { id: '4', name: 'Avocado', price: 2.5 },
-];
-
-const mockOrder = {
-    id: '925',
-    customer: 'Arild Hikmat',
-    status: { label: 'New' },
-    created_at: 'Wed, July 12, 2023 • 06:12 PM',
-    table: 'A4',
-};
-
-export default function CompleteOrder({
-    order,
-    products,
-    categories,
-    ingredients,
-}: {
-    order: Order;
-    products: Product[];
-    categories: Category[];
-    ingredients: Ingredient[];
-}) {
+export default function CompleteOrder({ order, products }: { order: Order; products: Product[]; categories: Category[]; ingredients: Ingredient[] }) {
     const [openSummary, setOpenSummary] = useState(true);
     const [search, setSearch] = useState('');
     const { cart, updateQuantity, addProduct, removeProduct } = useCart();
@@ -235,7 +149,7 @@ const ProductsGrid = ({
                                 <p className="text-muted-foreground line-clamp-2 hidden text-xs lg:block">{product.description}</p>
                             </CardContent>
                             <CardFooter className="flex items-center justify-between p-0 pt-0">
-                                <span className="text-primary font-medium">{product.price.with_tax.toFixed(2)} €</span>
+                                <span className="text-primary font-medium">{product.price.selling_price.toFixed(2)} €</span>
                                 <div className="flex items-center space-x-2">
                                     <Button
                                         type="button"
@@ -392,403 +306,152 @@ const CategoryItem = ({
     );
 };
 
-const OrderSummary = ({
-    order,
-    openSummary,
-    setOpenSummary,
-    cart,
-}: {
+interface OrderSummaryProps {
     order: Order;
     openSummary: boolean;
     setOpenSummary: (open: boolean) => void;
     cart: CartItem[];
-}) => {
-    // Calculate totals
-    const subtotal = cart.reduce((total, item) => total + item.product.price * item.quantity, 0);
-    const taxRate = 0.05;
-    const tax = subtotal * taxRate;
-    const total = subtotal + tax;
+}
+
+const OrderSummary = ({ order, openSummary, setOpenSummary, cart }: OrderSummaryProps) => {
+    const subtotal = useMemo(
+        () =>
+            cart.reduce((total, item) => {
+                const htPrice = item.product.price.selling_price / (1 + item.product.price.tax / 100);
+                return total + htPrice * item.quantity;
+            }, 0),
+        [cart],
+    );
+
+    const taxTotals = useMemo(() => {
+        return cart.reduce((taxes: Record<number, number>, item) => {
+            const htPrice = item.product.price.selling_price / (1 + item.product.price.tax / 100);
+            const taxAmount = htPrice * (item.product.price.tax / 100) * item.quantity;
+            taxes[item.product.price.tax] = (taxes[item.product.price.tax] || 0) + taxAmount;
+            return taxes;
+        }, {});
+    }, [cart]);
+
+    const total = useMemo(() => cart.reduce((sum, item) => sum + item.product.price.selling_price * item.quantity, 0), [cart]);
 
     return (
         <aside
             className={cn(
-                'bg-muted fixed inset-y-0 right-0 z-50 flex h-full w-full flex-col overflow-hidden p-6 transition-transform duration-300 md:static md:col-span-4 md:w-auto md:transform-none',
+                'bg-muted fixed inset-y-0 right-0 z-50 flex h-full w-full flex-col overflow-hidden p-6 transition-transform duration-300',
+                'md:static md:col-span-4 md:w-auto md:transform-none',
                 openSummary ? 'translate-x-0' : 'translate-x-full',
             )}
+            aria-modal="true"
+            role="dialog"
         >
-            {/* Summary Header */}
-            <div className="flex items-center justify-between md:hidden">
-                <h2 className="text-lg font-medium">Résumé de commande</h2>
-                <Button variant="ghost" size="icon" className="h-8 w-8" onClick={() => setOpenSummary(false)}>
-                    <X size={20} />
-                </Button>
-            </div>
+            <OrderHeader order={order} onClose={() => setOpenSummary(false)} />
 
-            {/* Header */}
-            <header className="border-accent flex flex-col border-b pb-6">
-                <div className="flex justify-between gap-x-2">
-                    <div>
-                        <h2 className="truncate text-xl font-medium">{order.customer}</h2>
-                        <p className="text-muted-foreground text-xs">
-                            Commande #{order.id} / {order.status.label}
-                        </p>
-                    </div>
-                    <div className="bg-primary grid h-12 w-12 shrink-0 place-items-center rounded-lg text-white">
-                        {order.type.value === OrderTypeEnum.TAKE_AWAY ? 'OUT' : order.table}
-                    </div>
-                </div>
-                <span className="text-muted-foreground mt-2 inline-block text-sm">{order.created_at}</span>
-            </header>
+            <OrderDetails cart={cart} />
 
-            {/* Détails de la commande */}
-            <div className="flex flex-grow flex-col overflow-hidden py-6">
-                <h2 className="mb-2 font-medium lg:text-xl">Détails de la commande</h2>
-                <ScrollArea className="h-[calc(100vh-400px)] pr-4">
-                    <div className="space-y-6">
-                        {cart.map((item) => (
-                            <div key={item.product.id} className="border-border border-b pb-4 last:border-0">
-                                <div className="flex items-center justify-between font-medium">
-                                    <div>{item.product.name}</div>
-                                    <div>x{item.quantity}</div>
-                                </div>
-                                <div className="text-muted-foreground my-2 text-sm">
-                                    {item.extras && item.extras.length > 0 && <div>Extras : {item.extras?.join(', ')}</div>}
-                                    {item.notes && item.notes.map((note, index) => <div key={index}>Note : {note}</div>)}
-                                </div>
-                                <div className="flex items-center justify-between">
-                                    <div className="space-x-2">
-                                        <Button
-                                            variant="outline"
-                                            size="sm"
-                                            className="h-7 gap-1 border-none bg-cyan-50 px-2 text-xs text-cyan-700 shadow-none hover:bg-cyan-100 hover:text-cyan-700"
-                                        >
-                                            <Plus size={12} /> Ajouter un extra
-                                        </Button>
-                                        <Button
-                                            variant="outline"
-                                            size="sm"
-                                            className="h-7 gap-1 border-none bg-emerald-50 px-2 text-xs text-emerald-700 shadow-none hover:bg-emerald-100 hover:text-emerald-700"
-                                        >
-                                            <NotebookPenIcon size={12} /> Ajouter une note
-                                        </Button>
-                                    </div>
-                                    <span className="font-semibold">{(item.product.price.with_tax * item.quantity).toFixed(2)} €</span>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </ScrollArea>
-            </div>
-
-            {/* Footer */}
-            <div className="border-accent space-y-4 border-t pt-4">
-                <div className="flex items-center justify-between">
-                    <span className="text-muted-foreground">Produits ({cart.length})</span>
-                    <span className="font-medium">{subtotal.toFixed(2)} €</span>
-                </div>
-                <div className="flex items-center justify-between">
-                    <span className="text-muted-foreground">Taxes ({(taxRate * 100).toFixed(0)}%)</span>
-                    <span className="font-medium">{tax.toFixed(2)} €</span>
-                </div>
-                <Button className="text-md flex h-12 w-full items-center justify-between">
-                    <span className="text-lg">{total.toFixed(2)} €</span>
-                    <span className="flex items-center gap-2 text-sm">
-                        Procéder au paiement
-                        <MoveRight />
-                    </span>
-                </Button>
-            </div>
+            <OrderFooter cartLength={cart.length} subtotal={subtotal} taxTotals={taxTotals} total={total} />
         </aside>
     );
 };
+// Sous-composant pour l'en-tête
+const OrderHeader = ({ order, onClose }: { order: Order; onClose: () => void }) => (
+    <div className="flex items-center justify-between md:hidden">
+        <h2 className="text-lg font-medium">Résumé de commande</h2>
+        <Button variant="ghost" size="icon" className="h-8 w-8" onClick={onClose} aria-label="Fermer le résumé">
+            <X size={20} />
+        </Button>
+    </div>
+);
 
-// 'use client';
-// import { ArrowLeft, Minus, MoveRight, NotebookPenIcon, Plus } from 'lucide-react';
+// Sous-composant pour les détails des articles
+const OrderDetails = ({ cart }: { cart: CartItem[] }) => (
+    <div className="flex flex-grow flex-col overflow-hidden py-6">
+        <h2 className="mb-2 font-medium lg:text-xl">Détails de la commande</h2>
+        <ScrollArea className="h-[calc(100vh-400px)] pr-4">
+            <div className="space-y-6">
+                {cart.map((item) => (
+                    <CartItemCard key={item.product.id} item={item} />
+                ))}
+            </div>
+        </ScrollArea>
+    </div>
+);
 
-// import { FormField } from '@/components/form-field';
-// import { Button } from '@/components/ui/button';
-// import { Card, CardContent, CardFooter } from '@/components/ui/card';
-// import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
-// import { Input } from '@/components/ui/input';
-// import { ScrollArea } from '@/components/ui/scroll-area';
-// import { CartItem, useCart } from '@/hooks/use-cart';
-// import { cn } from '@/lib/utils';
-// import { Category, Ingredient, Order, Product } from '@/types';
-// import { usePage } from '@inertiajs/react';
-// import { useMemo, useState } from 'react';
+// Composant pour un article individuel
+const CartItemCard = ({ item }: { item: CartItem }) => {
+    const itemPrice = item.product.price.selling_price * item.quantity;
 
-// export default function CompleteOrder({ order, products, ingredients }: { order: Order; products: Product[]; ingredients: Ingredient[] }) {
-//     const [openSummary, setOpenSummary] = useState(true);
+    return (
+        <div className="border-border border-b pb-4 last:border-0">
+            <div className="flex items-center justify-between font-medium">
+                <div>{item.product.name}</div>
+                <div>x{item.quantity}</div>
+            </div>
 
-//     const { cart, addProduct, updateQuantity, removeProduct } = useCart();
+            <ItemModifiers extras={item.extras} notes={item.notes} />
 
-//     const [search, setSearch] = useState<string>('');
+            <div className="flex items-center justify-between">
+                <AddExtraButton />
+                <span className="font-semibold">{formatPrice(itemPrice)}</span>
+            </div>
+        </div>
+    );
+};
 
-//     const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-//         setSearch(e.target.value);
-//     };
+// Composant pour les extras/notes
+const ItemModifiers = ({ extras, notes }: Pick<CartItem, 'extras' | 'notes'>) => (
+    <div className="text-muted-foreground my-2 text-sm">
+        {extras?.length > 0 && <div>Extras : {extras.join(', ')}</div>}
+        {notes?.map((note, index) => <div key={`note-${index}`}>Note : {note}</div>)}
+    </div>
+);
 
-//     const filteredProducts = useMemo(
-//         () => products.filter((product) => product.name.toLowerCase().includes(search.toLowerCase())),
-//         [products, search],
-//     );
+// Composant pour le bouton d'ajout d'extra
+const AddExtraButton = () => (
+    <Button
+        variant="outline"
+        size="sm"
+        className="h-7 gap-1 border-none bg-cyan-50 px-2 text-xs text-cyan-700 shadow-none hover:bg-cyan-100 hover:text-cyan-700"
+    >
+        <Plus size={12} /> Ajouter un extra
+    </Button>
+);
 
-//     return (
-//         <div className="grid h-full w-full grid-cols-12 overflow-hidden">
-//             <div
-//                 className={cn('col-span-12 w-full space-y-6 px-4 md:col-span-8', {
-//                     '-translate-x-50 md:translate-x-0': !openSummary,
-//                 })}
-//             >
-//                 <CompleteOrderHeader handleSearchChange={handleSearchChange} setOpenSummary={setOpenSummary} />
-//                 <main className="flex flex-col gap-4 lg:flex-row">
-//                     <Categories />
-//                     <ScrollArea className="w-full pb-4 [&>[data-radix-scroll-area-viewport]]:max-h-[calc(100vh-100px)]">
-//                         <ul className="grid grid-cols-2 gap-4 pr-4 lg:grid-cols-3">
-//                             {filteredProducts.map((product) => {
-//                                 return (
-//                                     <ProductCard
-//                                         product={product}
-//                                         cartItem={cart.find((item) => item.product.id === product.id)}
-//                                         removeProduct={removeProduct}
-//                                         updateQuantity={updateQuantity}
-//                                         addProduct={addProduct}
-//                                     />
-//                                 );
-//                             })}
-//                         </ul>
-//                     </ScrollArea>
-//                 </main>
-//             </div>
-//             {/* <Drawer open={openSummary} onOpenChange={setOpenSummary} direction="right">
-//                 <DrawerContent className="w-full max-w-xl">coucou</DrawerContent>
-//             </Drawer> */}
-//             <CompleteOrderSummary order={order} cart={cart} ingredients={ingredients} isOpen={openSummary} />
-//         </div>
-//     );
-// }
+// Sous-composant pour le footer
+const OrderFooter = ({
+    cartLength,
+    subtotal,
+    taxTotals,
+    total,
+}: {
+    cartLength: number;
+    subtotal: number;
+    taxTotals: Record<number, number>;
+    total: number;
+}) => (
+    <div className="border-accent space-y-4 border-t pt-4">
+        <PriceRow label={`Produits (${cartLength})`} value={subtotal} />
 
-// const ProductCard = ({
-//     product,
-//     removeProduct,
-//     updateQuantity,
-//     addProduct,
-//     cartItem,
-// }: {
-//     product: Product;
-//     removeProduct: (productId: string) => void;
-//     updateQuantity: (productId: string, quantity: number) => void;
-//     addProduct: (product: Product) => void;
-//     cartItem: CartItem | undefined;
-// }) => {
-//     return (
-//         <Card key={product.id} className="self-start !p-2">
-//             <CardContent className="space-y-2 !p-0">
-//                 <img src={product.image as string} className="aspect-video h-full w-full rounded-lg object-cover" />
-//                 <div>
-//                     <h2 className="truncate font-medium">{product.name}</h2>
-//                     <p className="text-muted-foreground text-xs">{product?.description || 'Lorem ipsum'}</p>
-//                 </div>
-//             </CardContent>
-//             <CardFooter className="flex items-center justify-between !p-0 pt-0">
-//                 <span className="text-primary font-medium">{product.price.toFixed(2)} €</span>
-//                 <div className="flex items-center space-x-2">
-//                     <Button
-//                         type="button"
-//                         variant={'secondary'}
-//                         size={'icon'}
-//                         className="h-8 w-8 rounded-full"
-//                         onClick={() => {
-//                             if (cartItem) {
-//                                 if (cartItem.quantity === 1) {
-//                                     removeProduct(product.id);
-//                                 } else {
-//                                     updateQuantity(product.id, cartItem.quantity - 1);
-//                                 }
-//                             } else {
-//                                 addProduct(product);
-//                             }
-//                         }}
-//                     >
-//                         <Minus strokeWidth={2} />
-//                     </Button>
-//                     <span className="text-sm font-medium">{cartItem?.quantity || 0}</span>
-//                     <Button type="button" variant={'default'} size={'icon'} onClick={() => addProduct(product)} className="h-8 w-8 rounded-full">
-//                         <Plus strokeWidth={2} />
-//                     </Button>
-//                 </div>
-//             </CardFooter>
-//         </Card>
-//     );
-// };
+        {Object.entries(taxTotals).map(([taxRate, taxTotal]) => (
+            <PriceRow key={taxRate} label={`Taxes ${taxRate}%`} value={taxTotal} />
+        ))}
 
-// const CategoryItem = ({ category }: { category: Category }) => {
-//     return (
-//         <li
-//             key={category.name}
-//             className={cn('bg-muted space-y-4 rounded-lg p-2 lg:p-4', {
-//                 'bg-primary text-primary-foreground text-sm lg:text-base': category.id === '0',
-//             })}
-//         >
-//             <b>{category.name}</b>
-//             <p className={'text-muted-foreground hidden text-sm lg:block'}>{category.products_count} produits</p>
-//         </li>
-//     );
-// };
+        <Button className="text-md flex h-12 w-full items-center justify-between">
+            <span className="text-lg">{formatPrice(total)}</span>
+            <span className="flex items-center gap-2 text-sm">
+                Procéder au paiement
+                <MoveRight />
+            </span>
+        </Button>
+    </div>
+);
 
-// const CompleteOrderHeader = ({
-//     handleSearchChange,
-//     setOpenSummary,
-// }: {
-//     handleSearchChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-//     setOpenSummary: (open: boolean) => void;
-// }) => {
-//     return (
-//         <header className="flex h-[56px] items-center pt-6">
-//             <div className="flex w-full items-center gap-4">
-//                 <Button variant="outline" size="icon" className="rounded-full">
-//                     <ArrowLeft />
-//                 </Button>
-//                 <h1 className="font-semibold lg:text-2xl">Choisis les produits</h1>
-//             </div>
-//             <div className="">
-//                 <Input placeholder="Rechercher un produit" onChange={(value) => handleSearchChange(value)} />
-//                 <Button onClick={() => setOpenSummary((prev) => !prev)}>Ouvrir</Button>
-//             </div>
-//         </header>
-//     );
-// };
+// Composant réutilisable pour les lignes de prix
+const PriceRow = ({ label, value }: { label: string; value: number }) => (
+    <div className="flex items-center justify-between">
+        <span className="text-muted-foreground">{label}</span>
+        <span className="font-medium">{formatPrice(value)}</span>
+    </div>
+);
 
-// const CompleteOrderSummary = ({
-//     order,
-//     cart,
-//     ingredients,
-//     isOpen,
-// }: {
-//     order: Order;
-//     cart: CartItem[];
-//     ingredients: Ingredient[];
-//     isOpen: boolean;
-// }) => {
-//     return (
-//         <aside
-//             className={cn('bg-muted z-50 col-span-4 flex h-full translate-x-100 flex-col p-6', {
-//                 '-translate-x-150': isOpen,
-//             })}
-//         >
-//             {/* Header */}
-//             <header className="border-accent flex flex-col border-b pb-6">
-//                 <div className="flex justify-between gap-x-2">
-//                     <div>
-//                         <h2 className="truncate text-xl font-medium">{order.customer}</h2>
-//                         <p className="text-muted-foreground text-xs">Commande #925 / {order.status.label}</p>
-//                     </div>
-//                     <div className="bg-primary grid h-12 w-12 shrink-0 place-items-center rounded-lg text-white">A4</div>
-//                 </div>
-//                 <span className="text-muted-foreground mt-2 inline-block text-sm">{order.created_at}</span>
-//             </header>
-
-//             {/* Détails de la commande */}
-//             <div className="flex h-full flex-grow flex-col overflow-hidden py-6">
-//                 <h2 className="mb-2 font-medium lg:text-xl">Détails de la commande</h2>
-//                 <ScrollArea className="h-[calc(100vh-500px)] pr-4 lg:h-[calc(100vh-400px)]">
-//                     <div className="space-y-4">
-//                         {cart.map((product) => (
-//                             <SummaryItem product={product} key={product.product.id} ingredients={ingredients} />
-//                         ))}
-//                     </div>
-//                 </ScrollArea>
-//             </div>
-
-//             {/* Footer */}
-//             <div className="mt-aut border-accent space-y-4 border-t pt-4">
-//                 <div className="flex items-center justify-between">
-//                     <span className="text-muted-foreground">Produits ({cart.length})</span>
-//                     <span className="font-medium">73,79 €</span>
-//                 </div>
-//                 <div className="flex items-center justify-between">
-//                     <span className="text-muted-foreground">Taxes (5%)</span>
-//                     <span className="font-medium">3,65 €</span>
-//                 </div>
-//                 <Button className="text-md flex h-12 w-full items-center justify-between">
-//                     <span className="text-lg">87,34 €</span>
-//                     <span className="flex items-center gap-2 text-sm">
-//                         Procéder au paiement
-//                         <MoveRight />
-//                     </span>
-//                 </Button>
-//             </div>
-//         </aside>
-//     );
-// };
-
-// const SummaryItem = ({ product: { product, quantity, notes, extras }, ingredients }: { product: CartItem; ingredients: Ingredient[] }) => {
-//     return (
-//         <div>
-//             <div className="flex items-center justify-between font-medium">
-//                 {product.name}
-//                 <span className="">x{quantity}</span>
-//             </div>
-//             <div className="text-muted-foreground my-2 text-sm">
-//                 {extras && <div>Extras : {extras?.join(', ')}</div>}
-//                 {notes?.map((n) => <div>Note : {n}</div>)}
-//             </div>
-//             <div className="flex items-center justify-between">
-//                 <div className="space-x-2">
-//                     <AddExtraOrNoteModal type="extra" ingredients={ingredients} />
-//                     <AddExtraOrNoteModal type="note" />
-//                 </div>
-//                 <span className="font-semibold">16,99 €</span>
-//             </div>
-//         </div>
-//     );
-// };
-
-// const AddExtraOrNoteModal = ({ type, ingredients }: { type: 'extra' | 'note'; ingredients?: Ingredient[] }) => {
-//     const isExtra = type === 'extra';
-
-//     return (
-//         <Dialog>
-//             <DialogTrigger asChild>
-//                 <Button
-//                     variant={'outline'}
-//                     size="sm"
-//                     className={cn(
-//                         'h-7 gap-1 border-none px-2 text-xs shadow-none',
-//                         isExtra
-//                             ? 'bg-cyan-50 text-cyan-700 hover:bg-cyan-100 hover:text-cyan-700'
-//                             : 'bg-emerald-50 text-emerald-700 hover:bg-emerald-100 hover:text-emerald-700',
-//                     )}
-//                 >
-//                     {type === 'extra' ? (
-//                         <>
-//                             <Plus /> Ajouter un extra
-//                         </>
-//                     ) : (
-//                         <>
-//                             <NotebookPenIcon /> Ajouter une note
-//                         </>
-//                     )}
-//                 </Button>
-//             </DialogTrigger>
-//             <DialogContent className="sm:max-w-[425px]">
-//                 <DialogHeader>
-//                     <DialogTitle>{isExtra ? 'Ajouter un supplément' : 'Ajouter une note'}</DialogTitle>
-//                     <DialogDescription>
-//                         Vous pouvez ajouter {isExtra ? 'un' : 'une'} {isExtra ? 'supplément' : 'note'} ici.
-//                     </DialogDescription>
-//                 </DialogHeader>
-//                 {isExtra ? (
-//                     <div className="h-[500px] overflow-y-auto"></div>
-//                 ) : (
-//                     <FormField id="extra" label={'Note'}>
-//                         <Input />
-//                     </FormField>
-//                 )}
-//                 <DialogFooter>
-//                     <Button type="submit">Save changes</Button>
-//                 </DialogFooter>
-//             </DialogContent>
-//         </Dialog>
-//     );
-// };
+// Helper pour formater les prix
+const formatPrice = (amount: number) => `${amount.toFixed(2)} €`;
