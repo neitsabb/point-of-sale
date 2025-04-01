@@ -1,20 +1,12 @@
-// tables/products-table.tsx
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
-    DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { renderStockStatusEnum } from '@/lib/utils';
 import { Ingredient, StockStatus } from '@/types';
 import { ColumnDef } from '@tanstack/react-table';
 import { MoreHorizontal } from 'lucide-react';
 
-export const columns = (onEdit: (ingredient: Ingredient) => void): ColumnDef<Ingredient>[] => [
+export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ingredient: Ingredient) => void): ColumnDef<Ingredient>[] => [
     {
         accessorKey: 'name',
         header: 'Nom',
@@ -29,7 +21,7 @@ export const columns = (onEdit: (ingredient: Ingredient) => void): ColumnDef<Ing
                 style: 'currency',
                 currency: 'EUR',
             }).format(price);
-            return formatted;
+            return `${formatted}/${row.original.purchase_unit === 'kg' ? '100gr' : row.original.purchase_unit === 'l' ? '100ml' : 'unité'}`;
         },
     },
     {
@@ -55,6 +47,14 @@ export const columns = (onEdit: (ingredient: Ingredient) => void): ColumnDef<Ing
         },
     },
     {
+        accessorKey: 'purchase_unit',
+        header: "Unité d'achat",
+    },
+    {
+        accessorKey: 'purchase_unit_size',
+        header: "Taille de l'unité d'achat",
+    },
+    {
         id: 'actions',
         cell: ({ row }) => (
             <DropdownMenu>
@@ -67,8 +67,7 @@ export const columns = (onEdit: (ingredient: Ingredient) => void): ColumnDef<Ing
                 <DropdownMenuContent align="end">
                     <DropdownMenuLabel>Actions</DropdownMenuLabel>
                     <DropdownMenuItem onClick={() => onEdit(row.original)}>Modifier</DropdownMenuItem>
-                    <DropdownMenuSeparator />
-                    <DropdownMenuItem>Voir produit</DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => onSupply(row.original)}>Réapprovisionner</DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
         ),

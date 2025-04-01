@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Enums\IngredientUnit;
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -130,6 +131,8 @@ class Product extends Model
             };
         });
     }
+
+
 
     /**
      * Round the price to the nearest 0.30, 0.50 or 0.70

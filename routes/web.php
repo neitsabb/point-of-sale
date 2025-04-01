@@ -42,6 +42,9 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
             Route::put('/update', [IngredientController::class, 'store'])
                 ->name('update');
+
+            Route::post('/supply/{ingredient}', [IngredientController::class, 'supply'])
+                ->name('supply');
         });
 
     Route::prefix('/categories')

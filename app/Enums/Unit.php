@@ -2,7 +2,7 @@
 
 namespace App\Enums;
 
-enum IngredientUnit: string
+enum Unit: string
 {
     case GRAM = 'g';
     case KILOGRAM = 'kg';

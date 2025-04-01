@@ -23,6 +23,9 @@ type CreateOrUpdateIngredientDto = {
     unit: string;
     stock_quantity: number;
     critical_stock: number;
+    purchase_unit: number;
+    purchase_unit_size: number;
+    purchase_unit_price: number;
 };
 
 export const CreateOrUpdateIngredientForm = ({ ingredient, open, onClose, onSuccess }: CreateOrUpdateIngredientFormProps) => {
@@ -37,6 +40,9 @@ export const CreateOrUpdateIngredientForm = ({ ingredient, open, onClose, onSucc
         unit: 'unit',
         stock_quantity: 0,
         critical_stock: 0,
+        purchase_unit: 0,
+        purchase_unit_size: 0,
+        purchase_unit_price: 0,
     });
 
     useEffect(() => {
@@ -48,6 +54,9 @@ export const CreateOrUpdateIngredientForm = ({ ingredient, open, onClose, onSucc
                 unit: ingredient.unit,
                 stock_quantity: ingredient.stock_quantity,
                 critical_stock: ingredient.critical_stock,
+                purchase_unit: ingredient.purchase_unit_size,
+                purchase_unit_size: ingredient.purchase_unit_size,
+                purchase_unit_price: ingredient.purchase_unit_size,
             });
         } else {
             reset();
@@ -111,6 +120,42 @@ export const CreateOrUpdateIngredientForm = ({ ingredient, open, onClose, onSucc
                                 />
                             </FormField>
                             <FormField id="unit" label="Unité de mesure" errors={errors}>
+                                <Select>
+                                    <SelectTrigger className="w-full">
+                                        <SelectValue placeholder="Choisir une unité" />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                        <SelectGroup>
+                                            <SelectItem value="unit">Unitaire</SelectItem>
+                                            <SelectItem value="g">Gramme</SelectItem>
+                                            <SelectItem value="kg">Kilogramme</SelectItem>
+                                            <SelectItem value="ml">Mililitre</SelectItem>
+                                            <SelectItem value="cl">Centilitre</SelectItem>
+                                            <SelectItem value="l">Litre</SelectItem>
+                                        </SelectGroup>
+                                    </SelectContent>
+                                </Select>
+                            </FormField>
+                        </div>
+                        <div className="grid grid-cols-2 space-x-4">
+                            <FormField id="price" label="Poids d'achat" errors={errors}>
+                                <Select>
+                                    <SelectTrigger className="w-full">
+                                        <SelectValue placeholder="Choisir une unité" />
+                                    </SelectTrigger>
+                                    <SelectContent>
+                                        <SelectGroup>
+                                            <SelectItem value="box">Contenant</SelectItem>
+                                            <SelectItem value="g">Gramme</SelectItem>
+                                            <SelectItem value="kg">Kilogramme</SelectItem>
+                                            <SelectItem value="ml">Mililitre</SelectItem>
+                                            <SelectItem value="cl">Centilitre</SelectItem>
+                                            <SelectItem value="l">Litre</SelectItem>
+                                        </SelectGroup>
+                                    </SelectContent>
+                                </Select>
+                            </FormField>
+                            <FormField id="unit" label="Quantité" errors={errors}>
                                 <Select>
                                     <SelectTrigger className="w-full">
                                         <SelectValue placeholder="Choisir une unité" />

@@ -34,34 +34,101 @@ class DatabaseSeeder extends Seeder
 
         $ingredients = collect([
             // Base
-            'Pain burger' => ['price' => 0.50, 'unit' => 'unit'],
-            'Pain Bicky' => ['price' => 0.60, 'unit' => 'unit'],
+            'Pain burger' => [
+                'unit' => 'unit',
+                'purchase_unit' => 'unit', // Unité d'achat : sac
+                'purchase_unit_size' => 10, // 10 pièces par sac
+                'purchase_price' => 5.00, // 5.00€ le sac
+            ],
+            'Pain Bicky' => [
+                'unit' => 'unit',
+                'purchase_unit' => 'unit', // Unité d'achat : sac
+                'purchase_unit_size' => 8, // 8 pièces par sac
+                'purchase_price' => 4.80, // 4.80€ le sac
+            ],
 
             // Fromages
-            'Cheddar' => ['price' => 0.80, 'unit' => 'unit'],
-            'Gouda' => ['price' => 0.70, 'unit' => 'unit'],
+            'Cheddar' => [
+                'unit' => 'unit',
+                'purchase_unit' => 'g', // Unité d'achat : sac
+                'purchase_unit_size' => 500, // 500g par sac
+                'purchase_price' => 4.00, // 4.00€ le sac
+            ],
+            'Gouda' => [
+                'unit' => 'unit',
+                'purchase_unit' => 'unit', // Unité d'achat : sac
+                'purchase_unit_size' => 10, // 500g par sac
+                'purchase_price' => 2.50, // 3.50€ le sac
+            ],
 
             // Légumes
-            'Salade' => ['price' => 0.03, 'unit' => 'g'],
-            'Oignons frits' => ['price' => 0.02, 'unit' => 'g'],
-            'Cornichons' => ['price' => 0.04, 'unit' => 'g'],
+            'Salade' => [
+                'unit' => 'g',
+                'purchase_unit' => 'g', // Unité d'achat : sac
+                'purchase_unit_size' => 1000, // 1kg par sac
+                'purchase_price' => 1.50, // 0.50€ le sac
+            ],
+            'Oignons frits' => [
+                'unit' => 'g',
+                'purchase_unit' => 'kg', // Unité d'achat : sac
+                'purchase_unit_size' => 500, // 500g par sac
+                'purchase_price' => 2.5, // 2.50€ le sac
+            ],
+            'Cornichons' => [
+                'unit' => 'g',
+                'purchase_unit' => 'kg', // Unité d'achat : bocal
+                'purchase_unit_size' => 1000, // 1L par bocal
+                'purchase_price' => 4, // 4€ le jar
+            ],
 
             // Viandes
-            'Viande Classic' => ['price' => 0.03, 'unit' => 'g'], // 3€ les 100g
-            'Viande Bicky' => ['price' => 0.025, 'unit' => 'g'], // 2.50€ les 100g
-            'Viande Poulet' => ['price' => 0.028, 'unit' => 'g'], // 2.80€ les 100g
-            'Bacon' => ['price' => 0.05, 'unit' => 'g'],
+            'Viande Classic' => [
+                'unit' => 'g',
+                'purchase_unit' => 'kg', // Unité d'achat : kilogramme
+                'purchase_unit_size' => 1, // 1kg par unité
+                'purchase_price' => 2.00, // 2.00€ le kilo
+            ],
+            'Viande Bicky' => [
+                'unit' => 'g',
+                'purchase_unit' => 'kg', // Unité d'achat : kilogramme
+                'purchase_unit_size' => 1, // 1kg par unité
+                'purchase_price' => 4.00, // 2.00€ le kilo
+            ],
+            'Viande Poulet' => [
+                'unit' => 'g',
+                'purchase_unit' => 'kg', // Unité d'achat : kilogramme
+                'purchase_unit_size' => 1, // 1kg par unité
+                'purchase_price' => 4.50, // 2.50€ le kilo
+            ],
+            'Bacon' => [
+                'unit' => 'g',
+                'purchase_unit' => 'kg', // Unité d'achat : kilogramme
+                'purchase_unit_size' => 1, // 1kg par unité
+                "purchase_price" => 5.00, // 5€ le kilo
+            ],
 
             // Sauces
-            'Sauce Bicky' => ['price' => 0.25, 'unit' => 'ml'],
-            'Sauce Poivre' => ['price' => 0.20, 'unit' => 'ml'],
+            'Sauce Bicky' => [
+                'unit' => 'ml',
+                'purchase_unit' => 'l', // Unité d'achat : bouteille
+                'purchase_unit_size' => 500, // 500ml par bouteille
+                'purchase_price' => 1.50, // 1.50€ la bouteille
+            ],
+            'Sauce Poivre' => [
+                'unit' => 'ml',
+                'purchase_unit' => 'l', // Unité d'achat : bouteille
+                'purchase_unit_size' => 500, // 500ml par bouteille
+                'purchase_price' => 1.50, // 1.50€ la bouteille
+            ],
         ])->map(function ($data, $name) {
-            return Ingredient::firstOrCreate([
+            return Ingredient::factory()->create([
                 'name' => $name,
-                'price' => $data['price'],
                 'unit' => $data['unit'],
-                'stock_quantity' => rand(1000, 5000), // Quantités plus réalistes
-                'critical_stock' => rand(500, 1000)
+                'stock_quantity' => rand(1000, 5000),
+                'critical_stock' => rand(500, 1000),
+                'purchase_unit' => $data['purchase_unit'],
+                'purchase_unit_size' => $data['purchase_unit_size'],
+                'purchase_price' => $data['purchase_price'],
             ]);
         });
 

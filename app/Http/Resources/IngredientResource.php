@@ -41,6 +41,8 @@ class IngredientResource extends JsonResource
                 'value' => $status,
                 'label' => $status->label(),
             ],
+            'purchase_unit' => $this->purchase_unit,
+            'purchase_unit_size' => $this->purchase_unit_size,
         ];
     }
 }

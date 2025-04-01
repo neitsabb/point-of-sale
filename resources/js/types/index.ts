@@ -72,6 +72,8 @@ export type Ingredient = {
     status: StockStatus;
     stock_quantity: number;
     critical_stock: number;
+    purchase_unit: string;
+    purchase_unit_size: number;
 };
 
 export type ProductIngredient = {
