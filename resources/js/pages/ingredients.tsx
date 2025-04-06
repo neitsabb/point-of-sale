@@ -9,7 +9,7 @@ import AppLayout from '@/layouts/app-layout';
 import { columns } from '@/tables/ingredients-table';
 import { BreadcrumbItem, Ingredient } from '@/types';
 import { Head, useForm } from '@inertiajs/react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 interface IngredientsPageProps {
     ingredients: Ingredient[];
@@ -43,6 +43,7 @@ export default function IngredientsPage({ ingredients }: IngredientsPageProps) {
         setSupplyOpen(true);
     };
 
+    console.log(ingredients);
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
             <Head title="Produits" />
@@ -64,10 +65,14 @@ interface ReSupplyIngredientDialogProps {
 }
 
 const SupplyIngredientDialog = ({ ingredient, open, onClose }: ReSupplyIngredientDialogProps) => {
-    const { data, setData, post } = useForm({
-        quantity: 0,
-        purchase_unit_size: ingredient?.purchase_unit_size || 0,
+    const { data, setData, post, processing } = useForm({
+        number_of_packages: 0,
+        quantity_per_package: ingredient?.purchase_unit_size,
     });
+
+    useEffect(() => {
+        setData('quantity_per_package', ingredient?.purchase_unit_size || 0);
+    }, [ingredient, setData]);
 
     const handleSupply = () => {
         post(route('ingredients.supply', { ingredient: ingredient?.id }), {
@@ -83,47 +88,56 @@ const SupplyIngredientDialog = ({ ingredient, open, onClose }: ReSupplyIngredien
 
     return (
         <Dialog open={open} onOpenChange={onClose}>
-            <DialogContent className="sm:max-w-[425px]">
+            <DialogContent className="">
                 <DialogHeader>
                     <DialogTitle>Ré-approvisionner {ingredient?.name}</DialogTitle>
                     <DialogDescription>Entrez la quantité à ajouter en stock pour cet ingrédient.</DialogDescription>
                 </DialogHeader>
-                <div className="grid gap-4 py-4">
-                    <div className="grid gap-4">
-                        <FormField label="Nombre d'unité acheté" id="quantity">
+                <div className="flex items-center gap-4 py-4">
+                    <FormField label="Nombre de colis achetés" id="number_of_packages">
+                        <Input
+                            id="number_of_packages"
+                            type="number"
+                            value={data.number_of_packages}
+                            onChange={(e) => setData('number_of_packages', parseFloat(e.target.value))}
+                        />
+                    </FormField>
+                    <span className="mt-6">x</span>
+                    <FormField label={`Contenance par colis (en ${ingredient.purchase_unit})`} id="quantity_per_package" required={false}>
+                        <div className="border-input file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground flex h-9 w-full min-w-0 items-center space-x-2 rounded-md border bg-transparent px-3 py-1 text-sm shadow-xs transition-[color,box-shadow] outline-none">
+                            <Input
+                                id="quantity_per_package"
+                                type="number"
+                                value={data.quantity_per_package}
+                                onChange={(e) => setData('quantity_per_package', parseFloat(e.target.value))}
+                                className="focus-visible:ring-ring/50 border-0 bg-transparent px-0 shadow-none focus-visible:border-0 focus-visible:ring-0"
+                            />
+                            <span className="text-sm text-gray-500">{ingredient.purchase_unit}</span>
+                        </div>
+                    </FormField>
+
+                    {/* {ingredient.unit === 'unit' && (
+                        <FormField label="Nombre d'unité par achat" id="purchase_unit_size" required={false}>
                             <div className="flex items-center space-x-2">
                                 <div className="border-input file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground flex h-9 w-full min-w-0 items-center space-x-2 rounded-md border bg-transparent px-3 py-1 text-sm shadow-xs transition-[color,box-shadow] outline-none">
                                     <Input
                                         id="quantity"
                                         type="number"
-                                        value={data.quantity}
-                                        onChange={(e) => setData('quantity', parseFloat(e.target.value))}
+                                        value={data.purchase_unit_size}
+                                        onChange={(e) => setData('purchase_unit_size', parseFloat(e.target.value))}
                                         className="focus-visible:ring-ring/50 border-0 bg-transparent px-0 shadow-none focus-visible:border-0 focus-visible:ring-0"
                                     />
-                                    <span className="text-sm text-gray-500">{ingredient.purchase_unit}</span>
+                                    <span className="text-sm text-gray-500">{ingredient.unit}</span>
                                 </div>
                             </div>
-                            <p className="text-sm text-gray-500">Example: 2 {ingredient.purchase_unit}</p>
+                            <p className="text-sm text-gray-500">Par exemple: 8 pains par {ingredient.purchase_unit}</p>
                         </FormField>
-                    </div>
-                    <FormField label="Nombre d'unité par achat" id="purchase_unit_size" required={false}>
-                        <div className="flex items-center space-x-2">
-                            <div className="border-input file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground flex h-9 w-full min-w-0 items-center space-x-2 rounded-md border bg-transparent px-3 py-1 text-sm shadow-xs transition-[color,box-shadow] outline-none">
-                                <Input
-                                    id="quantity"
-                                    type="number"
-                                    value={data.purchase_unit_size}
-                                    onChange={(e) => setData('purchase_unit_size', parseFloat(e.target.value))}
-                                    className="focus-visible:ring-ring/50 border-0 bg-transparent px-0 shadow-none focus-visible:border-0 focus-visible:ring-0"
-                                />
-                                <span className="text-sm text-gray-500">{ingredient.unit}</span>
-                            </div>
-                        </div>
-                        <p className="text-sm text-gray-500">Par exemple: 8 pains par {ingredient.purchase_unit}</p>
-                    </FormField>
+                    )} */}
                 </div>
                 <DialogFooter>
-                    <Button onClick={handleSupply}>Ré-approvisionner</Button>
+                    <Button onClick={handleSupply} disabled={data.number_of_packages === 0 || processing}>
+                        Ré-approvisionner
+                    </Button>
                 </DialogFooter>
             </DialogContent>
         </Dialog>

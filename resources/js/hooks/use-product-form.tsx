@@ -39,7 +39,7 @@ export const useProductForm = ({ product, onClose, onSuccess }: useProductFormPr
         category_id: '',
     });
 
-    const [autoPriceCalculation, setAutoPriceCalculation] = useState<boolean>(false);
+    const [autoPriceCalculation, setAutoPriceCalculation] = useState<boolean>(product?.price.auto_price_calculation || false);
     const [costPrice, setCostPrice] = useState<number>(0);
     const [priceWithoutTax, setPriceWithoutTax] = useState<number>(0);
     const [priceWithMargin, setPriceWithMargin] = useState<number>(0);

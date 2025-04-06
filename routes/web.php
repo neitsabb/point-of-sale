@@ -40,7 +40,7 @@ Route::middleware(['auth', 'verified'])->group(function () {
             Route::post('/store', [IngredientController::class, 'store'])
                 ->name('store');
 
-            Route::put('/update', [IngredientController::class, 'store'])
+            Route::put('/{ingredient}', [IngredientController::class, 'update'])
                 ->name('update');
 
             Route::post('/supply/{ingredient}', [IngredientController::class, 'supply'])

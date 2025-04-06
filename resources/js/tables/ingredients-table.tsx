@@ -16,12 +16,20 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
         accessorKey: 'price',
         header: 'Prix unitaire',
         cell: ({ row }) => {
-            const price = parseFloat(row.getValue('price'));
+            let price = parseFloat(row.getValue('price'));
+            const unit = row.original.unit;
+
+            // Multiplier par 100 pour g, ml, cl pour obtenir le prix par 100 unités
+            if (unit === 'g' || unit === 'ml' || unit === 'cl') {
+                price = price * 100;
+            }
+
             const formatted = new Intl.NumberFormat('fr-FR', {
                 style: 'currency',
                 currency: 'EUR',
             }).format(price);
-            return `${formatted}/${row.original.purchase_unit === 'kg' ? '100gr' : row.original.purchase_unit === 'l' ? '100ml' : 'unité'}`;
+
+            return `${formatted}/${unit === 'g' ? '100gr' : unit === 'ml' ? '100ml' : unit === 'cl' ? '100cl' : 'unité'}`;
         },
     },
     {

@@ -42,7 +42,6 @@ export const CreateOrUpdateProductForm = ({ product, open, onClose, onSuccess }:
         setSelectedCategory,
         autoPriceCalculation,
         setAutoPriceCalculation,
-        costPrice,
         priceWithTax,
         priceWithMargin,
         priceWithoutTax,
@@ -176,6 +175,7 @@ export const CreateOrUpdateProductForm = ({ product, open, onClose, onSuccess }:
                                 <Switch
                                     id="auto-price-calculation"
                                     checked={autoPriceCalculation}
+                                    defaultValue={autoPriceCalculation ? 'true' : 'false'}
                                     onCheckedChange={() => {
                                         setAutoPriceCalculation(!autoPriceCalculation);
                                         if (!autoPriceCalculation) {
@@ -329,7 +329,9 @@ export const IngredientListItem = ({
                             </Badge>
                         )}
                     </div>
-                    <p className="text-xs text-gray-500">{ingredient.price} €/unité</p>
+                    <p className="text-xs text-gray-500">
+                        {ingredient.price} €/{ingredient.unit}
+                    </p>
                 </div>
             </div>
             <div className="hidden shrink-0 gap-2 sm:flex sm:flex-col sm:items-end md:flex-row">

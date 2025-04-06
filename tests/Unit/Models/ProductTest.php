@@ -37,13 +37,13 @@ it('may have ingredients', function () {
 it('calculates the cost price', function () {
     $product = Product::factory()->create();
 
-    $ingredient1 = Ingredient::factory()->create(['price' => 5]);
-    $ingredient2 = Ingredient::factory()->create(['price' => 3]);
+    $ingredient1 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50]);
+    $ingredient2 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50]);
 
     $product->ingredients()->attach([$ingredient1->id => ['quantity' => 2]]);
     $product->ingredients()->attach([$ingredient2->id => ['quantity' => 3]]);
 
-    expect($product->cost_price)->toEqual(5 * 2 + 3 * 3);
+    expect($product->cost_price)->toEqual((3.50 / 8) * 2 + (3.50 / 8)  * 3);
 });
 
 it('calcules the price with margin', function () {
@@ -63,8 +63,8 @@ it('calculates the selling price when auto_price is true', function () {
     $marge = 20;
     $tva = 21;
 
-    $ingredient1 = Ingredient::factory()->create(['price' => 5]);
-    $ingredient2 = Ingredient::factory()->create(['price' => 3]);
+    $ingredient1 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50]);
+    $ingredient2 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50]);
 
     $product = Product::factory()->create([
         'auto_price_enabled' => true,
@@ -75,7 +75,7 @@ it('calculates the selling price when auto_price is true', function () {
     $product->ingredients()->attach([$ingredient1->id => ['quantity' => 2]]);
     $product->ingredients()->attach([$ingredient2->id => ['quantity' => 3]]);
 
-    $costPrice = 5 * 2 + 3 * 3; // 10 + 9 = 19€
+    $costPrice = (3.50 / 8) * 2 + (3.50 / 8)  * 3; // 10 + 9 = 19€
     $priceWithMargin = $costPrice * (1 + $marge / 100); // 19 * 1.2 = 22.8€
     $sellingPrice = round($priceWithMargin * (1 + $tva / 100), 2); // 22.8 * 1.21 = 27.61€
 
