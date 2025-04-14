@@ -30,10 +30,12 @@ const ProductsFilters = ({ filters, categories }: { filters: ProductsFilters; ca
             {/* Catégories */}
             <Popover open={openCategory} onOpenChange={setOpenCategory}>
                 <PopoverTrigger asChild>
-                    <Button variant="outline" size="sm" role="combobox">
-                        {filters.category_id ? categoryOptions.find((c) => c.id == filters.category_id)?.name : 'Toutes les catégories'}
-                        <ChevronsUpDownIcon className="ml-2 h-4 w-4 opacity-50" />
-                    </Button>
+                    <div>
+                        <Button variant="outline" size="sm" role="combobox">
+                            {filters.category_id ? categoryOptions.find((c) => c.id == filters.category_id)?.name : 'Toutes les catégories'}
+                            <ChevronsUpDownIcon className="ml-2 h-4 w-4 opacity-50" />
+                        </Button>
+                    </div>
                 </PopoverTrigger>
                 <PopoverContent className="w-full p-0" align="end">
                     <Command>
@@ -60,10 +62,12 @@ const ProductsFilters = ({ filters, categories }: { filters: ProductsFilters; ca
             {/* État */}
             <Popover open={openStatus} onOpenChange={setOpenStatus}>
                 <PopoverTrigger asChild>
-                    <Button variant="outline" size="sm" role="combobox">
-                        {filters.status ? statusOptions.find((s) => s.value === filters.status)?.label : 'Tous les états'}
-                        <ChevronsUpDownIcon className="ml-2 h-4 w-4 opacity-50" />
-                    </Button>
+                    <div>
+                        <Button variant="outline" size="sm" role="combobox">
+                            {filters.status ? statusOptions.find((s) => s.value === filters.status)?.label : 'Tous les états'}
+                            <ChevronsUpDownIcon className="ml-2 h-4 w-4 opacity-50" />
+                        </Button>
+                    </div>
                 </PopoverTrigger>
                 <PopoverContent className="w-[180px] p-0" align="end">
                     <Command>
@@ -87,9 +91,12 @@ const ProductsFilters = ({ filters, categories }: { filters: ProductsFilters; ca
                 <TooltipProvider>
                     <Tooltip>
                         <TooltipTrigger asChild>
-                            <Button variant="outline" size="sm" onClick={handleResetFilters}>
-                                <RotateCcwIcon />
-                            </Button>
+                            <div>
+                                {' '}
+                                <Button variant="outline" size="sm" onClick={handleResetFilters}>
+                                    <RotateCcwIcon />
+                                </Button>
+                            </div>
                         </TooltipTrigger>
                         <TooltipContent side="bottom" align="end">
                             <p>Réinitialiser les filtres</p>

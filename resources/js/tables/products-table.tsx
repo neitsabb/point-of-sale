@@ -89,22 +89,24 @@ export const columns = (onEdit: (product: Product) => void): ColumnDef<Product>[
     {
         id: 'actions',
         cell: ({ row }) => (
-            <DropdownMenu>
-                <DropdownMenuTrigger asChild onClick={(e) => console.log('click')}>
-                    <div>
-                        <Button variant="ghost" className="h-8 w-8 p-0">
-                            <span className="sr-only">Ouvrir le menu</span>
-                            <MoreHorizontal className="h-4 w-4" />
-                        </Button>
-                    </div>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end">
-                    <DropdownMenuLabel>Actions</DropdownMenuLabel>
-                    <DropdownMenuItem onClick={() => onEdit(row.original)}>Modifier</DropdownMenuItem>
-                    <DropdownMenuSeparator />
-                    <DropdownMenuItem>Voir produit</DropdownMenuItem>
-                </DropdownMenuContent>
-            </DropdownMenu>
+            <div className="relative">
+                <DropdownMenu>
+                    <DropdownMenuTrigger asChild onClick={(e) => console.log('click')}>
+                        <div>
+                            <Button variant="ghost" className="h-8 w-8 p-0">
+                                <span className="sr-only">Ouvrir le menu</span>
+                                <MoreHorizontal className="h-4 w-4" />
+                            </Button>
+                        </div>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="end" side="bottom" sideOffset={8} avoidCollisions={false}>
+                        <DropdownMenuLabel>Actions</DropdownMenuLabel>
+                        <DropdownMenuItem onClick={() => onEdit(row.original)}>Modifier</DropdownMenuItem>
+                        <DropdownMenuSeparator />
+                        <DropdownMenuItem>Voir produit</DropdownMenuItem>
+                    </DropdownMenuContent>
+                </DropdownMenu>
+            </div>
         ),
     },
 ];
