@@ -4,14 +4,13 @@ import { FormField } from '@/components/form-field';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogClose, DialogContent, DialogFooter, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
-import { OrderType } from '@/types';
 import { useForm } from '@inertiajs/react';
 import { DialogTrigger } from '@radix-ui/react-dialog';
 import { FormEvent, useEffect, useState } from 'react';
 
 type CreateOrderDto = {
     customer: string;
-    type: OrderType;
+    type: string;
     guests?: number;
     phone?: string;
 };
@@ -36,16 +35,12 @@ export function CreateOrderModal() {
     };
 
     useEffect(() => {
-        setData({
-            ...data,
-            guests: guestCount,
-            type: orderType as OrderType,
-        });
-    }, [guestCount, orderType]);
+        setData('guests', guestCount);
+        setData('type', orderType);
+    }, [guestCount, orderType, setData]);
 
     const handleSubmit = (e: FormEvent) => {
         e.preventDefault();
-        console.log(data);
 
         post(route('orders.create'), {
             onSuccess: (r) => console.log(r),
@@ -88,11 +83,23 @@ export function CreateOrderModal() {
                     {orderType === 'dine-in' ? (
                         <FormField label="Personnes" id="guests" errors={errors}>
                             <div className="border-input file:text-foreground placeholder:text-muted-foreground selection:bg-primary selection:text-primary-foreground flex h-9 w-full min-w-0 items-center justify-between rounded-md border bg-transparent px-3 py-1 text-base shadow-xs transition-[color,box-shadow] outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm">
-                                <Button variant="outline" size="icon" className="h-6 w-6 shrink-0 rounded-full" onClick={decrementGuest}>
+                                <Button
+                                    type="button"
+                                    variant="outline"
+                                    size="icon"
+                                    className="h-6 w-6 shrink-0 rounded-full"
+                                    onClick={decrementGuest}
+                                >
                                     <Minus className="h-2 w-2" />
                                 </Button>
                                 <span className="w-full text-center text-sm">{guestCount} personne(s)</span>
-                                <Button variant="outline" size="icon" className="h-6 w-6 shrink-0 rounded-full" onClick={incrementGuest}>
+                                <Button
+                                    type="button"
+                                    variant="outline"
+                                    size="icon"
+                                    className="h-6 w-6 shrink-0 rounded-full"
+                                    onClick={incrementGuest}
+                                >
                                     <Plus className="h-2 w-2" />
                                 </Button>
                             </div>
@@ -110,7 +117,9 @@ export function CreateOrderModal() {
                         </Button>
                     </DialogClose>
 
-                    <Button form="create-order-form">Enregistrer</Button>
+                    <Button form="create-order-form" type="submit">
+                        Enregistrer
+                    </Button>
                 </DialogFooter>
             </DialogContent>
         </Dialog>
