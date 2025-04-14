@@ -90,11 +90,13 @@ export const columns = (onEdit: (product: Product) => void): ColumnDef<Product>[
         id: 'actions',
         cell: ({ row }) => (
             <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                    <Button variant="ghost" className="h-8 w-8 p-0">
-                        <span className="sr-only">Ouvrir le menu</span>
-                        <MoreHorizontal className="h-4 w-4" />
-                    </Button>
+                <DropdownMenuTrigger asChild onClick={(e) => console.log('click')}>
+                    <div>
+                        <Button variant="ghost" className="h-8 w-8 p-0">
+                            <span className="sr-only">Ouvrir le menu</span>
+                            <MoreHorizontal className="h-4 w-4" />
+                        </Button>
+                    </div>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end">
                     <DropdownMenuLabel>Actions</DropdownMenuLabel>
