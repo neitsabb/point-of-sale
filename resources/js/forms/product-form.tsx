@@ -330,7 +330,7 @@ export const IngredientListItem = ({
                         )}
                     </div>
                     <p className="text-xs text-gray-500">
-                        {ingredient.price} €/{ingredient.unit}
+                        {ingredient.price.toFixed(2)} €/{ingredient.unit}
                     </p>
                 </div>
             </div>
@@ -347,7 +347,7 @@ export const IngredientListItem = ({
 const IngredientQuantityInput = ({ unit, quantity, setQuantity }: { unit: string; quantity: number; setQuantity: (quantity: number) => void }) => {
     const handleQuantityChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         const newQuantity = parseFloat(e.target.value);
-        if (newQuantity < 0 || isNaN(newQuantity)) return; // Empêche les quantités négatives
+
         setQuantity(newQuantity);
     };
 

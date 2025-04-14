@@ -33,16 +33,32 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
         },
     },
     {
+        accessorKey: 'purchase_price',
+        header: "Prix d'achat",
+        cell: ({ row }) => {
+            const price = parseFloat(row.getValue('purchase_price'));
+            const formatted = new Intl.NumberFormat('fr-FR', {
+                style: 'currency',
+                currency: 'EUR',
+            }).format(price);
+
+            return `${formatted}/${row.original.purchase_unit_size}${row.original.purchase_unit}`;
+        },
+    },
+    {
         accessorKey: 'products_count',
         header: 'Produits associés',
     },
-    {
-        accessorKey: 'unit',
-        header: 'Unité de mesure',
-    },
+
     {
         accessorKey: 'stock_quantity',
         header: 'En stock',
+        cell: ({ row }) => {
+            const quantity = row.getValue('stock_quantity') as number;
+            const unit = row.original.unit;
+
+            return `${quantity} ${unit}`;
+        },
     },
     {
         accessorKey: 'stock_status',
@@ -55,12 +71,9 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
         },
     },
     {
-        accessorKey: 'purchase_unit',
-        header: "Unité d'achat",
-    },
-    {
-        accessorKey: 'purchase_unit_size',
-        header: "Taille de l'unité d'achat",
+        accessorKey: 'unit',
+        header: 'Unité de mesure',
+        cell: ({ row }) => <Badge variant="outline">{row.getValue('unit')}</Badge>,
     },
     {
         id: 'actions',

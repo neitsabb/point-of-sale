@@ -7,6 +7,7 @@ import { Input } from '@/components/ui/input';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { CreateOrderModal } from '@/forms/create-order-form';
 import AppLayout from '@/layouts/app-layout';
+import { cn } from '@/lib/utils';
 import { Order, type BreadcrumbItem } from '@/types';
 import { Head } from '@inertiajs/react';
 import * as TabsPrimitive from '@radix-ui/react-tabs';
@@ -243,7 +244,14 @@ export default function Dashboard() {
 function OrderItem({ table, name, items, status, statusText, bgColor }) {
     return (
         <div className="flex items-center gap-4">
-            <div className={`${bgColor} flex h-12 w-12 items-center justify-center rounded-md font-medium text-white`}>{table}</div>
+            <div
+                className={cn(
+                    'flex h-12 w-12 items-center justify-center rounded-md font-medium text-white',
+                    table === 'TA' ? 'bg-chart-4' : 'bg-primary',
+                )}
+            >
+                {table}
+            </div>
             <div className="flex-1">
                 <p className="font-medium">{name}</p>
                 <p className="text-sm text-gray-500">{items} Items</p>
@@ -280,7 +288,14 @@ function OrderItem({ table, name, items, status, statusText, bgColor }) {
 function PaymentItem({ table, name, orderId, bgColor }) {
     return (
         <div className="flex items-center gap-4">
-            <div className={`${bgColor} flex h-12 w-12 items-center justify-center rounded-md font-medium text-white`}>{table}</div>
+            <div
+                className={cn(
+                    'flex h-12 w-12 items-center justify-center rounded-md font-medium text-white',
+                    table === 'TA' ? 'bg-chart-4' : 'bg-primary',
+                )}
+            >
+                {table}
+            </div>
             <div className="flex-1">
                 <p className="font-medium">{name}</p>
                 <p className="text-sm text-gray-500">Order {orderId}</p>
@@ -297,7 +312,7 @@ function PopularDish({ rank, name, orders, image }) {
         <div className="flex items-center gap-3">
             <div className="w-6 font-medium text-gray-500">{rank}</div>
             <div className="h-10 w-10 overflow-hidden rounded-md">
-                <img src={image || '/placeholder.svg'} width={40} height={40} alt={name} className="object-cover" />
+                <img src={'https://placehold.co/32x32'} width={40} height={40} alt={name} className="object-cover" />
             </div>
             <div className="flex-1">
                 <p className="text-sm font-medium">{name}</p>
