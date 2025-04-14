@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\StoreOrUpdateProductRequest;
 use App\Models\Product;
 use App\Models\Category;
 use App\Models\Ingredient;
@@ -10,7 +11,6 @@ use App\Http\Resources\ProductResource;
 use Illuminate\Support\Facades\Storage;
 use App\Http\Resources\CategoryResource;
 use App\Http\Resources\IngredientResource;
-use App\Http\Requests\StoreOrUpdateProductRequest;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -41,12 +41,12 @@ class ProductController extends Controller
     {
         $product = Product::create([
             ...$request->validated(),
-            'price' => $request->input('price_without_tax'),
+            'price' => $request->validated('price_without_tax'),
         ]);
 
         if ($request->has('ingredients')) {
             $product->ingredients()->sync(
-                collect($request->input('ingredients'))
+                collect($request->validated('ingredients'))
                     ->mapWithKeys(
                         fn($ingredient) => [$ingredient['id'] => ['quantity' => $ingredient['quantity']]]
                     )
@@ -93,7 +93,7 @@ class ProductController extends Controller
 
         $product->update([
             ...$request->validated(),
-            'price' => $request->input('price_without_tax')
+            'price' => $request->validated('price_without_tax')
         ]);
 
         return redirect()->back()->withSuccess('Produit modifié avec succès');

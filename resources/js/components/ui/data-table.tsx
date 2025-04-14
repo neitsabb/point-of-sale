@@ -36,7 +36,7 @@ export function DataTable<TData, TValue>({
     data,
     columns,
     getCoreRowModel: getCoreRowModel(),
-    getPaginationRowModel: getPaginationRowModel()
+    getPaginationRowModel: pagination && getPaginationRowModel()
   })
 
   const totalPages = pagination && Math.ceil(pagination.total / pagination.perPage);
@@ -81,7 +81,6 @@ export function DataTable<TData, TValue>({
         {/* Pagination Controls */}
         
       </div>
-      <FloatingBar selectedRows={table.getSelectedRowModel().rows} />
       {/* Pagination Controls */}
       {pagination && (
         <div className="flex items-center justify-between space-x-2 py-4 ">
