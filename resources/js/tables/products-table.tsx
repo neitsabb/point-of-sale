@@ -91,7 +91,7 @@ export const columns = (onEdit: (product: Product) => void): ColumnDef<Product>[
         cell: ({ row }) => (
             <div className="relative">
                 <DropdownMenu>
-                    <DropdownMenuTrigger asChild onClick={(e) => console.log('click')}>
+                    <DropdownMenuTrigger asChild onClick={(e) => console.log('click')} className="translate-x-0 translate-y-0">
                         <div>
                             <Button variant="ghost" className="h-8 w-8 p-0">
                                 <span className="sr-only">Ouvrir le menu</span>

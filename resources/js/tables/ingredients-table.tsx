@@ -79,7 +79,7 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
         id: 'actions',
         cell: ({ row }) => (
             <DropdownMenu>
-                <DropdownMenuTrigger asChild>
+                <DropdownMenuTrigger asChild className="translate-x-0 translate-y-0">
                     <div>
                         <Button variant="ghost" className="h-8 w-8 p-0">
                             <span className="sr-only">Ouvrir le menu</span>
