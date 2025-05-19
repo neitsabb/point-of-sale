@@ -37,8 +37,8 @@ it('may have ingredients', function () {
 it('calculates the cost price', function () {
     $product = Product::factory()->create();
 
-    $ingredient1 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50]);
-    $ingredient2 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50]);
+    $ingredient1 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50, 'purchase_unit' => 'unit']);
+    $ingredient2 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50, 'purchase_unit' => 'ml']);
 
     $product->ingredients()->attach([$ingredient1->id => ['quantity' => 2]]);
     $product->ingredients()->attach([$ingredient2->id => ['quantity' => 3]]);
@@ -63,8 +63,8 @@ it('calculates the selling price when auto_price is true', function () {
     $marge = 20;
     $tva = 21;
 
-    $ingredient1 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50]);
-    $ingredient2 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50]);
+    $ingredient1 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50, 'purchase_unit' => 'unit']);
+    $ingredient2 = Ingredient::factory()->create(['purchase_unit_size' => 8, 'purchase_price' => 3.50, 'purchase_unit' => 'unit']);
 
     $product = Product::factory()->create([
         'auto_price_enabled' => true,

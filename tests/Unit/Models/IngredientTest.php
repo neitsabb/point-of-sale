@@ -8,7 +8,7 @@ it('can create an ingredient', function () {
 	$ingredient = Ingredient::factory()->create([
 		'name' => 'Sauce BBQ',
 		'unit' => 'ml',
-		'purchase_unit' => 'l',
+		'purchase_unit' => Unit::LITER->value,
 		'purchase_unit_size' => 1.5,
 		'purchase_price' => 3,
 		'stock_quantity' => 150,
@@ -17,7 +17,7 @@ it('can create an ingredient', function () {
 
 	// Vérifie que l'ingrédient a été créé avec les bonnes valeurs
 	expect($ingredient->name)->toBe('Sauce BBQ');
-	expect($ingredient->purchase_unit)->toBe('l');
+	expect($ingredient->purchase_unit)->toBe(Unit::LITER);
 	expect($ingredient->purchase_unit_size)->toBe(1.5);
 });
 
