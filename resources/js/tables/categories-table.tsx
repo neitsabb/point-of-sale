@@ -1,13 +1,6 @@
 // tables/products-table.tsx
 import { Button } from '@/components/ui/button';
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
-    DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
 import { Category } from '@/types';
 import { ColumnDef } from '@tanstack/react-table';
 import { MoreHorizontal } from 'lucide-react';
@@ -32,10 +25,7 @@ export const columns = (onEdit: (category: Category) => void): ColumnDef<Categor
                     </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end">
-                    <DropdownMenuLabel>Actions</DropdownMenuLabel>
                     <DropdownMenuItem onClick={() => onEdit(row.original)}>Modifier</DropdownMenuItem>
-                    <DropdownMenuSeparator />
-                    <DropdownMenuItem>Voir produit</DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
         ),

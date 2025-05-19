@@ -161,7 +161,7 @@ export const columns = ({ onEdit }: { onEdit: (produit: Product) => void }): Col
             id: 'Actions',
             meta: 'Actions',
             cell: ({ row }) => {
-                const produit = row.original;
+                const product = row.original;
 
                 return (
                     <DropdownMenu>
@@ -173,9 +173,9 @@ export const columns = ({ onEdit }: { onEdit: (produit: Product) => void }): Col
                         </DropdownMenuTrigger>
                         <DropdownMenuContent align="end">
                             <DropdownMenuLabel>Actions</DropdownMenuLabel>
-                            <DropdownMenuItem onClick={() => navigator.clipboard.writeText(produit.id)}>Copier l'ID</DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => navigator.clipboard.writeText(product.id)}>Copier l'ID</DropdownMenuItem>
                             <DropdownMenuSeparator />
-                            <DropdownMenuItem onClick={() => onEdit(produit)}>
+                            <DropdownMenuItem onClick={() => onEdit(product)}>
                                 <Edit className="mr-2 h-4 w-4" />
                                 Modifier
                             </DropdownMenuItem>

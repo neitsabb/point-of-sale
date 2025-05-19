@@ -65,11 +65,13 @@ export const useProductForm = ({ product, onClose, onSuccess }: useProductFormPr
             });
             setSelectedIngredients(product.ingredients);
             setSelectedCategory(product?.category?.id);
-            setPriceWithoutTax(product.price.without_tax);
+            setPriceWithoutTax(Math.round(product.price.without_tax * 100) / 100);
             setPriceWithMargin(product.price.with_margin);
             setTax(product.price.tax);
             setMargin(product.price.margin);
             setPriceWithTax(product.price.selling_price);
+            setAutoPriceCalculation(product.price.auto_price_calculation);
+            setRoundSellingPrice(product.price.round_price_enabled);
         } else {
             reset();
             setSelectedIngredients([]);

@@ -1,10 +1,17 @@
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from '@/components/ui/dropdown-menu';
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuLabel,
+    DropdownMenuSeparator,
+    DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
 import { renderStockStatusEnum } from '@/lib/utils';
 import { Ingredient, StockStatus } from '@/types';
 import { ColumnDef } from '@tanstack/react-table';
-import { MoreHorizontal } from 'lucide-react';
+import { Edit, MoreHorizontal, PackagePlus } from 'lucide-react';
 
 export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ingredient: Ingredient) => void): ColumnDef<Ingredient>[] => [
     {
@@ -108,8 +115,18 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end">
                     <DropdownMenuLabel>Actions</DropdownMenuLabel>
-                    <DropdownMenuItem onClick={() => onEdit(row.original)}>Modifier</DropdownMenuItem>
-                    <DropdownMenuItem onClick={() => onSupply(row.original)}>Réapprovisionner</DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => navigator.clipboard.writeText(row.original.id)}>Copier l'ID</DropdownMenuItem>
+                    <DropdownMenuSeparator />
+                    <DropdownMenuItem onClick={() => onEdit(row.original)}>
+                        {' '}
+                        <Edit className="mr-2 h-4 w-4" />
+                        Modifier
+                    </DropdownMenuItem>
+                    <DropdownMenuItem onClick={() => onSupply(row.original)}>
+                        {' '}
+                        <PackagePlus className="mr-2 h-4 w-4" />
+                        Réapprovisionner
+                    </DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
         ),

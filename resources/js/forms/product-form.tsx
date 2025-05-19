@@ -169,7 +169,7 @@ export const CreateOrUpdateProductForm = ({ product, open, onClose, onSuccess }:
                                 <Input name="price" id="price" placeholder="Prix de vente" type="number" value={priceWithTax} disabled={true} />
                             </FormField>
                         </div>
-
+                        {console.log('autoPriceCalculation', autoPriceCalculation)}
                         <div className="grid gap-4 sm:grid-cols-3">
                             <div className="col-span-2 flex items-center gap-2">
                                 <Switch
