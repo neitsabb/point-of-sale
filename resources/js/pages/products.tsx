@@ -4,14 +4,14 @@ import { DataTable } from '@/components/ui/data-table';
 import { CreateOrUpdateProductForm } from '@/forms/product-form';
 import AppLayout from '@/layouts/app-layout';
 import { columns } from '@/tables/products-table';
-import { BreadcrumbItem, Category, Product, StockStatusEnum } from '@/types';
+import { BreadcrumbItem, Category, Product, StockStatus } from '@/types';
 import { Head } from '@inertiajs/react';
 import { useState } from 'react';
 
 interface ProductsPageProps {
     products: Product[];
     categories: Category[];
-    status: StockStatusEnum[];
+    status: StockStatus[];
 }
 
 const breadcrumbs: BreadcrumbItem[] = [{ title: 'Produits', href: '/products' }];
@@ -35,6 +35,7 @@ export default function ProductsPage({ products, categories, status }: ProductsP
         setSelectedProduct(null);
     };
 
+    console.log(status);
     return (
         <AppLayout breadcrumbs={breadcrumbs}>
             <Head title="Produits" />
@@ -49,7 +50,10 @@ export default function ProductsPage({ products, categories, status }: ProductsP
                 })}
                 data={products}
                 filters={{
-                    status,
+                    status: status.map((status) => ({
+                        label: status.label,
+                        value: status.value,
+                    })),
                     categories: categories.map((category) => ({
                         label: category.name,
                         value: category.id,

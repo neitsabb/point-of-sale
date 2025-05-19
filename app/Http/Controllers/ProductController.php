@@ -30,7 +30,13 @@ class ProductController extends Controller
             ),
             'ingredients' => IngredientResource::collection(Ingredient::all()),
             'categories' => CategoryResource::collection(Category::all()),
-            'status' => StockStatus::cases()
+            'status' => array_map(
+                fn(StockStatus $status) => [
+                    'value' => $status->value,
+                    'label' => $status->label(),
+                ],
+                StockStatus::cases()
+            )
 
         ]);
     }

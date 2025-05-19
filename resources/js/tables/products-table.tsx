@@ -79,7 +79,7 @@ export const columns = ({ onEdit }: { onEdit: (produit: Product) => void }): Col
             },
             cell: ({ row }) => <div className="ml-3 capitalize">{row.getValue('category').name}</div>,
             filterFn: (row, id, value) => {
-                return value.includes(row.getValue(id));
+                return value.includes((row.getValue(id) as { id: string })?.id);
             },
         },
         {
@@ -94,7 +94,7 @@ export const columns = ({ onEdit }: { onEdit: (produit: Product) => void }): Col
                 );
             },
             cell: ({ row }) => {
-                const montant = Number.parseFloat(row.getValue('price').cost);
+                const montant = Number.parseFloat(row.getValue('price').without_tax);
                 const formatte = new Intl.NumberFormat('fr-FR', {
                     style: 'currency',
                     currency: 'EUR',
@@ -154,7 +154,7 @@ export const columns = ({ onEdit }: { onEdit: (produit: Product) => void }): Col
                 );
             },
             filterFn: (row, id, value) => {
-                return value.includes(row.getValue(id));
+                return value.includes((row.getValue(id) as { value: string })?.value);
             },
         },
         {

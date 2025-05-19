@@ -25,13 +25,14 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { ChevronDown, Download, Trash2, Copy, Archive } from "lucide-react"
+import { StockStatus } from "@/types"
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
   data: TData[];
   filters?: {
     categories: { value: string; label: string }[]
-    status: string[]
+    status: StockStatus[]
   }
 }
 
@@ -129,8 +130,8 @@ export function DataTable<TData, TValue>({ columns, data, filters }: DataTablePr
             <SelectContent>
               <SelectItem value="all">Tous les états</SelectItem>
               {filters?.status.map((status) => (
-                <SelectItem key={status} value={status}>
-                  {status}
+                <SelectItem key={status} value={status.value}>
+                  {status.label}
                 </SelectItem>
               ))}
             </SelectContent>
