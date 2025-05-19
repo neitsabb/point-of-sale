@@ -33,7 +33,11 @@ class IngredientResource extends JsonResource
             'name' => $this->name,
             'description' => $this->description ?: 'No description',
             'price' => $this->price,
-            'unit' => $this->unit,
+            'unit' => [
+                'value' => $this->unit,
+                'symbol' => $this->unit->symbol(),
+                'label' => $this->unit->label(),
+            ],
             'stock_quantity' => $this->stock_quantity,
             'critical_stock' => $this->critical_stock,
             'products_count' => $this->products_count ?: 0,
@@ -41,7 +45,11 @@ class IngredientResource extends JsonResource
                 'value' => $status,
                 'label' => $status->label(),
             ],
-            'purchase_unit' => $this->purchase_unit,
+            'purchase_unit' => [
+                'value' => $this->purchase_unit,
+                'symbol' => $this->purchase_unit->symbol(),
+                'label' => $this->purchase_unit->label(),
+            ],
             'purchase_price' => $this->purchase_price,
             'purchase_unit_size' => $this->purchase_unit_size,
         ];

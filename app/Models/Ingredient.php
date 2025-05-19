@@ -28,6 +28,11 @@ class Ingredient extends Model
         'purchase_price'
     ];
 
+    protected $casts = [
+        'unit' => Unit::class,
+        'purchase_unit' => Unit::class,
+    ];
+
     public function products(): BelongsToMany
     {
         return $this->belongsToMany(Product::class);
@@ -52,38 +57,38 @@ class Ingredient extends Model
                 $pricePerPurchaseUnit = $this->purchase_price / $this->purchase_unit_size;
 
                 // Si les unités sont identiques, c'est simple
-                if ($this->unit === $this->purchase_unit) {
+                if ($this->unit->value === $this->purchase_unit->value) {
                     return $pricePerPurchaseUnit;
                 }
 
                 // Gestion des conversions entre différentes unités
                 // Cas 1 : grammes et kilogrammes
-                if ($this->unit === 'g' && $this->purchase_unit === 'kg') {
+                if ($this->unit->value === 'g' && $this->purchase_unit->value === 'kg') {
                     return $pricePerPurchaseUnit / 1000;
                 }
 
                 // Cas 2 : millilitres et litres
-                if ($this->unit === 'ml' && $this->purchase_unit === 'l') {
+                if ($this->unit->value === 'ml' && $this->purchase_unit->value === 'l') {
                     return $pricePerPurchaseUnit / 1000;
                 }
 
                 // Cas 3 : centilitres et litres
-                if ($this->unit === 'cl' && $this->purchase_unit === 'l') {
+                if ($this->unit->value === 'cl' && $this->purchase_unit->value === 'l') {
                     return $pricePerPurchaseUnit / 100;
                 }
 
                 // Cas 4 : millilitres et centilitres
-                if ($this->unit === 'ml' && $this->purchase_unit === 'cl') {
+                if ($this->unit->value === 'ml' && $this->purchase_unit->value === 'cl') {
                     return $pricePerPurchaseUnit / 10;
                 }
 
                 // Cas 5 : kilogrammes et grammes (conversion inverse)
-                if ($this->unit === 'kg' && $this->purchase_unit === 'g') {
+                if ($this->unit->value === 'kg' && $this->purchase_unit->value === 'g') {
                     return $pricePerPurchaseUnit * 1000;
                 }
 
                 // Cas 6 : litres et millilitres (conversion inverse)
-                if ($this->unit === 'l' && $this->purchase_unit === 'ml') {
+                if ($this->unit->value === 'l' && $this->purchase_unit->value === 'ml') {
                     return $pricePerPurchaseUnit * 1000;
                 }
 
@@ -92,10 +97,6 @@ class Ingredient extends Model
             }
         );
     }
-
-
-
-
 
 
 

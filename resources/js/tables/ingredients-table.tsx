@@ -17,7 +17,7 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
         header: 'Prix unitaire',
         cell: ({ row }) => {
             let price = parseFloat(row.getValue('price'));
-            const unit = row.original.unit;
+            const unit = row.original.unit.value;
 
             // Multiplier par 100 pour g, ml, cl pour obtenir le prix par 100 unités
             if (unit === 'g' || unit === 'ml' || unit === 'cl') {
@@ -42,7 +42,8 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
                 currency: 'EUR',
             }).format(price);
 
-            return `${formatted}/${row.original.purchase_unit_size}${row.original.purchase_unit}`;
+            const purchaseUnit = row.original.purchase_unit.symbol;
+            return `${formatted}/${row.original.purchase_unit_size}${purchaseUnit}${row.original.unit.value === 'unit' && row.original.purchase_unit_size > 1 ? 's' : ''}`;
         },
     },
     {
@@ -55,9 +56,9 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
         header: 'En stock',
         cell: ({ row }) => {
             const quantity = row.getValue('stock_quantity') as number;
-            const unit = row.original.unit;
+            const unit = row.original.unit.symbol;
 
-            return `${quantity} ${unit}`;
+            return `${quantity} ${unit}${row.original.unit.value === 'unit' && quantity > 1 ? 's' : ''}`;
         },
     },
     {
@@ -73,7 +74,7 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
     {
         accessorKey: 'unit',
         header: 'Unité de mesure',
-        cell: ({ row }) => <Badge variant="outline">{row.getValue('unit')}</Badge>,
+        cell: ({ row }) => <Badge variant="outline">{row.getValue('unit').label}</Badge>,
     },
     {
         id: 'actions',

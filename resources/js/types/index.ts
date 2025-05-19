@@ -68,12 +68,19 @@ export type Ingredient = {
     image: string;
     description?: string;
     price: number;
-    unit: string;
+    unit: {
+        value: string;
+        label: string;
+    };
     status: StockStatus;
     stock_quantity: number;
     critical_stock: number;
-    purchase_unit: string;
+    purchase_unit: {
+        value: string;
+        label: string;
+    };
     purchase_unit_size: number;
+    purchase_price: number;
 };
 
 export type ProductIngredient = {

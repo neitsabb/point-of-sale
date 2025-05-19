@@ -315,6 +315,9 @@ export const IngredientListItem = ({
         );
     };
 
+    const isCountable = ingredient.unit.value === 'g' || ingredient.unit.value === 'ml' || ingredient.unit.value === 'cl';
+
+    const unitPrice = isCountable ? ingredient.price * 100 : ingredient.price;
     return (
         <li key={ingredient.id} className="flex justify-between gap-x-6 py-5">
             <div className="flex min-w-0 gap-x-4">
@@ -330,12 +333,12 @@ export const IngredientListItem = ({
                         )}
                     </div>
                     <p className="text-xs text-gray-500">
-                        {ingredient.price.toFixed(2)} €/{ingredient.unit}
+                        {unitPrice.toFixed(2)} € /{isCountable ? `100${ingredient.unit.symbol}` : ingredient.unit.symbol}
                     </p>
                 </div>
             </div>
             <div className="hidden shrink-0 gap-2 sm:flex sm:flex-col sm:items-end md:flex-row">
-                <IngredientQuantityInput unit={ingredient.unit} quantity={quantity} setQuantity={setQuantity} />
+                <IngredientQuantityInput unit={ingredient.unit.symbol} quantity={quantity} setQuantity={setQuantity} />
                 <Button type="button" variant="outline" size="sm" onClick={isSelected ? handleUpdateIngredient : handleAddIngredient}>
                     {isSelected ? 'Modifier' : 'Ajouter'}
                 </Button>

@@ -49,10 +49,10 @@ export const CreateOrUpdateIngredientForm = ({ ingredient, open, onClose, onSucc
                 name: ingredient.name,
                 description: ingredient.description || '',
                 price: ingredient.price.toString(),
-                unit: ingredient.unit,
+                unit: ingredient.unit.value,
                 stock_quantity: ingredient.stock_quantity,
                 critical_stock: ingredient.critical_stock,
-                purchase_unit: ingredient.purchase_unit,
+                purchase_unit: ingredient.purchase_unit.value,
                 purchase_unit_size: ingredient.purchase_unit_size,
                 purchase_price: ingredient.purchase_price,
             });
