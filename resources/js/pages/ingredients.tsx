@@ -7,17 +7,18 @@ import { Input } from '@/components/ui/input';
 import { CreateOrUpdateIngredientForm } from '@/forms/ingredient-form';
 import AppLayout from '@/layouts/app-layout';
 import { columns } from '@/tables/ingredients-table';
-import { BreadcrumbItem, Ingredient } from '@/types';
+import { BreadcrumbItem, Ingredient, StockStatus } from '@/types';
 import { Head, useForm } from '@inertiajs/react';
 import { useEffect, useState } from 'react';
 
 interface IngredientsPageProps {
     ingredients: Ingredient[];
+    status: StockStatus[];
 }
 
 const breadcrumbs: BreadcrumbItem[] = [{ title: 'Ingrédients', href: '/ingredients' }];
 
-export default function IngredientsPage({ ingredients }: IngredientsPageProps) {
+export default function IngredientsPage({ ingredients, status }: IngredientsPageProps) {
     const [selectedIngredient, setSelectedIngredient] = useState<Ingredient | null>(null);
     const [open, setOpen] = useState(false);
     const [supplyOpen, setSupplyOpen] = useState(false);
@@ -49,7 +50,17 @@ export default function IngredientsPage({ ingredients }: IngredientsPageProps) {
             <Head title="Produits" />
             <Heading title="Les ingrédients" action={<Button onClick={handleCreate}>Ajouter un ingrédient</Button>} />
 
-            <DataTable columns={columns(handleEdit, handleSupply)} data={ingredients} />
+            <DataTable
+                filters={{
+                    status: status.map((status) => ({
+                        label: status.label,
+                        value: status.value,
+                    })),
+                }}
+                columns={columns(handleEdit, handleSupply)}
+                data={ingredients}
+                storageKey="ingredients-table"
+            />
 
             <CreateOrUpdateIngredientForm ingredient={selectedIngredient} open={open} onClose={handleCloseDrawer} onSuccess={handleCloseDrawer} />
 

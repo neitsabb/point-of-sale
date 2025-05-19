@@ -31,34 +31,35 @@ interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
   data: TData[];
   filters?: {
-    categories: { value: string; label: string }[]
-    status: StockStatus[]
-  }
+    categories?: { value: string; label: string }[]
+    status?: StockStatus[]
+  };
+  storageKey?: string
 }
 
-export function DataTable<TData, TValue>({ columns, data, filters }: DataTableProps<TData, TValue>) {
+export function DataTable<TData, TValue>({ columns, data, filters, storageKey: storageKeyProp }: DataTableProps<TData, TValue>) {
   const [sorting, setSorting] = useState<SortingState>([])
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([])
   const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({})
   const [rowSelection, setRowSelection] = useState({})
   const [globalFilter, setGlobalFilter] = useState("")
 
-  // Charger les préférences de visibilité des colonnes depuis localStorage
-  useEffect(() => {
-    const savedVisibility = localStorage.getItem("produits-column-visibility")
-    if (savedVisibility) {
-      try {
-        setColumnVisibility(JSON.parse(savedVisibility))
-      } catch (e) {
-        console.error("Erreur lors du chargement des préférences de colonnes:", e)
-      }
-    }
-  }, [])
+  const storageKey = storageKeyProp ?? "datatable-column-visibility"
 
-  // Sauvegarder les préférences de visibilité des colonnes dans localStorage
-  useEffect(() => {
-    localStorage.setItem("produits-column-visibility", JSON.stringify(columnVisibility))
-  }, [columnVisibility])
+useEffect(() => {
+  const savedVisibility = localStorage.getItem(storageKey)
+  if (savedVisibility) {
+    try {
+      setColumnVisibility(JSON.parse(savedVisibility))
+    } catch (e) {
+      console.error("Erreur lors du chargement de la visibilité des colonnes:", e)
+    }
+  }
+}, [storageKey])
+
+useEffect(() => {
+  localStorage.setItem(storageKey, JSON.stringify(columnVisibility))
+}, [columnVisibility, storageKey])
 
   const table = useReactTable({
     data,
@@ -85,13 +86,14 @@ export function DataTable<TData, TValue>({ columns, data, filters }: DataTablePr
     <div className="space-y-4">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
         <Input
-          placeholder="Rechercher un produit..."
+          placeholder="Recherche"
           value={globalFilter ?? ""}
           onChange={(e) => setGlobalFilter(e.target.value)}
           className="max-w-xs placeholder:font-medium"
         />
         <div className="ml-auto flex flex-col gap-2 sm:flex-row">
-          <Select
+         {filters?.categories && (
+           <Select
             onValueChange={(value) => {
               if (value === "all") {
                 table.getColumn("category")?.setFilterValue(undefined)
@@ -106,36 +108,39 @@ export function DataTable<TData, TValue>({ columns, data, filters }: DataTablePr
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">Toutes les catégories</SelectItem>
-              {filters?.categories.map((categorie) => (
+              {filters.categories.map((categorie) => (
                 <SelectItem key={categorie.value} value={categorie.value}>
                   {categorie.label}
                 </SelectItem>
               ))}
             </SelectContent>
           </Select>
+          )}
 
-          <Select
-            onValueChange={(value) => {
-              if (value === "all") {
-                table.getColumn("status")?.setFilterValue(undefined)
-              } else {
-                table.getColumn("status")?.setFilterValue([value])
-              }
-            }}
-            defaultValue="all"
-          >
-            <SelectTrigger className="w-[180px] text-muted-foreground font-medium ">
-              <SelectValue placeholder="État" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">Tous les états</SelectItem>
-              {filters?.status.map((status) => (
-                <SelectItem key={status} value={status.value}>
-                  {status.label}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
+          {filters?.status && (
+            <Select
+              onValueChange={(value) => {
+                if (value === "all") {
+                  table.getColumn("status")?.setFilterValue(undefined)
+                } else {
+                  table.getColumn("status")?.setFilterValue([value])
+                }
+              }}
+              defaultValue="all"
+            >
+              <SelectTrigger className="w-[180px] text-muted-foreground font-medium ">
+                <SelectValue placeholder="Statut" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">Tous les statuts</SelectItem>
+                {filters.status.map((status) => (
+                  <SelectItem key={status.value} value={status.value}>
+                    {status.label}
+                  </SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+          )}
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>

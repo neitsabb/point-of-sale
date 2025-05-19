@@ -8,11 +8,15 @@ import { MoreHorizontal } from 'lucide-react';
 
 export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ingredient: Ingredient) => void): ColumnDef<Ingredient>[] => [
     {
+        id: 'name',
+        meta: 'Nom',
         accessorKey: 'name',
         header: 'Nom',
     },
 
     {
+        id: 'price',
+        meta: 'Prix unitaire',
         accessorKey: 'price',
         header: 'Prix unitaire',
         cell: ({ row }) => {
@@ -33,6 +37,8 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
         },
     },
     {
+        id: 'purchase_price',
+        meta: "Prix d'achat",
         accessorKey: 'purchase_price',
         header: "Prix d'achat",
         cell: ({ row }) => {
@@ -47,11 +53,15 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
         },
     },
     {
+        id: 'products_count',
+        meta: 'Produits associés',
         accessorKey: 'products_count',
         header: 'Produits associés',
     },
 
     {
+        id: 'stock_quantity',
+        meta: 'Quantité en stock',
         accessorKey: 'stock_quantity',
         header: 'En stock',
         cell: ({ row }) => {
@@ -62,22 +72,30 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
         },
     },
     {
+        id: 'status',
+        meta: 'Status',
         accessorKey: 'stock_status',
         header: 'Status',
         cell: ({ row }) => {
-            const status = row.getValue('stock_status') as StockStatus;
+            const status = row.getValue('status') as StockStatus;
             const { statusVariant } = renderStockStatusEnum(status.value);
 
             return <Badge variant={statusVariant}>{status.label}</Badge>;
         },
+        filterFn: (row, id, value) => {
+            return value.includes((row.getValue(id) as { value: string })?.value);
+        },
     },
     {
         accessorKey: 'unit',
+        id: 'unit',
+        meta: 'Unité de mesure',
         header: 'Unité de mesure',
         cell: ({ row }) => <Badge variant="outline">{row.getValue('unit').label}</Badge>,
     },
     {
         id: 'actions',
+        meta: 'Actions',
         cell: ({ row }) => (
             <DropdownMenu>
                 <DropdownMenuTrigger asChild className="translate-x-0 translate-y-0">

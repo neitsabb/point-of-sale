@@ -59,6 +59,7 @@ export default function ProductsPage({ products, categories, status }: ProductsP
                         value: category.id,
                     })),
                 }}
+                storageKey="products-table"
             />
         </AppLayout>
     );

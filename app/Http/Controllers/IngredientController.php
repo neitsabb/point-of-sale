@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Enums\StockStatus;
 use App\Http\Resources\IngredientResource;
 use App\Managers\StockManager;
 use App\Models\Ingredient;
@@ -16,6 +17,13 @@ class IngredientController extends Controller
             'ingredients' => IngredientResource::collection(
                 Ingredient::withCount('products')->get()
             ),
+            'status' => array_map(
+                fn(StockStatus $status) => [
+                    'value' => $status->value,
+                    'label' => $status->label(),
+                ],
+                StockStatus::cases()
+            )
         ]);
     }
 
