@@ -44,7 +44,9 @@ export default function ProductsPage({ products, categories, status }: ProductsP
             {/* <ProductsFilters filters={filters} categories={categories} /> */}
 
             <DataTable
-                columns={columns}
+                columns={columns({
+                    onEdit: handleEdit,
+                })}
                 data={products}
                 filters={{
                     status,
