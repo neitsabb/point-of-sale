@@ -24,18 +24,15 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { categories, etats } from "./data"
 import { ChevronDown, Download, Trash2, Copy, Archive } from "lucide-react"
 
 interface DataTableProps<TData, TValue> {
   columns: ColumnDef<TData, TValue>[]
-  data: TData[];
-  filters?: {
-    categories: { value: string; label: string }[]
-    status: string[]
-  }
+  data: TData[]
 }
 
-export function DataTable<TData, TValue>({ columns, data, filters }: DataTableProps<TData, TValue>) {
+export function DataTable<TData, TValue>({ columns, data }: DataTableProps<TData, TValue>) {
   const [sorting, setSorting] = useState<SortingState>([])
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([])
   const [columnVisibility, setColumnVisibility] = useState<VisibilityState>({})
@@ -84,28 +81,28 @@ export function DataTable<TData, TValue>({ columns, data, filters }: DataTablePr
     <div className="space-y-4">
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
         <Input
-          placeholder="Rechercher un produit..."
+          placeholder="Rechercher tous les produits..."
           value={globalFilter ?? ""}
           onChange={(e) => setGlobalFilter(e.target.value)}
-          className="max-w-xs placeholder:font-medium"
+          className="max-w-sm"
         />
         <div className="ml-auto flex flex-col gap-2 sm:flex-row">
           <Select
             onValueChange={(value) => {
               if (value === "all") {
-                table.getColumn("category")?.setFilterValue(undefined)
+                table.getColumn("categorie")?.setFilterValue(undefined)
               } else {
-                table.getColumn("category")?.setFilterValue([value])
+                table.getColumn("categorie")?.setFilterValue([value])
               }
             }}
             defaultValue="all"
           >
-            <SelectTrigger className="w-[180px] text-muted-foreground font-medium ">
+            <SelectTrigger className="w-[180px]">
               <SelectValue placeholder="Catégorie" />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">Toutes les catégories</SelectItem>
-              {filters?.categories.map((categorie) => (
+              {categories.map((categorie) => (
                 <SelectItem key={categorie.value} value={categorie.value}>
                   {categorie.label}
                 </SelectItem>
@@ -116,21 +113,21 @@ export function DataTable<TData, TValue>({ columns, data, filters }: DataTablePr
           <Select
             onValueChange={(value) => {
               if (value === "all") {
-                table.getColumn("status")?.setFilterValue(undefined)
+                table.getColumn("etat")?.setFilterValue(undefined)
               } else {
-                table.getColumn("status")?.setFilterValue([value])
+                table.getColumn("etat")?.setFilterValue([value])
               }
             }}
             defaultValue="all"
           >
-            <SelectTrigger className="w-[180px] text-muted-foreground font-medium ">
+            <SelectTrigger className="w-[180px]">
               <SelectValue placeholder="État" />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">Tous les états</SelectItem>
-              {filters?.status.map((status) => (
-                <SelectItem key={status} value={status}>
-                  {status}
+              {etats.map((etat) => (
+                <SelectItem key={etat.value} value={etat.value}>
+                  {etat.label}
                 </SelectItem>
               ))}
             </SelectContent>
@@ -150,11 +147,15 @@ export function DataTable<TData, TValue>({ columns, data, filters }: DataTablePr
                   return (
                     <DropdownMenuCheckboxItem
                       key={column.id}
-                      className=""
+                      className="capitalize"
                       checked={column.getIsVisible()}
                       onCheckedChange={(value) => column.toggleVisibility(!!value)}
                     >
-                      {(column.columnDef.meta as string) || column.id}
+                      {column.id === "prixBase"
+                        ? "Prix de base"
+                        : column.id === "prixVente"
+                          ? "Prix de vente"
+                          : column.id}
                     </DropdownMenuCheckboxItem>
                   )
                 })}

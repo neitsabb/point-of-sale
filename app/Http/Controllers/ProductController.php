@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Enums\StockStatus;
 use App\Http\Requests\StoreOrUpdateProductRequest;
 use App\Models\Product;
 use App\Models\Category;
@@ -21,14 +22,16 @@ class ProductController extends Controller
             'products' => ProductResource::collection(
                 Product::withCount('ingredients')
                     ->with('ingredients', 'category')
-                    ->withFilters(
-                        $request->only(['search', 'category_id', 'status'])
-                    )
-                    ->paginate(10)
+                    // ->withFilters(
+                    //     $request->only(['search', 'category_id', 'status'])
+                    // )
+                    // ->paginate(10)
+                    ->get()
             ),
             'ingredients' => IngredientResource::collection(Ingredient::all()),
             'categories' => CategoryResource::collection(Category::all()),
-            'filters' => $request->only(['search', 'category_id', 'status'])
+            'status' => StockStatus::cases()
+
         ]);
     }
 
