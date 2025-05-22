@@ -22,41 +22,21 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
     },
 
     {
-        id: 'price',
+        id: 'price_display',
         meta: 'Prix unitaire',
-        accessorKey: 'price',
+        accessorKey: 'price_display',
         header: 'Prix unitaire',
         cell: ({ row }) => {
-            let price = parseFloat(row.getValue('price'));
-            const unit = row.original.unit.value;
-
-            // Multiplier par 100 pour g, ml, cl pour obtenir le prix par 100 unités
-            if (unit === 'g' || unit === 'ml' || unit === 'cl') {
-                price = price * 100;
-            }
-
-            const formatted = new Intl.NumberFormat('fr-FR', {
-                style: 'currency',
-                currency: 'EUR',
-            }).format(price);
-
-            return `${formatted}/${unit === 'g' ? '100gr' : unit === 'ml' ? '100ml' : unit === 'cl' ? '100cl' : 'unité'}`;
+            return row.getValue('price_display') as string;
         },
     },
     {
-        id: 'purchase_price',
+        id: 'purchase_price_display',
         meta: "Prix d'achat",
-        accessorKey: 'purchase_price',
+        accessorKey: 'purchase_price_display',
         header: "Prix d'achat",
         cell: ({ row }) => {
-            const price = parseFloat(row.getValue('purchase_price'));
-            const formatted = new Intl.NumberFormat('fr-FR', {
-                style: 'currency',
-                currency: 'EUR',
-            }).format(price);
-
-            const purchaseUnit = row.original.purchase_unit.symbol;
-            return `${formatted}/${row.original.purchase_unit_size}${purchaseUnit}${row.original.unit.value === 'unit' && row.original.purchase_unit_size > 1 ? 's' : ''}`;
+            return row.getValue('purchase_price_display') as string;
         },
     },
     {
@@ -67,15 +47,12 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
     },
 
     {
-        id: 'stock_quantity',
+        id: 'stock_quantity_display',
         meta: 'Quantité en stock',
-        accessorKey: 'stock_quantity',
+        accessorKey: 'stock_quantity_display',
         header: 'En stock',
         cell: ({ row }) => {
-            const quantity = row.getValue('stock_quantity') as number;
-            const unit = row.original.unit.symbol;
-
-            return `${quantity} ${unit}${row.original.unit.value === 'unit' && quantity > 1 ? 's' : ''}`;
+            return row.getValue('stock_quantity_display') as string;
         },
     },
     {
