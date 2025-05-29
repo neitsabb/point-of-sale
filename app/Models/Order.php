@@ -21,6 +21,7 @@ class Order extends Model
         'guests',
         'total_amount',
         'status',
+        'is_paid'
     ];
 
     /**
