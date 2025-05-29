@@ -68,6 +68,8 @@ Route::middleware(['auth', 'verified'])->group(function () {
                 ->name('create');
             Route::get('/{order}/complete', [OrderController::class, 'complete'])
                 ->name('complete');
+            Route::post('/{order}/process', [OrderController::class, 'process'])
+                ->name('process');
 
             Route::post('/{order}/cancel', [OrderController::class, 'cancel'])
                 ->name('cancel');

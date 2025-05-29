@@ -68,6 +68,7 @@ export type Ingredient = {
     image: string;
     description?: string;
     price: number;
+    price_display: string;
     unit: {
         value: string;
         label: string;
@@ -81,6 +82,7 @@ export type Ingredient = {
     };
     purchase_unit_size: number;
     purchase_price: number;
+    purchase_price_display: string;
 };
 
 export type ProductIngredient = {

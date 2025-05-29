@@ -14,6 +14,8 @@ use App\Http\Resources\CategoryResource;
 use App\Actions\Orders\CreateOrderAction;
 use App\Http\Requests\CreateOrderRequest;
 use App\Http\Resources\IngredientResource;
+use App\Payment\PaymentResolver;
+use Illuminate\Http\Request;
 
 class OrderController extends Controller
 {
@@ -54,6 +56,33 @@ class OrderController extends Controller
         ]);
     }
 
+    public function process(Order $order, Request $request)
+    {
+        $validated = $request->validate([
+            'payment_method' => 'required|in:cash,credit_card',
+            'payload' => 'required|array',
+            'payload.amount_given' => 'required|numeric',
+            'payload.total_htva' => 'required|numeric',
+            'payload.total_ttc' => 'required|numeric',
+            'products' => 'required|array',
+        ]);
+
+        $order->update([
+            'total_amount' => $validated['payload']['total_ttc'],
+        ]);
+
+        $strategy = app(PaymentResolver::class)
+            ->resolve($validated['payment_method']);
+
+        $callback = $strategy->process($order, $validated['payload']);
+
+        if ($callback['status'] === 'success') {
+            $order->update([
+                'is_paid' => true
+            ]);
+        }
+    }
+
     /**
      * Create a new order
      * @param \App\Actions\Orders\CreateOrderAction $action
@@ -66,6 +95,8 @@ class OrderController extends Controller
 
         return to_route('orders.complete', ['order' => $order]);
     }
+
+
 
     /**
      * Cancel an order
