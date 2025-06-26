@@ -1,0 +1,407 @@
+ID;Nom;TYPE;Description;Prix;ID_COCKTAIL;Quantite;StockTotalEntree;StockTotalSortie
+1;creme de coco (batida);1;lait de coco alcoolis� aussi appel� mangaroca de coco au brazil;10,55;0;70;70;0
+2;limoncello;1;liqueur sucr�e de citron jaune d'origine Italienne;15;0;70;70;0
+6;Carlsberg pils 5%(25cl);2;;1;0;1;1;0
+7;Desperados 5.9% ( 33cl );2;;1,6;0;1;1;0
+11;espresso lungo ou cafe glace;3;;1;0;1;1;0
+12;Absinthe Pandor (non anis�e � 60%);4;;35;0;70;70;0
+13;amaretto;4;;9;0;70;70;0
+835;rhum arrang� Damoiseau ananas Victoria;8;;30;0;70;70;0
+15;rhum bresilien (cachaca pitu );4;;25;0;70;70;0
+16;chantilly;4;;0,8;0;1;1;0
+17;energy drink 25cl et fluo;4;;0,5;0;1;1;0
+18;gin ;4;;13;0;70;70;0
+20;lait de coco Bio 20cl;4;;1;0;1;1;0
+21;menthe fraiche facon mojito;4;;0,1;0;1;1;0
+23;methode champenoise et bracelet fluo;4;;4;0;70;70;0
+758;sangria mix rouge 1.5L;1;;3,3;0;1;1;0
+25;Pulco citron vert;4;;2,75;0;70;70;0
+27;Bacardi carta blanca(rum superior);4;toujours de type hispanique pour ne pas d�naturer le cocktail;12;0;70;70;0
+28;rhum brun hispanique ;4;;12,8;0;70;70;0
+768;energy drink Quai Des Bananes 25cl et fluo;9;;0,8;0;1;1;0
+30;sirop Cura�ao bleu;4;;10;0;70;70;0
+600;bbq chicken ou;9;;0,1;0;1;1;0
+32;sirop ananas Routin;4;;10;0;100;100;0
+33;sirop banane jaune Mathieu Teisseire;4;;10;0;70;70;0
+275;citron vert cordial;4;moiti� pulco citron vert moiti� sirop citron vert ;7;0;140;140;0
+35;sirop bubble gum Routin;4;;10,2;0;100;100;0
+36;sirop caramel tendre Routin;4;;5,5;0;70;70;0
+38;sirop cerise Guiot;4;;5;0;100;100;0
+39;cordial citron vert ;4;;8,5;0;140;140;0
+40;sirop coco Routin;4;;10;0;100;100;0
+846;potatoes Country;1;;2,5;0;1;1;0
+651;nid de barbe a papa;4;;0,5;0;1;1;0
+43;sirop fraise Guiot;4;;5;0;70;70;0
+44;sirop framboise Guiot;4;;5;0;70;70;0
+733;vin blanx LYV pays d oc 37.5cl +3�;1;;6;0;1;1;0
+46;sirop gingembre Routin;4;;10;0;100;100;0
+47;sirop grenadine Guiot;4;;5;0;70;70;0
+48;sirop hibiscus Routin;4;;10;0;70;70;0
+49;sirop kiwi Routin;4;;10,2;0;100;100;0
+50;sirop litchis Routin;4;;10;0;70;70;0
+703;fruitesse liefmans(S.A.) 25cl 0.0%;2;;1;0;1;1;0
+52;sirop mangue Routin;4;;10;0;100;100;0
+53;sirop mojito Mathieu Teisseire;4;;10;0;70;70;0
+665;Fritz-limo orangeade 33cl;10;;1,3;0;33;33;0
+55;sirop orgeat Guiot;4;;5;0;70;70;0
+56;sirop fruits de la passion Guiot;4;;5;0;70;70;0
+57;sirop piment de Cayenne Routin;4;;10;0;70;70;0
+848;liqueur madeleine qdb;4;;15;0;70;70;0
+667;feuille de sopalin;10;;0,01;0;1;1;0
+60;sirop peche blanche Guiot;4;;5;0;70;70;0
+61;sirop de rhum sans alcool Routin;4;;10;0;70;70;0
+62;sirop rose Routin;4;;10;0;70;70;0
+845;maxi pain Hot-Dog;1;;0,6;0;1;1;0
+64;sirop sucre de canne Canadou;4;;8;0;200;200;0
+887;Jack Daniel's Fire (pimente);5;;29;0;70;70;0
+67;sirop vanille Mathieu Teisseire;4;;10;0;70;70;0
+68;sirop violette Routin;4;;10;0;100;100;0
+675;grissini piccoli ail basilique ;1;;1;0;1;1;0
+677;bouteille scellee mega shooter 25cl;9;;0,5;0;1;1;0
+672;charcuteries italiennes facon antipasti;1;;3,5;0;1;1;0
+811;Rhum bresilien infuse cacao et cafe;7;;45;0;70;70;0
+783;mix z2c;9;;35;0;100;100;0
+673;charcuteries espagnoles ;1;;3,5;0;1;1;0
+76;vodka blanche ;4;;11,5;0;70;70;0
+861;Jarritos mandarine 37cl & fluo;9;;1,35;0;1;1;0
+824;sirop �rable Routin;3;;11;0;100;100;0
+81;cognac V.S.O.P.;4;;19;0;70;70;0
+82;triple sec(c);5;;12,5;0;70;70;0
+83;creme Irish;4;;10;0;70;70;0
+84;genievre;5;;17;0;100;100;0
+860;Jarritos citron 37cl & fluo;9;;1,35;0;1;1;0
+86;triple sec (o);4;;12,5;0;70;70;0
+466;liqueur after eight maison;8;;20;0;70;70;0
+737;mini boulettes;1;;2,5;0;1;1;0
+91;Kraken rum;7;;30;0;70;70;0
+92;absynthe 89�;8;;45;0;70;70;0
+844;saucisse hot-dog American style ;1;;1,5;0;1;1;0
+843;tranches de cornichon aigre doux ;1;;0,1;0;1;1;0
+858;calamar frits ;1;;2;0;1;1;0
+96;koogaie(liqueur aux agrumes fruitee);4;;13,7;0;70;70;0
+97;liqueur vanille qdb;5;;10;0;70;70;0
+98;liqueur Cura�ao bleu;4;;12,5;0;70;70;0
+100;Liqueur melon(koogaie);1;;13,7;0;70;70;0
+101;liqueur ananas qdb;1;;10;0;70;70;0
+102;liqueur banane jaune qdb;4;;12,5;0;70;70;0
+103;liqueur banane verte;4;;6;0;70;70;0
+104;liqueur cacao;5;;15;0;70;70;0
+105;liqueur cafe(kaklua);5;;11,5;0;70;70;0
+106;liqueur caramel tendre qdb;5;;11,5;0;70;70;0
+107;liqueur cassis qdb;1;;7;0;70;70;0
+108;liqueur cerise qdb;1;;10;0;70;70;0
+109;liqueur coco qdb;1;;10;0;70;70;0
+110;liqueur fraise qdb;1;;10;0;70;70;0
+111;liqueur framboise qdb;1;;10;0;70;70;0
+112;liqueur gingembre qdb;5;;10;0;70;70;0
+113;liqueur litchis qdb;1;;10;0;70;70;0
+735;vin ros� LYV pays d oc 37.5cl +3�;1;;6;0;1;1;0
+115;liqueur mangue qdb;1;;10;0;70;70;0
+116;liqueur menthe blanche qdb;1;;16,95;0;70;70;0
+821;liqueur pomme d'Amour;8;;12;0;70;70;0
+118;liqueur pamplemousse qdb;1;;10;0;70;70;0
+119;liqueur piment qdb;5;;13;0;70;70;0
+734;vin ros� LYV pays d oc 70cl;1;;9;0;1;1;0
+121;liqueur hibiscus qdb;1;;10;0;70;70;0
+122;liqueur pomme verte(manzana qdb);1;;12,5;0;70;70;0
+123;liqueur peche blanche qdb;1;;10;0;70;70;0
+696;shooter boudoir(creamy macaron);4;;2;0;2;2;0
+125;liqueur rose qdb;5;;10;0;70;70;0
+842;petites boulettes ;1;;3;0;1;1;0
+689;mocktail au choix en 33cl (a6-a9-a10-a97-a102);4;;1,5;0;1;1;0
+697;shooter stroumphette (creamY Hawai);4;;2;0;2;2;0
+129;Mezcal Telegram;5;;43,1;0;70;70;0
+130;liqueur passion qdb;4;;8;0;70;70;0
+131;liqueur barbe a papa(trojka);1;;10;0;70;70;0
+132;tequila;4;;17,5;0;70;70;0
+133;triple sec;5;;12,5;0;70;70;0
+134;vodka noire Eristoff;1;;17;0;70;70;0
+897;sirop past�que Routin;4;;10;0;100;100;0
+136;vodka rouge Eristoff;1;;15;0;70;70;0
+137;vodka lime(citron vert);1;;12,5;0;70;70;0
+698;shooter shyrka (creamY cookie/pims);4;;2;0;2;2;0
+139;bacardi razz;8;;21,95;0;70;70;0
+140;cafe glace 33cl;9;;1;0;1;1;0
+740;fruit du jour;5;;0,5;0;1;1;0
+143;cecemel (lait chocolate)20cl;4;;0,4;0;1;1;0
+480;Ginger energy (gingembre) 50cl et bracelet fluo;9;;1,15;0;1;1;0
+146;indian tonic classique 20cl;10;;0,8;0;1;1;0
+686;lady fizz event 25cl;3;;2,76;0;25;25;0
+277;tequila-gin-vodka;4;1/3 tequila 1/3 gin 1/3 vodka;20;0;100;100;0
+149;coca cola 33cl;10;;0,75;0;1;1;0
+150;Coca cola cerise zero 33cl;10;;0,75;0;1;1;0
+151;eau 25cl;10;;0,5;0;1;1;0
+152;eau petillante San Pellegrino 25cl;10;;1,35;0;1;1;0
+154;limonade (sprite) 25cl et fluo;10;;0,5;0;1;1;0
+156;iced tea green25cl et bracelet fluo;10;;0,5;0;1;1;0
+158;orangeade 25cl et bracelet fluo;10;;0,5;0;1;1;0
+159;soda Schweppes aux agrumes 0sugar 33cl et fluo;10;;0,76;0;1;1;0
+160;mixture biere flambee;1;;4,25;0;150;150;0
+161;sangria maison et fruits frais(33cl);8;;4,2;0;100;100;0
+162;jus cerise ;12;;2,5;0;100;100;0
+163;jus pamplemousse rose ;12;;1,5;0;100;100;0
+688;sex on the beach event 25cl;4;;1,27;0;25;25;0
+669;sirop cafe Monin;4;;7;0;70;70;0
+166;jus ananas;12;;1,75;0;100;100;0
+167;jus banane ;12;;3;0;100;100;0
+168;jus citron jaune;12;;3,1;0;100;100;0
+169;jus cranberries;12;;2,55;0;100;100;0
+825;verre gamelle;8;;0,2;0;1;1;0
+171;jus fraise ;12;;2,45;0;100;100;0
+172;jus framboise caraibos;12;;3,25;0;100;100;0
+771;grissini tomate;1;;0,4;0;1;1;0
+175;jus litchis ;12;;2;0;100;100;0
+176;jus mangue;12;;2,2;0;100;100;0
+177;jus orange;12;;1;0;100;100;0
+178;Jus de poire Williams;12;;3,65;0;100;100;0
+180;jus peche;12;;2,9;0;100;100;0
+181;jus tropical multi vitamines;12;;1;0;100;100;0
+806;mix z2w;9;;25;0;100;100;0
+185;jus citron presse;12;;6;0;70;70;0
+284;biere flambee;2;biere au choix chauffer mixture verser biere choisie ds pichet 1L et allonger estrella flamber mixture devant client et etouffer avec contenu pichet ;0,1;0;100;100;0
+285;chaud;3;cocktails;0,1;0;100;100;0
+877;Jarritos Goyave 37cl & fluo;9;;1,35;0;1;1;0
+687;lynchburg event 25cl;3;;1,98;0;25;25;0
+856;tempura de crevettes(12u);1;;6;0;1;1;0
+874;sirop mandarine Routin ;4;;10,2;0;100;100;0
+890;Vin Cabernet Sauvignon rouge 25cl;1;;3;0;1;1;0
+878;Fritz-Kola 33cl;9;;1,2;0;1;1;0
+854;mini arancini (12u);1;;5;0;1;1;0
+852;croquettes mexicaines ;1;;5;0;1;1;0
+872;liqueur X(� vos risques et perils);9;;35;0;70;70;0
+871;Jarritos Fraise 37cl & fluo;9;;1,35;0;1;1;0
+851;poulet tenders 8 pieces ;1;;4;0;1;1;0
+209;sirop chocolat cookie Routin;4;;11;0;100;100;0
+809;mix z2z;9;;50;0;440;440;0
+661;Jack Daniel's old n7;5;;25;0;70;70;0
+839;rhum arrang� Damoiseau Shrubb;8;;30;0;70;70;0
+271;bourbon(Jack Daniel's);5;;15;0;70;70;0
+270;rhum Damoiseau VO 42�;7;guadeloupe ;50;0;70;70;0
+216;sirop noisette;4;;4;0;70;70;0
+269;fireball(piment-cannelle);8;liqueur canada piment cannelle;18;0;70;70;0
+218;sirop melon Guiot;4;;4;0;70;70;0
+219;sirop pomme verte Guiot;5;;4;0;70;70;0
+266;bailey's authentique;5;;15,07;0;70;70;0
+380;rhum st james royal ambre ;7;;21;0;70;70;0
+225;whisky blend 3ans;4;;13;0;70;70;0
+226;whiskey irish jameson;13;;30;0;70;70;0
+363;liqueur fruits aux choix ;4;gamme bols, vedreinne, giffard, marie brizard;15;0;70;70;0
+840;sauce au choix (1);1;;0,35;0;1;1;0
+859;Jarritos ananas 37cl & fluo;9;;1,35;0;1;1;0
+810;vodka Euphoria cocaine;9;;26;0;50;50;0
+233;fruitesse liefmans 25cl 3.8�;9;;1,15;0;1;1;0
+234;Jack Daniel's Honey(miel);12;;29;0;70;70;0
+235;sirop barbe a papa Mathieu Teisseire;4;;4;0;70;70;0
+237;Fentimans soda gingembre 27.5cl et bracelet fluo;10;;1,5;0;1;1;0
+245;gin Bombay Sapphire;6;;24,5;0;70;70;0
+819;sirop pomme d'Amour Mathieu Teisseire;3;;11;0;70;70;0
+467;liqueur pop corn qdb;8;;18;0;70;70;0
+255;J�germeister ;8;;18;0;70;70;0
+850;poulet tenders 4 pieces ;1;;2;0;1;1;0
+889;vin blanx LYV pays d oc 70cl;1;;9;0;1;1;0
+308;jus Colada(m�lange ananas & coco);12;mix pinacolada;3;0;100;100;0
+311;sucre crystal s2;10;;1,5;0;100;100;0
+312;bitters angostura;1;;15;0;50;50;0
+868;Fritz-Kola SuperZero 33cl;9;;1,2;0;1;1;0
+838;rhum arrang� Damoiseau coco;8;;30;0;70;70;0
+331;pils du moment;2;;1,5;0;1;1;0
+837;rhum arrang� Damoiseau mangue passsion;8;;30;0;70;70;0
+464;bacardi martini espresso tails ;4;;25;0;100;100;0
+867;jus kiwi;10;;2,5;0;100;100;0
+752;caf� Royal Switzerland et gourmandise;5;;1,5;0;1;1;0
+866;caf� aromatis� noisette ;5;;0,4;0;1;1;0
+350;San Pellegrino p�tillante 25cl & fluo;10;;0,67;0;1;1;0
+865;caf� carte d'Or aromatis� chocolat ;5;;0,4;0;1;1;0
+354;martini brut;11;;9,05;0;70;70;0
+355;martini bellini;11;;11,12;0;75;75;0
+892;liqueur reglisse ;9;;25;0;70;70;0
+836;cr�me au rhum vieux Damoiseau;4;;30;0;70;70;0
+834;rhum Damoiseau;4;;30;0;70;70;0
+862;Jarritos mangue 37cl & fluo;9;;1,35;0;1;1;0
+888;vin Mateus ros� 75cl;1;;6,5;0;1;1;0
+364;sirop fruits au choix;4;gamme giffar, routin, gilbert;8;0;100;100;0
+365;jus fruits au choix;12;gamme caraibos, delhaize, gilbert;4;0;100;100;0
+891;3 pipettes d'absynthe 89%;9;;45;0;70;70;0
+367;sirop citron vert;4;;3;0;70;70;0
+368;olives marinees au basilic;1;food;2,6;0;1;1;0
+370;saucisse seche gout chorizo;1;food;1,8;0;1;1;0
+754;oignons frits;1;;0,1;0;1;1;0
+753;sauce moutarde ou moutarde miel ou ketchup;1;;0,3;0;1;1;0
+378;servis en biberon;4;;4;0;1;1;0
+685;daiquiri event 25cl nature ou fruite;4;;1,9;0;25;25;0
+384;serviette;4;papier de 15/15;0,04;0;1;1;0
+385;bol peanuts ou arachide;4;1 bol de 100gr max pour 2;0,2;0;1;1;0
+386;verre � cocktail;4;usure moyenne 0.05euro;0,05;0;1;1;0
+387;paille bamboo;4;gabarit en fonction du verre ;0,1;0;1;1;0
+389;decos cocktail;4;cocktail de coqteles d ou idealement avec plume ou tout du moins y faisant reference;0,05;0;1;1;0
+390;prestation service A a Z;4;du placement au service � table;0,75;0;1;51;0
+391;charge/loyer/assurance;4;loyer 2500 charges 500 assurance 500 taxes 500;0,6;0;1;1;0
+823;sirop Routin lavande ;4;;11;0;100;100;0
+396;marshmallow;4;170 ds 1 sac ;0,04;0;1;1;0
+397;gomme parisienne;4;133 unite dans 1pack;0,01;0;1;1;0
+694;shooter pinnochio (creamy popcorn);8;;2;0;2;2;0
+693;shooter valentino (creamy bubble gum);8;;2;0;2;2;0
+695;shooter pistachio (creamy pistache);8;;1;0;2;2;0
+405;Queue de charrue fruits rouges 8.7% (33cl);2;;1,7;0;1;1;0
+409;glacon;4;bloc compact idealement avec machinerie de marque hoshizaki;0,1;0;1;1;0
+410;glace pilee;4;paillette de glace idealement avec machinerie de marque hoshizaki;0,1;0;1;1;0
+411;diabolo grenadine 33cl et bracelet fluo;10;;0,5;0;1;1;0
+412;sucre roux non raffine;4;ideal pour les cocktails hipanique en substitu de la sucre de canne;1,5;0;100;100;0
+413;havana club 3ans cuba;4;;21;0;70;70;0
+414;jus citron vert frais;4;idealement mexique;0,5;0;1;1;0
+415;cachaca pitu;4;;31;0;70;70;0
+416;rhum miel qdb;5;;15;0;100;100;0
+417;vodka eristoff;4;vodka diageo;16;0;70;70;0
+692;shooter margarita ;8;;2;0;4;4;0
+691;long island ice tea event 25cl;4;;1,5;0;25;25;0
+684;cuba libre event 25cl;4;;1,92;0;25;25;0
+770;grissini ail ;1;;0,45;0;1;1;0
+422;sirop popcorn Routin;4;;12;0;70;70;0
+423;liqueur gaufre;4;;13,5;0;70;70;0
+893;sirop poire Guiot ;4;;10;0;100;100;0
+426;sirop cookie Monin;4;;11;0;70;70;0
+427;fristi (lait fraise)20cl;4;;0,5;0;1;1;0
+717;Desperados 0.0% S.A.(33cl);2;;1,65;0;1;1;0
+432;chips chocolate(3petales);4;;0,12;0;1;1;0
+438;assortiment de confiseries;4;;0,5;0;1;1;0
+439;cigare gaufrette choco(2);4;;0,1;0;1;1;0
+446;confiseries ;4;;0,6;0;1;1;0
+654;biere pop du moment ;2;;1,2;0;25;25;0
+448;gourmandises chocolatees facon freaky;4;;0,6;0;1;1;0
+657;personnel cout/cocktail;5;;0,6;0;1;1;0
+653;smarth drink du moment;9;;1,5;0;50;50;0
+655;biere speciale du moment ;2;;2,2;0;33;33;0
+652;soda du moment ;10;;0,5;0;20;20;0
+662;schweppes agrumes zero 33cl;10;;1;0;1;1;0
+660;cout des charges par sem/clients;5;6220/sem ca 923/sem ch expl diviser +-600cl 1.55;1,55;0;1;1;0
+658;bracelet fluo;9;;0,05;0;1;1;0
+458;sirop menthe glacial Guiot;4;;5;0;100;100;0
+459;jus pomme trouble ;4;;1,2;0;100;100;0
+460;Monster ultra Paradise 50cl et bracelet fluo;9;;1,15;0;1;1;0
+461;Monster Punch mixxed 50cl et bracelet fluo;9;;1,65;0;1;1;0
+462;Monster Fiesta mango 50cl et bracelet fluo;9;;1,15;0;1;1;0
+468;Monster MIXXD Punch 50cl;9;;1,15;0;1;1;0
+706;funny pisang sans alcool (banane verte);10;;5;0;70;70;0
+470;sirop miel ;4;;13,7;0;70;70;0
+663;coca cola zero 33cl;10;;0,8;0;1;1;0
+714;vodka Euphoria cannabis;9;;30;0;50;50;0
+474;charges/cocktail hors boissons/an;4;;1,6;0;1;1;0
+475;Liqueur digestive au choix;5;;25;0;70;70;0
+816;vin blanc chenin sud afrique 25cl;1;;1,7;0;1;1;0
+477;f4a;4;;1,68;0;1;1;0
+478;f4b;4;;2,06;0;1;1;0
+479;f4M;4;;2,15;0;1;1;0
+481;rondelle citron vert ;4;;0,1;0;1;1;0
+482;sel pimente;4;;0,01;0;1;1;0
+483;Jack Daniel's Apple(pomme);5;;29;0;70;70;0
+761;sangria blanche maison et fruits (33cl);1;;3;0;1;1;0
+682;4 softs ou 1L de jus au choix inclus ;4;;3;0;200;200;0
+760;sirop cassis Guiot;1;;4;0;70;70;0
+818;Aloe vera 50cl et bracelet fluo;9;;1;0;1;1;0
+767;glace raffaello;5;;1;0;1;1;0
+763;mini magnum;5;;1;0;1;1;0
+896;Corona extra pils 4,6% 35.5cl;2;;1,55;0;1;1;0
+506;malteser;5;;0,25;0;1;1;0
+508;lacet confiserie;5;;0,1;0;1;1;0
+817;petites saucisses apero ;1;;0,5;0;1;1;0
+785;mix z2a;8;;40;0;200;200;0
+784;mix z2;9;;45;0;100;100;0
+782;saveur fromage du Jura;1;;2,5;0;1;1;0
+833;original ou oignon ;1;;1;0;1;1;0
+805;mix z2v;9;;35;0;100;100;0
+778;chips Lays Grills 125gr;1;;1,6;0;1;1;0
+727;pina colada 25cl;1;;1;0;1;1;0
+776;assortiment de charcuteries espagnols 100gr;1;;3,6;0;1;1;0
+772;olives vertes ;1;;1;0;1;1;0
+764;liqueur saint Germain(fleur de sureau);1;;30;0;70;70;0
+766;glace ferrero rocher;5;;1;0;1;1;0
+543;1 alcool au choix;4;;4;0;1;1;0
+544;1 liqueur fruitee au choix ;4;;2;0;1;1;0
+546;Leffe blonde 6.6%(33cl);2;;1,6;0;1;1;0
+547;Triple Karmeliet 8.4� (33cl);2;;2;0;1;1;0
+548;Bucket de 3 bi�res pop identiques pour 10�;2;;2,5;0;1;1;0
+549;Bucket de 3 bi�res sp�ciales identiques pour 15�;2;;6;0;1;1;0
+550;verre de vin ;1;;1,5;0;1;1;0
+551;bouteille de vin ;1;;5;0;1;1;0
+553;champagne brut Piper Heidsieck;1;;35;0;1;1;0
+554;vin ros� cimarose USA 25cl;1;;2,5;0;1;1;0
+555;vin rouge LYV pays d oc 70cl;1;;9;0;1;1;0
+556;champagne brut Drappier carte d or ;1;;30;0;1;1;0
+716;Flugel;5;;1,35;0;1;1;0
+715;shooter champagne;8;;1,5;0;1;1;0
+804;mix z2u;9;;35;0;100;100;0
+803;mix z2t;9;;35;0;100;100;0
+802;mix Z2s;9;;30;0;100;100;0
+801;mix z2R;9;;35;0;100;100;0
+800;mix z2Q;9;;35;0;100;100;0
+799;mix z2p;9;;35;0;100;100;0
+798;mix z2o;9;;25;0;100;100;0
+797;mix z2N;9;;35;0;100;100;0
+796;mix z2M;9;;35;0;100;100;0
+795;mix z2L;9;;35;0;100;100;0
+571;liqueur bubble gum pink qdb ;4;;15;0;70;70;0
+681;coupette de bulle (25cl);9;;1;0;1;1;0
+574;cubes fromages;5;;2;0;1;1;0
+680;gin Birdie kaldi (cafe meo);4;;50;0;70;70;0
+794;mix z2k;9;;35;0;100;100;0
+745;arachides grillees;1;;0,5;0;1;1;0
+793;mix z2j;9;;45;0;100;100;0
+830;cigarettes Russes;5;;0,1;0;1;1;0
+829;Sirop Madeleine Routin;4;;10;0;100;100;0
+828;shooter diabolito qdb;8;;0,5;0;1;1;0
+827;shooter 4cl;8;;0,2;0;1;1;0
+826;verre old fashioned;8;;0,2;0;1;1;0
+683;mojito event 25cl nature ou fruite;4;;1,8;0;25;25;0
+895;nuage de coco;9;;0,6;0;1;1;0
+711;fromage mediterraneen;1;;3;0;1;1;0
+589;appeler secour pour cette table;12;;0,01;0;1;1;0
+710;shooter jagermeister;8;;1;0;3;3;0
+775;assortiment de charcuteries italiennes 200gr;1;;3,9;0;1;1;0
+592;Monster ultra Peachy KEEN(peche blanche) 50cl;9;;1,15;0;1;1;0
+593;Don papa masskara rum;5;;43;0;70;70;0
+886;vodka coca�ne euphoria ;9;;25,5;0;50;50;0
+595;Don papa baroko rum;5;;40;0;70;70;0
+601;goatcheese bacon ou;9;;0,1;0;1;1;0
+602;cannibale ou;10;;0,1;0;1;1;0
+739;Monster Aussie(citron fresh)-50cl-et bracelet fluo;9;;1,15;0;1;1;0
+604;savoyarde ou;10;;0,1;0;1;1;0
+605;extravaganzza ou;10;;0,1;0;1;1;0
+606;the champ ou;10;;0,1;0;1;1;0
+607;four cheese ou;10;;0,1;0;1;1;0
+608;four stagioni ou;10;;0,1;0;1;1;0
+609;diabolika ou;10;;0,1;0;1;1;0
+610;bbq grill ou;10;;0,1;0;1;1;0
+611;tonno ou;10;;0,1;0;1;1;0
+612;veggi ou;10;;0,1;0;1;1;0
+613;americaine(possible sans gluten) ou;10;;0,1;0;1;1;0
+614;marguerite(possible sans gluten) ou;10;;0,1;0;1;1;0
+615;hawaiian ou;10;;0,1;0;1;1;0
+616;forestiere ou;10;;0,1;0;1;1;0
+617;pizza du mois a verifier sur le site dominos.be;10;;0,1;0;1;1;0
+762;frisko manon(chocolat blanc, cafe,amande);5;;1;0;1;1;0
+619;jus de tomate epice Big tom;12;;1,6;0;25;25;0
+882;Liefmans peach;2;;1,5;0;1;1;0
+792;mix z2i;9;;45;0;100;100;0
+808;mix z2y;9;;50;0;440;440;0
+815;jus betterave rouge 33cl;12;;1;0;1;1;0
+807;mix z2x;9;;50;0;440;440;0
+628;liqueur violette qdb;8;;14;0;70;70;0
+731;gin Bombay Bramble(fruits rouges);1;;30;0;70;70;0
+630;liqueur pistache qdb;8;;15;0;70;70;0
+812;Rhum Havana club 3ans ;7;;21;0;70;70;0
+633;liqueur pinacolada qdb;8;;10;0;70;70;0
+634;liqueur cookie qdb;8;;15;0;70;70;0
+707;mini brochettes de poulet ;1;;3,5;0;1;1;0
+636;Monster ultra Rosa (50cl) et fluo;9;;1,15;0;1;1;0
+637;liqueur noisette ;8;;16;0;70;70;0
+638;bonbon sexuel;4;;0,1;0;1;1;0
+791;mix z2h;9;;35;0;100;100;0
+790;mix z2g;9;;35;0;100;100;0
+789;mix z2f;9;;20;0;50;50;0
+788;mix z2e;9;;35;0;100;100;0
+787;mix z2d;9;;35;0;100;100;0
+786;mix z2b;8;;10;0;100;100;0
+704;liqueur tutti frutti;4;;7,5;0;70;70;0
+646;liqueur cuberdon;8;;14;0;70;70;0
+759;sangria mix blanche 1.5L;1;;3,3;0;1;1;0
+702;snack equilibre pour Laya ;9;;0,5;0;1;1;0

@@ -89,9 +89,9 @@ class OrderController extends Controller
      * @param \App\Http\Requests\CreateOrderRequest $request
      * @return RedirectResponse
      */
-    public function create(CreateOrderAction $action, CreateOrderRequest $request): RedirectResponse
+    public function create(CreateOrderRequest $request): RedirectResponse
     {
-        $order = $action->handle($request->validated());
+        $order = Order::create($request->validated());
 
         return to_route('orders.complete', ['order' => $order]);
     }

@@ -17,6 +17,7 @@ class Product extends Model
     use HasFactory;
 
     protected $fillable = [
+        'id',
         'name',
         'image',
         'price',
@@ -25,6 +26,11 @@ class Product extends Model
         'tax',
         'margin',
         'category_id',
+        'reference',
+        'is_visible',
+        'remark',
+        'has_skewers',
+        'total_cl',
     ];
 
     public function ingredients(): BelongsToMany
@@ -49,7 +55,7 @@ class Product extends Model
     {
         return Attribute::make(
             get: fn() => $this->ingredients->sum(
-                fn($ingredient) => $ingredient->price * $ingredient->pivot->quantity
+                fn($ingredient) => $ingredient->unit_price * $ingredient->pivot->quantity
             )
         );
     }

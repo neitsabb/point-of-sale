@@ -20,15 +20,15 @@ class ProductResource extends JsonResource
      */
     public function toArray(Request $request): array
     {
-        $status = StockStatus::IN;
+        $status = StockStatus::IN_STOCK;
 
         foreach ($this->ingredients as $ingredient) {
-            if ($ingredient->stock_quantity == 0) {
-                $status = StockStatus::OUT;
+            if ($ingredient->stock_quantity <= 0) {
+                $status = StockStatus::OUT_OF_STOCK;
                 break;
             }
             if ($ingredient->stock_quantity <= $ingredient->critical_stock) {
-                $status = StockStatus::CRITICAL;
+                $status = StockStatus::LOW_STOCK;
                 break;
             }
         }

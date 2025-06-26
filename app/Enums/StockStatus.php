@@ -4,16 +4,16 @@ namespace App\Enums;
 
 enum StockStatus: string
 {
-    case OUT = 'out-of-stock';
-    case IN = 'in-stock';
-    case CRITICAL = 'critical-stock';
+    case OUT_OF_STOCK = 'out_of_stock';
+    case IN_STOCK = 'in_stock';
+    case LOW_STOCK = 'low_stock';
 
-    public function label()
+    public function label(): string
     {
         return match ($this) {
-            self::OUT => 'En rupture',
-            self::IN => 'En stock',
-            self::CRITICAL => 'Stock critique',
+            self::OUT_OF_STOCK => 'En rupture',
+            self::IN_STOCK => 'En stock',
+            self::LOW_STOCK => 'Stock critique',
         };
     }
 }

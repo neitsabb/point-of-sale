@@ -20,10 +20,27 @@ return new class extends Migration
             $table->string('name');
 
             $table->float('margin')->default(0);
+
             $table->boolean('auto_price_enabled')->default(false);
+
             $table->boolean('round_price_enabled')->default(false);
+
             $table->float('price');
-            $table->unsignedBigInteger('tax');
+
+            $table->unsignedBigInteger('tax')->nullable();
+
+            $table->string('reference')->nullable();
+
+            $table->boolean('is_visible')->default(true);
+
+            $table->string('remark')->nullable();
+
+            $table->boolean('has_skewers')->default(false);
+
+            $table->float('total_cl');
+
+           
+            //todo change to foreign key
 
             $table->timestamps();
         });

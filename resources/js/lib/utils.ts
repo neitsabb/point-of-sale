@@ -9,11 +9,12 @@ export function cn(...inputs: ClassValue[]) {
 export const renderStockStatusEnum = (status: StockStatusEnum) => {
     let statusVariant: 'green' | 'orange' | 'destructive';
 
+    console.log('status', status);
     switch (status) {
         case StockStatusEnum.IN_STOCK:
             statusVariant = 'green';
             break;
-        case StockStatusEnum.CRITICAL_STOCK:
+        case StockStatusEnum.LOW_STOCK:
             statusVariant = 'orange';
             break;
         case StockStatusEnum.OUT_OF_STOCK:

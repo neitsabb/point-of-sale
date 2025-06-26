@@ -22,21 +22,47 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
     },
 
     {
-        id: 'price_display',
+        id: 'unit_price',
         meta: 'Prix unitaire',
-        accessorKey: 'price_display',
+        accessorKey: 'unit_price',
         header: 'Prix unitaire',
         cell: ({ row }) => {
-            return row.getValue('price_display') as string;
+            const price = row.original.unit_price;
+            if (price && typeof price === 'object' && 'display' in price) {
+                return price.display;
+            }
+            return 'N/A';
         },
     },
     {
-        id: 'purchase_price_display',
-        meta: "Prix d'achat",
-        accessorKey: 'purchase_price_display',
+        id: 'purchase_price',
+        meta: "Prix d' achat",
+        accessorKey: 'purchase_price',
         header: "Prix d'achat",
         cell: ({ row }) => {
-            return row.getValue('purchase_price_display') as string;
+            const price = row.original.purchase_price;
+            if (price && typeof price === 'object' && 'display' in price) {
+                return price.display;
+            }
+            return 'N/A';
+        },
+    },
+    {
+        id: 'unit',
+        meta: 'Unité',
+        accessorKey: 'unit',
+        header: 'Unité',
+        cell: ({ row }) => {
+            return row.getValue('unit')?.symbol;
+        },
+    },
+    {
+        id: 'on_card',
+        meta: 'Sur la carte',
+        accessorKey: 'on_card',
+        header: 'Sur la carte',
+        cell: ({ row }) => {
+            return row.getValue('on_card') ? 'Oui' : 'Non';
         },
     },
     {
@@ -45,16 +71,24 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
         accessorKey: 'products_count',
         header: 'Produits associés',
     },
-
     {
-        id: 'stock_quantity_display',
-        meta: 'Quantité en stock',
-        accessorKey: 'stock_quantity_display',
-        header: 'En stock',
+        id: 'stock_quantity',
+        meta: 'Stock (cl)',
+        accessorKey: 'stock_quantity',
+        header: 'Stock (cl)',
         cell: ({ row }) => {
-            return row.getValue('stock_quantity_display') as string;
+            return row.getValue('stock_quantity') as string;
         },
     },
+    // {
+    //     id: 'critical_stock',
+    //     meta: 'Stock critique (cl)',
+    //     accessorKey: 'critical_stock',
+    //     header: 'Stock critique (cl)',
+    //     cell: ({ row }) => {
+    //         return `${row.getValue('critical_stock')} cl`;
+    //     },
+    // },
     {
         id: 'status',
         meta: 'Status',
@@ -70,13 +104,7 @@ export const columns = (onEdit: (ingredient: Ingredient) => void, onSupply: (ing
             return value.includes((row.getValue(id) as { value: string })?.value);
         },
     },
-    {
-        accessorKey: 'unit',
-        id: 'unit',
-        meta: 'Unité de mesure',
-        header: 'Unité de mesure',
-        cell: ({ row }) => <Badge variant="outline">{row.getValue('unit').label}</Badge>,
-    },
+
     {
         id: 'actions',
         meta: 'Actions',

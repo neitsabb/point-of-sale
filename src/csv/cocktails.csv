@@ -1,0 +1,1990 @@
+ID;Nom;Categorie;Photo;Reference;EstDansCarte;Remarque;Sync_Prix;EstCocktail;Quantite;ID_VERRE;DateCreation;estBrochette;Ref_Lettre;Ref_Chiffre;Ref_DerniereLettre
+1;Olive et Tom;Mocktail;0x;A85;1;verre pot de chambre ;10;1;100;8;38869;1;A;85;
+2;bois de Quat'sou;Mocktail;0x;A10;1;VERRE pot de chambre large ;10;1;100;8;35582;1;A;10;
+3;Dingo;Mocktail;0x;A11;1;verre urne;10;1;100;8;39142;1;A;11;
+4;Bob l'éponge ;Mocktail;0x;A12;1;verre boule sa;10;1;100;8;39142;1;A;12;
+5;Virgin Moscow;Mocktail;0x;H20A;1;"VERRE skull
+
+";10;1;100;8;38353;1;H;20;A
+6;Mickey;Mocktail;0x;A14;1;"VERRE boule 
+
+";10;1;100;8;35947;1;A;14;
+7;Droopy;Mocktail;0x;A15;1;verre boule;10;1;100;8;38504;1;A;15;
+8;Les chevaliers du zodiaque;Mocktail;0x;A16;1;"VERRE diamant grand 
+
+";10;1;100;8;33725;1;A;16;
+9;Full metal alchimist;Mocktail;0x;A17;1;"VERRE boule sa
+
+";10;1;100;8;35796;1;A;17;
+10;Rémi sans famille ;Mocktail;0x;A18;1;verre strier large ;10;1;100;8;39569;1;A;18;
+11;Beetlejuice;Mocktail;0x;A19;1;"VERRE strier large 
+
+";10;1;100;8;37408;1;A;19;
+12;Sam le pirate;Mocktail;0x;A64;1;verre pot de chambre ;10;1;100;8;35674;1;A;64;
+13;Astro Boy;Mocktail;0x;A20;1;"VERRE aquarium carre
+
+";10;1;100;8;36312;1;A;20;
+14;Le collège Fou, fou, fou;Mocktail;0x;A21;1;"VERRE aquarium carre
+
+";10;1;100;8;40848;1;A;21;
+15;Les mysterieuses cites d or;Mocktail;0x;A22;1;verre urne ;10;1;100;8;36647;1;A;22;
+16;Jayce et les conquérants de la lumiere;Mocktail;0x;A23;1;verre urne ;10;1;100;8;37408;1;A;23;
+17;Goldorak;Mocktail;0x;A24;1;verre strier large ;10;1;100;8;39600;1;A;24;
+18;Tom & Jerry;Mocktail;0x;A25;1;verre boule sa;10;1;100;8;39600;1;A;25;
+19;Madame pepperpote ;Mocktail;0x;A26;1;"Verre boule sa
+
+";10;1;100;8;39600;1;A;26;
+20;Pluto;Mocktail;0x;A27;1;verre strier large ;10;1;100;8;39234;1;A;27;
+21;Pokemon;Mocktail;0x;A28;1;verre strier ;10;1;100;8;39234;1;A;28;
+22;Les 3 mousquetaires ;Mocktail;0x;A29;1;verre urne ;10;1;100;8;38139;1;A;29;
+23;P.P. le putois;Mocktail;0x;A7;1;"Verre strier large 
+
+";10;1;100;8;36069;1;A;7;
+24;Ranma1/2;Mocktail;0x;A30;1;verre diamant plat + jarritos retournee ;10;1;100;8;38504;1;A;30;
+25;Capitain Flam;Mocktail;0x;A31;1;verre pot de chambre ;10;1;100;8;38504;1;A;31;
+26;Crazcoucass;Mocktail;0x;A32;1;verre organique long ;10;1;100;8;38108;1;A;32;
+27;Pierre et le loup;Mocktail;0x;A33;1;"Verre boule
+
+";10;1;100;8;38504;1;A;33;
+28;ice Age ;Mocktail;0x;A34;1;verre diamant court + jarritos retournée ;10;1;100;8;38108;1;A;34;
+29;Le manège enchanté ;Mocktail;0x;A35;1;verre boule sa ;10;1;100;8;38504;1;A;35;
+30;la bataille des planètes ;Mocktail;0x;A36;1;"Verre boule sa
+
+";10;1;100;8;38504;1;A;36;
+31;Ken le survivant ;Mocktail;0x;A37;1;verre diamant plat + bt retournee ;10;1;100;8;39234;1;A;37;
+32;Nicky Larson;Mocktail;0x;A38;1;verre diamant plat + bt retournee ;10;1;100;8;39234;1;A;38;
+33;Donald duck;Mocktail;0x;A39;1;"Verre strier large 
+
+";10;1;100;8;38504;1;A;39;
+34;les entrechats ;Mocktail;0x;A4;1;"Verre strier large 
+
+";10;1;100;8;36404;1;A;4;
+35;Les 3 p'tits Cochons;Mocktail;0x;A40;1;verre diamant plat bt retournee ;10;1;100;8;38504;1;A;40;
+36;Gigi;Mocktail;0x;A41;1;"Verre diamant GRAND
+
+";10;1;100;8;40118;1;A;41;
+37;Cherry baby;mojito party;0x;M0B;1;verre strier;10;1;100;8;39600;1;M;0;B
+38;Sailor Moon;Mocktail;0x;A43;1;verre urne ;10;1;100;8;38504;1;A;43;
+39;Winx;Mocktail;0x;A44;1;verre diamant plat;10;1;100;8;38504;1;A;44;
+40;satanas et Diabolo;Mocktail;0x;A45;1;verre boule sa ;10;1;100;8;39600;1;A;45;
+41;La famille pirate ;Mocktail;0x;A46;1;"Verre cruche 
+
+";10;1;100;8;38504;1;A;46;
+42;Marcelino;Mocktail;0x;A47;1;"Verre S.A.
+
+";10;1;100;8;39600;1;A;47;
+43;Le laboratoire de DeXter;Mocktail;0x;A48;1;"Verre boule
+
+";10;1;100;8;38504;1;A;48;
+44;Fizzy india  (-16ans!!);Mocktail;0x;A49;1;verre palladio;10;1;50;4;39600;1;A;49;
+45;Totaly spies ;Mocktail;0x;A5;1;"Verre pot de chambre 
+
+";10;1;100;8;39234;1;A;5;
+46;Les super nanas;Mocktail;0x;A50;1;verre strier large ;10;1;100;8;39600;1;A;50;
+47;Cat's Eyes;Mocktail;0x;A51;1;verre disque ;10;1;100;8;40330;1;A;51;
+48;Lamu;Mocktail;0x;A52;1;verre ananas large ;10;1;100;8;36312;1;A;52;
+49;Boumbo;Mocktail;0x;A53;1;"Verre diamant Long
+
+";10;1;100;8;39965;1;A;53;
+50;hunter D;Mocktail;0x;A54;1;verre disque ;10;1;100;8;39965;1;A;54;
+51;Dora l'exploratrice;Mocktail;0x;A55;1;verre disque ;10;1;100;8;39600;1;A;55;
+52;Garfield;Mocktail;0x;A56;1;verre boule sa ;10;1;100;8;39600;1;A;56;
+53;Aladdin;Mocktail;0x;A57;1;verre boule sa ;10;1;100;8;39600;1;A;57;
+54;GunDam;Mocktail;0x;A58;1;verre pot de chambre ;10;1;100;8;39600;1;A;58;
+55;Kaeloo;Mocktail;0x;A59;1;verre diamant plat;10;1;100;8;41000;1;A;59;
+56;Les Zinzins de l'espace;Mocktail;0x;A6;1;verre strier ;10;1;100;8;39600;1;A;6;
+57;Nemo;Mocktail;0x;A60;1;"Verre strier 
+
+";10;1;100;8;39600;1;A;60;
+58;Oui-Oui;Mocktail;0x;A61;1;verre disque ;10;1;100;8;40695;1;A;61;
+59;Nono le petit robot;Mocktail;0x;A62;1;verre urne ;10;1;100;8;40695;1;A;62;
+60;Ulysse 31;Mocktail;0x;A101;1;"Verre boule sa
+
+";10;1;100;8;40695;1;A;101;
+61;Street fighter(-16ans!!);Mocktail;0x;A111;1;verre monster !!!dans lordre ;10;1;100;8;40695;1;A;111;
+62;xxxxxxxxxxxxx;Mocktail;0x;A200;0;"Verre S.A.
+
+";10;1;100;8;39600;1;A;200;
+63;Playstation;Mocktail;0x;A66;1;verre strier ;10;1;100;8;40695;1;A;66;
+64;Yakari;Mocktail;0x;A67;1;verre disque ;10;1;100;8;40695;1;A;67;
+65;Raz bitume;Mocktail;0x;A68;1;verre diamant plat;10;1;100;8;39600;1;A;68;
+66;Robotech;Mocktail;0x;A69;1;verre diamant lg;10;1;100;8;39600;1;A;69;
+67;Cosmo cat's;Mocktail;0x;A127;1;verre urne ;10;1;100;8;38657;1;A;127;
+68;Peter Pan;Mocktail;0x;A70;1;verre disque ;10;1;100;8;39600;1;A;70;
+69;Ben10 (-16ans!!);Mocktail;0x;A71;1;verre strier ;10;1;100;8;40817;1;A;71;
+70;Lapin cretin(-16ans!!);Mocktail;0x;A72;1;"Verre diamant plat
+
+";10;1;100;8;40817;1;A;72;
+71;Tom Sawyer (-16ans!!);Mocktail;0x;A73;1;"Verre strier 
+
+";10;1;100;8;40817;1;A;73;
+72;Toy story(-16ans!!);Mocktail;0x;A74;1;verre strier ;10;1;100;8;40817;1;A;74;
+73;GTA VI(-16ans!!);Mocktail;0x;A75;1;verre diamant ;10;1;100;8;40817;1;A;75;
+74;Loco Dojo vr(-16ans!!);Mocktail;0x;A76;1;verre diamant ;10;1;100;8;39600;1;A;76;
+75;Sab Rider (-16ans!!);Mocktail;0x;A77;1;"Verre strier 
+
+";10;1;100;8;39600;1;A;77;
+76;Kirikou;Mocktail;0x;A65;1;"Verre cruche 
+
+";10;1;100;8;39600;1;A;65;
+77;pollux (-16ans!!);Mocktail;0x;A79;1;verre organique plat;10;1;100;8;40330;1;A;79;
+78;Les Snorky;Mocktail;0x;A8;1;"VERRE tour a empiler 
+
+";10;1;100;8;35582;1;A;8;
+79;Big mouth;Freaky SA;0x;L0A;1;verre diamant lg/facon freaky/bien melanger ;13;1;50;6;40603;1;L;0;A
+80;Akira;Mocktail;0x;A121;1;verre boule ;10;1;100;8;41527;1;A;121;
+81;Albator ;Mocktail;0x;A82;1;verre diamant plat;10;1;100;8;41583;1;A;82;
+82;Kid Paddle;Mocktail;0x;A9;1;"VERRE urne+cerise marascin
+
+";10;1;100;8;36251;1;A;9;
+83;Fantomas;signature;0x;B1;1;verre palladio/mixz2c(b1):8cl+ 2 s bbl gum+energy+methode+2 vdk rouge;13;1;50;4;38838;1;B;1;
+84;Archimède;signature;0x;B10;1;"verre weizenbeer/Glace pilée/fluo/décos vip
+
+";13;1;50;7;40544;1;B;10;
+85;Dark babor;signature;0x;B11;1;"Verre palladio
+
+";13;1;50;4;38838;1;B;11;
+86;Narco;signature;0x;B12;1;verre cognac/mix z2m(b12): 10cl + limonade + fluo;12;1;50;6;38838;1;B;12;
+87;Why not;Expressions préférées;0x;P7;1;verre coupe a glace ;12;1;50;6;38838;1;P;7;
+88;Do or die;signature;0x;B14;1;verre bartender ;12;1;65;5;38838;1;B;14;
+89;Dragonzaure;signature;0x;B15;1;coupe à glace ;13;1;50;4;40299;1;B;15;
+90;Katagena;signature;0x;B16;1;verre cabernet;12;1;50;5;38838;1;B;16;
+91;Père damien;signature;0x;B17;1;verre coupe plate ;13;1;50;6;38838;1;B;17;
+92;Chikitone;signature;0x;B18;1;verre coupe a glace ;12;1;65;5;38838;1;B;18;
+93;Scrattlantide;signature;0x;B19;1;verre weizenbeer ;13;1;75;7;38838;1;B;19;
+94;Saloperie;signature;0x;B2;1;verre E8;12;1;50;6;38838;1;B;2;
+95;Hiroshima;signature;0x;B20;1;verre weizenbeer ;13;1;75;7;40299;1;B;20;
+96;Bison bourré;Expressions préférées;0x;P8;1;"Verre palladio
+
+";13;1;50;4;38838;1;P;8;
+97;Morning red;signature;0x;B22;1;verre sangria ;12;1;65;5;38838;1;B;22;
+98;Belzébuth;signature;0x;B23;1;verre tiki pt ;12;1;65;5;38838;1;B;23;
+99;Juju;signature;0x;B24;1;"verre cabernet/Shaker
+
+";12;1;50;5;38838;1;B;24;
+100;Taxi brousse;freaky;0x;L26;1;verre palladio/melanger/facon freaky;15;1;50;4;38838;1;L;26;
+101;L'erreur;signature;0x;B26;1;verre sangria piang apres l orangeade;12;1;50;6;38838;1;B;26;
+102;Cancer;cocktails astrales;0x;Z3J;1;"arrosoir/tt fois 2
+
+";25;1;200;15;38838;1;Z;3;J
+103;Baback;freaky;0x;L27;1;verre cognac/facon freaky/bien melanger ;15;1;65;5;38838;1;L;27;
+104;Boum boum;signature;0x;B29;1;verre tiki pt;12;1;50;5;38838;1;B;29;
+105;Laissbroef;signature;0x;B3;1;verre sangria ;12;1;65;5;38838;1;B;3;
+106;ZZ top;hardcore;0x;Y0P;1;;25;1;75;7;38838;1;Y;0;P
+107;Elena;signature;0x;B31;1;verre bartender ;13;1;65;5;40544;1;B;31;
+108;Bang Bang valentin;grand format;0x;Z5K;1;"Arrosoir
+
+";25;1;200;15;39203;1;Z;5;K
+109;Rondoudou;signature;0x;B33;1;"Shaker/verre à sangria 
+
+";12;1;50;5;38838;1;B;33;
+110;Zonzon;signature;0x;B34;1;verre tiki gd;12;1;50;5;38838;1;B;34;
+111;Livre de la jungle;signature;0x;B35;1;verre ananas ;12;1;50;6;39203;1;B;35;
+112;Rango;signature;0x;B36;1;"verre palladio/Glace pilée/fluo/décos vip
+
+";13;1;50;4;39569;1;B;36;
+113;BB d'ange;signature;0x;B37;1;verre palladio ;13;1;50;4;39569;1;B;37;
+114;Freud;signature;0x;B38;1;verre tiki pt;12;1;50;5;39569;1;B;38;
+115;Natacha;hardcore;0x;Y0K;1;verre weizenbeer ;25;1;75;7;39934;1;Y;0;K
+116;Naimattack;signature;0x;B4;1;verre palladio;13;1;50;4;38838;1;B;4;
+117;Happy fanny;signature;0x;B40;1;"verre palladio
+
+";13;1;50;4;39569;1;B;40;
+118;Tich;signature;0x;B41;1;verre coupe a glace;12;1;50;5;38838;1;B;41;
+119;Meli melo;signature;0x;B42;1;verre tiki gd;12;1;65;5;38838;1;B;42;
+120;Lekelke c est;signature;0x;B43;1;verre palladio;13;1;50;4;38838;1;B;43;
+121;Marilyn;signature;0x;B44;1;verre cabernet;12;1;50;5;38838;1;B;44;
+122;ThanaMan;signature;0x;B45;1;verre skull;13;1;50;4;44795;1;B;45;
+123;Savages;films & series incontournables;0x;D84;1;verre tiki gd/2s framboise + 10 mix Z2e(b51)+2 L. ananas+limonade;12;1;50;6;40664;1;D;84;
+124;Predator;signature;0x;B47;1;verre weizenbeer;12;1;50;6;38838;1;B;47;
+125;Ace ventura;signature;0x;B48;1;verre sangria ;12;1;65;5;38838;1;B;48;
+126;Luciano;signature;0x;B49;1;verre palladio;13;1;50;4;38838;1;B;49;
+127;Red jf;signature;0x;B5;1;verre weizenbeer ;13;1;75;7;38838;1;B;5;
+128;samourai de l'espace;signature;0x;B50;1;verre coupe ;12;1;50;6;40664;1;B;50;
+129;Bonobo;signature;0x;B51;1;verre cabernet/2s framboise + 10 mix Z2e(b51)+j fraise;12;1;50;5;40299;1;B;51;
+130;Mange tes vivants;Expressions préférées;0x;P9;1;verre tiki pt ;12;1;65;5;38473;1;P;9;
+131;Cardon logistique;signature;0x;B53;1;verre v25;13;1;50;6;39203;1;B;53;
+132;Capone;freaky;0x;L2;1;verre strier/ freaky/8cl Z2X(mix capone)+2 l caramel+cafe glace+chantilly+deco freaky ;15;1;50;4;38473;1;L;2;
+133;Raztakouan;signature;0x;B55;1;verre sangria ;12;1;65;5;38838;1;B;55;
+134;Liloux;signature;0x;B56;1;verre cabernet ;12;1;50;5;38838;1;B;56;
+135;Flambardement;signature;0x;B57;1;verre coupe a glace ;12;1;50;6;40299;1;B;57;
+136;Courir le Guilledou;signature;0x;B58;1;verre sangria ;12;1;50;6;38838;1;B;58;
+137;Moogly;signature;0x;B59;1;;12;1;50;5;38838;1;B;59;
+138;Vass;signature;0x;B6;1;verre ananas ;13;1;50;6;38838;1;B;6;
+139;Twilight;films & series incontournables;0x;D91;1;verre palladio;13;1;35;3;40299;1;D;91;
+140;Chabal;signature;0x;B61;1;verre sangria ;12;1;50;5;38838;1;B;61;
+141;Max;hardcore;0x;Y0;1;verre weizenbeer ;25;1;75;7;38108;1;Y;0;
+142;Max d'été;hardcore;0x;Y0D;1;verre fist ;25;1;50;7;38473;1;Y;0;D
+143;Très coco;Oompa LoOmpa;0x;F13;1;verre tete de lego+barbe papa coco;12;1;35;3;39934;1;F;13;
+144;Etoile noire;hardcore;0x;Y0F;1;verre weizenbeer ;25;1;50;7;39934;1;Y;0;F
+145;Buy me;signature;0x;B66;1;verre palladio/2 s framboise+15 mix z2a mix razz+2 L.fraise+energy+cava+j.fraise;13;1;75;7;40299;1;B;66;
+146;Noemaniak;signature;0x;B67;1;verre weizenbeer ;13;1;75;7;40299;1;B;67;
+147;Dandy punk;signature;0x;B68;1;verre sangria ;12;1;50;6;40299;1;B;68;
+148;Aly Baby;hardcore;0x;Y2C;1;verre monster ;25;1;75;7;44411;1;Y;2;C
+149;Black mojito;mojito party;0x;M6;1;"verre ananas/Menthe fraîche/piler/glace pilée/broyeur
+
+";12;1;50;6;40909;1;M;6;
+150;B0PE DO BRAZIL;signature;0x;B70;1;verre bartender ;13;1;50;4;40664;1;B;70;
+151;Mange tes morts ;Expressions préférées;0x;P10;1;verre bartender ;13;1;50;4;41507;1;P;10;
+152;Bananator;signature;0x;B72;1;"verre tiki gd/cerise en hors shaker/verre à pied/glace pilée
+
+";12;1;50;5;41518;1;B;72;
+153;Clak 1 coup le pere;signature;0x;B7;1;;12;1;50;6;41487;1;B;7;
+154;Où niche l'hibou;Expressions préférées;0x;P14;1;verre fist;13;1;75;7;41504;1;P;14;
+155;Non mais hallo quoi;mojito party;0x;M46;1;"verre hanse-cognac/menthe fraiche/piler/broyeur/glace pilée
+
+10 mix z2w(sour)+2 triple sec+2jack honey+limonade";12;1;50;6;41557;1;M;46;
+156;Pas pour l'instant;signature;0x;B76;1;verre cognac/5 mix tgv;12;1;50;6;41456;1;B;76;
+157;Dragon punch;signature;0x;B77;1;verre tiki gd;12;1;65;5;41456;1;B;77;
+158;Bijou;Sweety;0x;S7;1;verre palladio;15;1;50;4;41579;1;S;7;
+159;Mon precieux;Expressions préférées;0x;P17;1;verre weizenbeer ;13;1;75;7;41562;1;P;17;
+160;Stoemeling;signature;0x;B8;1;verre tiki gd;12;1;50;5;38838;1;B;8;
+161;Max de BANANA BEACH;hardcore;0x;Y0L;1;verre monster ;25;1;75;7;41562;1;Y;0;L
+162;Caresses;signature;0x;B9;1;"Verre à cabernet/glace pilée
+
+";12;1;50;5;40544;1;B;9;
+163;Daktarin;pharmacocktailerie;0x;C1;1;verre E18;13;1;50;6;38838;1;C;1;
+164;intra vénéneuse;pharmacocktailerie;0x;C10;1;"verre palladio
+
+";13;1;50;4;40299;1;C;10;
+165;Tribulus;pharmacocktailerie;0x;C11;1;verre weizenbeer ;13;1;75;7;40299;1;C;11;
+166;Babyboom chaud ou froid ;pharmacocktailerie;0x;C12;1;"biberon/ chaud ou froid
+
+";15;1;50;12;38838;1;C;12;
+167;Homéopathie;pharmacocktailerie;0x;C13;1;verre bartender;12;1;75;7;38838;1;C;13;
+168;Primperan;pharmacocktailerie;0x;C14;1;verre E18;12;1;50;6;39569;1;C;14;
+169;kisqali;pharmacocktailerie;0x;C15;1;verre E18/2s framboise+12cl mix Z2c(b1):10cl +limonade;12;1;50;6;39203;1;C;15;
+170;levovetiricine;pharmacocktailerie;0x;C16;1;"verre weizenbeer/shaker
+
+";15;1;75;7;40664;1;C;16;
+171;Valium;pharmacocktailerie;0x;C17;1;"verre skull/liqueur fruits au choix/ pipettes d'absynthe eco
+
+prix fast 15euro";12;1;65;5;38838;1;C;17;
+172;anti stress;pharmacocktailerie;0x;C18;1;verre skull;12;1;65;5;38473;1;C;18;
+173;Asaflow;pharmacocktailerie;0x;C19;1;"verre weizenbeer/glace pilée/fluo
+
+";13;1;75;7;40664;1;C;19;
+174;Croisiere s'amuse;grand format;0x;Z5L;1;"arrosoir
+
+";25;1;200;15;39934;1;Z;5;L
+175;Motilium;pharmacocktailerie;0x;C20;1;coupe a glace plate ;13;1;65;5;39569;1;C;20;
+176;c-Will;pharmacocktailerie;0x;C21;1;verre E8/mix tgv;13;1;75;7;39569;1;C;21;
+177;Apranax;pharmacocktailerie;0x;C22;1;"verre ananas/shaker
+
+";12;1;50;5;38838;1;C;22;
+178;Dafalgan;pharmacocktailerie;0x;C23;1;verre sangria ;12;1;50;5;40664;1;C;23;
+179;Korsakov;pharmacocktailerie;0x;C24;1;verre cognac;12;1;50;6;38838;1;C;24;
+180;Dipidolor;pharmacocktailerie;0x;C25;1;verre weizenbeer;13;1;50;7;40299;1;C;25;
+181;Sparadrap;pharmacocktailerie;0x;C26;1;verre skull;12;1;50;6;38108;1;C;26;
+182;Life extension;pharmacocktailerie;0x;C27;1;verre weizenbeer ;12;1;75;7;38838;1;C;27;
+183;medrol;pharmacocktailerie;0x;C28;1;"verre palladio/glace pilée/shaker
+
+";15;1;50;4;41580;1;C;28;
+184;Baume du tigre;pharmacocktailerie;0x;C29;1;verre cabernet/shaker/facon colada ;12;1;65;5;38838;1;C;29;
+185;Fucidine;pharmacocktailerie;0x;C3;1;verre coupe à glace/mixz2c(b1):10cl+ 2 s bbl gum+limonade;12;1;50;6;38838;1;C;3;
+186;Mamouth;grand format;0x;Z5Q;0;"arrosoir
+
+";25;1;200;15;39569;1;Z;5;Q
+187;Hémoglobine;pharmacocktailerie;0x;C31;1;"verre weizenbeer/glace pilée/fluo
+
+";13;1;75;7;39934;1;C;31;
+188;Movicol;pharmacocktailerie;0x;C32;1;verre palladio;12;1;50;4;38838;1;C;32;
+189;iso-bétadine;pharmacocktailerie;0x;C33;1;verre tiki gd;12;1;50;5;38838;1;C;33;
+190;Quercetine;pharmacocktailerie;0x;C34;1;"verre sangria/shaker sauf curaçao bleu
+
+";12;1;65;5;38838;1;C;34;
+191;Aureliz;pharmacocktailerie;0x;C35;1;"verre palladio
+
+";13;1;50;4;38838;1;C;35;
+192;Dopamine;pharmacocktailerie;0x;C36;1;;12;1;50;5;39203;1;C;36;
+193;Morphine;pharmacocktailerie;0x;C37;1;verre skull;12;1;50;6;38838;1;C;37;
+194;Poppers;grand format;0x;Z5R;0;"glace pilée/fluo
+
+";90;1;1000;11;40299;1;Z;5;R
+195;Magnésium;pharmacocktailerie;0x;C39;1;verre palladio;13;1;50;4;40299;1;C;39;
+196;éthylo-test Fline box;pharmacocktailerie;0x;C4;1;verre palladio;13;1;75;7;39203;1;C;4;
+197;Cedocar;pharmacocktailerie;0x;C40;1;verre sangria;13;1;75;7;40664;1;C;40;
+198;maître Troubadour gris ;mojito party;0x;M20;1;verre bartender*10cl mix Z2e(b51)+2 s bubblegum+menthe fraiche et broyer ensuite glace pilee+bulles+jus fraise;13;1;50;4;40210;1;M;20;
+199;Ordonnance;pharmacocktailerie;0x;C5;1;verre skull;12;1;50;6;38838;1;C;5;
+200;Viazak;pharmacocktailerie;0x;C7;1;verre sangria;12;1;50;5;38838;1;C;7;
+201;Bronchaleine;pharmacocktailerie;0x;C8;1;verre palladio/glace pilée/fluo;13;1;50;4;40299;1;C;8;
+202;Doliprane;pharmacocktailerie;0x;C9;1;verre weizenbeer ;12;1;75;7;40299;1;C;9;
+203;Eternal Sunshine;films & series incontournables;0x;D1;1;verre weizenbeer;13;1;75;7;41112;1;D;1;
+204;Limith Less;films & series incontournables;0x;D10;1;verre bartender ;12;1;150;9;39934;1;D;10;
+205;Cartel;films & series incontournables;0x;D11;1;verre sangria ;12;1;50;5;39569;1;D;11;
+206;Amélie poulain;films & series incontournables;0x;D12;1;verre tiki pt;12;1;50;5;39934;1;D;12;
+207;C'est arrivé près de chez vous;films & series incontournables;0x;D13;1;verre tiki gd ;13;1;65;5;39203;1;D;13;
+208;Matrix;films & series incontournables;0x;D14;1;verre tiki pt ;12;1;65;5;39569;1;D;14;
+209;Snatch;films & series incontournables;0x;D15;1;verre palladio;13;1;50;4;39569;1;D;15;
+210;Dobberman;films & series incontournables;0x;D16;1;verre weizenbeer;15;1;75;7;40299;1;D;16;
+211;LoiS de l'attraction;films & series incontournables;0x;D17;1;verre palladio;13;1;50;4;39934;1;D;17;
+212;Guerre des mondes;films & series incontournables;0x;D18;1;verre tiki pt ;12;1;65;5;39569;1;D;18;
+213;Total recall;films & series incontournables;0x;D19;1;"glace pilée/fluo
+
+";13;1;75;7;40299;1;D;19;
+214;Réservoir dogs;films & series incontournables;0x;D2;1;verre bartender ;12;1;65;5;38838;1;D;2;
+215;Constantine;films & series incontournables;0x;D20;1;verre bartender ;12;1;65;5;39934;1;D;20;
+216;Scarface;films & series incontournables;0x;D21;1;verre sangria ;13;1;50;5;39569;1;D;21;
+217;Adaptation;films & series incontournables;0x;D22;1;verre tiki pt ;12;1;50;5;39934;1;D;22;
+218;Kill Bill;films & series incontournables;0x;D23;1;verre palladio;13;1;50;4;39934;1;D;23;
+219;Enter the void;films & series incontournables;0x;D24;1;verre bartender ;12;1;50;5;39569;1;D;24;
+220;Silence des agneaux;films & series incontournables;0x;D25;1;;12;1;65;5;39569;1;D;25;
+221;Crazy bear;films & series incontournables;0x;D26;1;verre Monster /10cl mix z2d(e13)+monster+cava+manzana;15;1;50;6;39934;1;D;26;
+222;Troupe d'élite;films & series incontournables;0x;D27;1;verre palladio;13;1;50;4;39934;1;D;27;
+223;Les rois du désert;films & series incontournables;0x;D28;1;verre coupe plate ;12;1;50;6;40299;1;D;28;
+224;Mission impossible ;films & series incontournables;0x;D29;1;verre coupe a glace ;12;1;50;6;40664;1;D;29;
+225;Sin city;films & series incontournables;0x;D3;1;verre weizenbeer;13;1;75;7;39569;1;D;3;
+226;American Beauty;films & series incontournables;0x;D30;1;verre cabernet;13;1;50;6;40664;1;D;30;
+227;Saw;films & series incontournables;0x;D31;1;verre organique -monster ;15;1;75;7;40664;1;D;31;
+228;Drifters;freaky;0x;L5;1;verre bocal/facon freaky/bien melanger ;15;1;50;6;40664;1;L;5;
+229;Barbie la morte;freaky;0x;L6;1;verre strier/facon freaky/bien melanger ;15;1;50;6;40299;1;L;6;
+230;Gentlemen;films & series incontournables;0x;D34;1;verre cognac;12;1;50;6;40299;1;D;34;
+231;Very Bad Trip;films & series incontournables;0x;D35;1;verre cognac/3 pipettes absynthe 89;13;1;50;4;40664;1;D;35;
+232;iron man;films & series incontournables;0x;D36;1;verre palladio;13;1;50;4;40665;1;D;36;
+233;Point break;films & series incontournables;0x;D37;1;skull;13;1;50;6;40299;1;D;37;
+234;destination Grace Land ;films & series incontournables;0x;D38;1;verre cognac ;12;1;50;6;40299;1;D;38;
+235;Domino;films & series incontournables;0x;D39;1;verre cabernet/2s bbl gum+8mix z2e(b51)+2L ananas+jus fraise ;12;1;50;5;40664;1;D;39;
+236;kingsman;ginto&Co;0x;K17;1;verre cognac ;13;1;50;6;39203;1;K;17;
+237;Triplettes de belle ville;films & series incontournables;0x;D40;1;verre disque ;12;1;50;5;39935;1;D;40;
+238;inglorious bastard;films & series incontournables;0x;D41;1;verre palladio;15;1;50;4;40696;1;D;41;
+239;Ocean eleven;films & series incontournables;0x;D42;1;verre palladio;15;1;50;4;39934;1;D;42;
+240;Jumanji;films & series incontournables;0x;D43;1;verre disque ;13;1;75;7;39934;1;D;43;
+241;Brain dead;films & series incontournables;0x;D44;1;verre palladio;15;1;50;4;40664;1;D;44;
+242;Avatar;films & series incontournables;0x;D45;1;verre weizenbeer;15;1;75;7;40299;1;D;45;
+243;Citizen ken;films & series incontournables;0x;D46;1;verre tiki pt ;12;1;65;5;40664;1;D;46;
+244;Pirates des Caraïbes;films & series incontournables;0x;D47;1;verre cabernet;12;1;65;5;40299;1;D;47;
+245;Sex pistols;hardcore;0x;Y3;1;verre fist/facon fraky ;25;1;75;7;40664;1;Y;3;
+246;Ma femme s'appelle Maurice ;films & series incontournables;0x;D49;1;verre palladio;15;1;50;4;40299;1;D;49;
+247;Nikita;films & series incontournables;0x;D5;1;verre tiki gd;12;1;50;5;39934;1;D;5;
+248;Prometheus;films & series incontournables;0x;D50;1;coupe plate ;12;1;65;5;40299;1;D;50;
+249;inception;films & series incontournables;0x;D51;1;;12;1;50;6;40575;1;D;51;
+250;Requiem for a dream;films & series incontournables;0x;D52;1;verre weizenbeer;13;1;50;4;40210;1;D;52;
+251;Léon;films & series incontournables;0x;D53;1;verre weizenbeer;15;1;75;7;39845;1;D;53;
+252;Bernie;films & series incontournables;0x;D54;1;verre disque ;15;1;50;6;40210;1;D;54;
+253;Fast and furious;films & series incontournables;0x;D55;1;verre weizenbeer;13;1;50;7;40575;1;D;55;
+254;Dark city;films & series incontournables;0x;D56;1;verre palladio;15;1;50;4;40210;1;D;56;
+255;Strange day's;films & series incontournables;0x;D57;1;verre E18;12;1;65;5;40210;1;D;57;
+256;american psycho;films & series incontournables;0x;D58;1;verre weizenbeer;15;1;75;7;40210;1;D;58;
+257;Peur au ventre;films & series incontournables;0x;D59;1;verre weizenbeer;13;1;75;7;41112;1;D;59;
+258;Las Vegas parano;films & series incontournables;0x;D6;1;verre coupe a glace ;12;1;50;5;39934;1;D;6;
+259;Planète terror;films & series incontournables;0x;D60;1;verre coupe a glace ;12;1;50;6;41112;1;D;60;
+260;Boulevard de la mort;freaky;0x;L15;1;verre strier/facon freaky/bien melanger ;15;1;50;4;41112;1;L;15;
+261;Mirror the mask;films & series incontournables;0x;D62;1;verre cabernet;12;1;50;6;41112;1;D;62;
+262;Heat;films & series incontournables;0x;D63;1;verre palladio;15;1;50;4;41112;1;D;63;
+263;James bond;freaky;0x;L3;1;verre palladio/facon freaky/bien melanger ;15;1;50;4;41112;1;L;3;
+264;Usual suspect;films & series incontournables;0x;D65;1;verre sangria ;12;1;50;6;41112;1;D;65;
+265;Salton sea;films & series incontournables;0x;D66;1;verre diamant lg/facon freaky/bien melanger ;15;1;50;4;41112;1;D;66;
+266;Avengers;films & series incontournables;0x;D67;1;verre coupe a glace/shaker ;13;1;75;7;41112;1;D;67;
+267;how High;films & series incontournables;0x;D68;1;verre bartender ;13;1;50;4;41112;1;D;68;
+268;The mask;films & series incontournables;0x;D69;1;verre bartender ;12;1;50;1;41112;1;D;69;
+269;Corto maltese;films & series incontournables;0x;D7;1;"verre b91/
+
+";13;1;50;4;41110;1;D;7;
+270;Loopers;films & series incontournables;0x;D70;1;skull;12;1;50;6;41112;1;D;70;
+271;51ème état;films & series incontournables;0x;D8;1;"verre bartender 
+
+";13;1;50;4;39934;1;D;8;
+272;Orange mécanique;films & series incontournables;0x;D9;1;verre tiki gd;12;1;50;5;39934;1;D;9;
+273;LSD;drugs;0x;E1;1;verre tiki gd;12;1;50;6;38749;1;E;1;
+274;MDMA;drugs;0x;E10;1;;13;1;75;7;40210;1;E;10;
+275;Nitazène;drugs;0x;E11;1;verre cabernet ;12;1;65;5;39845;1;E;11;
+276;Opium;drugs;0x;E12;1;verre ananas ;12;1;75;7;39845;1;E;12;
+277;Ebola;drugs;0x;E13;1;verre Weizenbeer/mix z2D:10cl+energy+methode champ;13;1;75;7;39479;1;E;13;
+278;Thc;drugs;0x;E14;1;verre tiki pt;12;1;65;5;39479;1;E;14;
+279;Ricin;drugs;0x;E15;1;verre bartender ;12;1;50;5;39479;1;E;15;
+280;Saugelum Mexican;drugs;0x;E16;1;verre sangria ;12;1;50;5;39479;1;E;16;
+281;Space cake;drugs;0x;E17;1;verre weizenbeer ;13;1;75;7;39845;1;E;17;
+282;Cocaine;drugs;0x;E18;1;verre E18/mix z2g: 10cl+limonade;12;1;50;6;40575;1;E;18;
+283;Heroine;drugs;0x;E19;1;verre palladio;13;1;50;4;40575;1;E;19;
+284;Flakka;drugs;0x;E2;1;verre palladio;13;1;50;4;38749;1;E;2;
+285;Epifedrine;drugs;0x;E20;1;verre ananas/shaker fort;12;1;50;6;40575;1;E;20;
+286;captagon;drugs;0x;E21;1;verre sangria ;15;1;50;4;40575;1;E;21;
+287;Krokodil;drugs;0x;E22;1;verre ananas;12;1;65;5;41562;1;E;22;
+288;Crystal meths;drugs;0x;E23;1;verre bartender;12;1;50;6;41562;1;E;23;
+289;Nicotine;drugs;0x;E24;1;verre bartender ;12;1;50;6;41580;1;E;24;
+290;Tv realite;drugs;0x;E25;1;verre cognac;12;1;50;6;41580;1;E;25;
+291;Extasy;drugs;0x;E3;1;verre cabernet;12;1;65;5;39114;1;E;3;
+292;Kobolo;drugs;0x;E4;1;verre coupe a glace ;12;1;65;5;39114;1;E;4;
+293;kétamine;drugs;0x;E5;1;"verre cabernet/glace pilée
+
+";12;1;50;5;39845;1;E;5;
+294;L'Amour;drugs;0x;E6;1;"verre sangria shaker sauf liqueur curaçao bleu 
+
+";12;1;65;5;39479;1;E;6;
+295;Adrenaline;drugs;0x;E7;1;verre bartender ;12;1;50;6;39479;1;E;7;
+296;Dechire tout;drugs;0x;E8;1;verre E8/respectez l'ordre de la recette;13;1;50;6;38749;1;E;8;
+297;Speed;drugs;0x;E9;1;verre ananas;12;1;50;6;38384;1;E;9;
+298;Long island ice tea;rhumerie;0x;I33;1;verre V25/13mix z2q(f1)+2cl gin+cola;13;1;50;6;38384;1;I;33;
+299;Blue Hawaiian ;rhumerie;0x;I59;1;"verre cabernet/shaker + cerise facon colada
+
+";12;1;50;5;41112;1;I;59;
+300;Bloody ragnana;vodkaterie;0x;H49;1;"verre huricane/branche céleri
+
+";12;1;50;5;38384;1;H;49;
+301;Amaretto sour;Oompa LoOmpa;0x;F16;1;verre lego;12;1;35;3;38384;1;F;16;
+302;Kamikaze;vodkaterie;0x;H50;1;"verre tete lego/glace pilée
+
+";12;1;35;3;38384;1;H;50;
+303;Margarita;Oompa LoOmpa;0x;F14;1;verre margarita+bord de verre sale+12cl de mix z2(margarita);12;1;35;3;38384;1;F;14;
+304;Tequila sunrise;tequilaterie;0x;J25;1;verre sangria ;12;1;65;5;38384;1;J;25;
+305;Fire in the hole ;jackdanielserie;0x;F7L;1;shaker fort et decorer corne piment ;12;1;35;3;38384;1;F;7;L
+306;Alexander;Oompa LoOmpa;0x;F17;0;"shaker/verre martini rafraichi/filtrer shaker
+
+";8;1;35;3;38384;1;F;17;
+307;Matterhorn;Oompa LoOmpa;0x;F18;1;"verre à martini/glace pilée
+
+";11;1;35;3;38384;1;F;18;
+308;Orgasm ;Oompa LoOmpa;0x;F40;1;"oldfashion/shaker /glace pilée
+
+";12;1;35;3;38384;1;F;40;
+309;Gin fizz;ginto &Co;0x;K2;1;"verre ginto/shaker tout sauf eau pétillante(inclus chantilly et les 2citrons pressés8cl)/ verser eau petillante(variante au schweppes agrume possible pour la touch qdb)
+
+
+
+";15;1;65;5;38384;1;K;2;
+310;Ho'oponopono;tequilaterie;0x;J31;1;verre palladio/;13;1;65;5;38384;1;J;31;
+311;i love you;Oompa LoOmpa;0x;F21;0;verre martini;11;1;35;3;38384;1;F;21;
+312;Sex on the Playa;vodkaterie;0x;H51;1;"verre hurricane/glace pilée
+
+";12;1;50;5;38384;1;H;51;
+313;King of the night ;mojito party;0x;M1;1;verre ananas/utiliser mix Z2k 10cl+menthe et broyer+limonade ;13;1;65;5;40210;1;M;1;
+314;Mojito royal;mojito party;0x;M36;1;"verre fist/glace pilée/fluo/menthe fraiche/piler/broyeur
+
+prix fast 15euro";13;1;50;1;39114;1;M;36;
+315;Mojito especial;mojito party;0x;M34;1;"verre Palladio/glace pilée/fluo/menthe fraiche/piler/broyeur
+
+";13;1;50;4;39845;1;M;34;
+316;Whisky sour;jackdanielserie;0x;F7F;1;verre cabernet/10 mix z2w(sour)+4 sky + jus citron;12;1;50;5;39845;1;F;7;F
+317;Blue lagoon;vodkaterie;0x;H52;1;verre bartender /shaker + cerise facon colada;12;1;50;5;39845;1;H;52;
+318;Cosmopolitain;les oublies;0x;Z9G;0;"presser lime/shaker/filtrer mixture/flamber écorce orange
+
+";11;1;35;3;39845;1;Z;9;G
+319;sakanéné;les anecdotiques;0x;V27;1;verre a cointreau fizz ou baby bottle cointreau;12;1;65;5;40575;1;V;27;
+320;Caipirinha;Oompa LoOmpa;0x;F28;1;verre tete de lego;12;1;35;3;38384;1;F;28;
+321;Tutti frutti;vodkaterie;0x;H54;1;"verre bartender /glace pilée
+
+";12;1;50;5;40210;1;H;54;
+322;Wanted Bimbo;vodkaterie;0x;H63;1;"verre sangria/glace pilée
+
+";13;1;50;6;40575;1;H;63;
+323;Vas chercher le poney;les anecdotiques;0x;V75;1;verre bartender ;12;1;65;5;41112;1;V;75;
+324;Malou, nichon;les anecdotiques;0x;V76;1;"verre à pied/glace pilée
+
+";12;1;65;5;41112;1;V;76;
+325;Tibo;Oompa LoOmpa;0x;F30;1;"oldfashion/glace pilée
+
+";12;1;35;3;40575;1;F;30;
+326;Ti punch;Oompa LoOmpa;0x;F31;1;"broyer citron vert dans mixture/oldfashion
+
+traditionnellement le tipunch se boit sans glace
+
+";12;1;35;3;40575;1;F;31;
+327;Lava flow;rhumerie;0x;I53;1;verre coupe a glace /shaker sans le jus de fraise pour l effet svp+ tranche ananas et  cerise facon colada+barbe papa coco;13;1;65;5;41671;1;I;53;
+328;Bellini;bulles;0x;G58;1;verre bartender ;13;1;50;1;40575;1;G;58;
+329;Coco cup colada;tequilaterie;0x;J5;1;verre ananas:dans shaker 6cl mix Z2o(colada)+3 tequila+2 triple sec+jus ananas+jus tropical+jus pomme trouble+shaker fort;13;1;50;5;41112;1;J;5;
+330;Tape dans le fond je ne suis pas ta mère;mojito party;0x;M16;1;"verre à hanse-cognac/menthe fraiche/piler/broyeur/glace pilée
+
+";13;1;75;7;40575;1;M;16;
+331;Mojito S(event) nature ou fruite(1fruit);after-workers;0x;F0J;1;verre after 25cl;7,5;1;35;3;38384;1;F;0;J
+332;Salome di bahia;Oompa LoOmpa;0x;F32;1;tete de lego;12;1;35;3;40575;1;F;32;
+333;Japan colada;rhumerie;0x;I56;1;verre hurricane/ shaker/ + cerise facon colada+barbe papa coco;13;1;50;5;40940;1;I;56;
+334;Strawberry colada;rhumerie;0x;I57;1;verre coupe a glace/shaker + cerise facon colada et barbe a papa coco;13;1;50;5;40940;1;I;57;
+335;Espresso martini;les oublies;0x;Z9A;0;"shaker/verre à martini/grain café
+
+ou shaker le tails tres fort sur glacon et filtrer 25cl";7,5;1;35;3;40940;1;Z;9;A
+336;Straw bimbam colada;rhumerie;0x;I58;1;verre coupe a glace/shaker+facon colada;13;1;50;5;40940;1;I;58;
+337;Cuba libre;rhumerie;0x;I60;1;verre ananas ;12;1;50;6;38384;1;I;60;
+338;Oncle Picsou;Mocktail;0x;A86;1;verre urne;10;1;100;8;40940;1;A;86;
+339;La petite sirene (-16ans!!);mojito party;0x;M0F;1;verre strier ;10;1;100;8;40940;1;M;0;F
+340;Reine des neiges;Mocktail;0x;A88;1;verre urne ;10;1;100;8;40940;1;A;88;
+341;Pocahontas(-16ans!!);mojito party;0x;M0E;1;verre organique plat ;10;1;100;8;40940;1;M;0;E
+342;Pumba(-16ans!!);Mocktail;0x;A90;1;"verre strier petit 
+
+";10;1;100;8;40940;1;A;90;
+343;Aristochats (-16ans!!);Mocktail;0x;A91;1;verre bocal;10;1;100;8;40940;1;A;91;
+344;Rox et rocky(-16ans!!);Mocktail;0x;A92;1;verre strier ;10;1;100;8;40940;1;A;92;
+345;lynchburg limonade;jackdanielserie;0x;F7K;1;"verre à hanse/glace pilée
+
+";10;1;35;3;40940;1;F;7;K
+346;Wally gator ;Mocktail;0x;A93;1;verre pot de chambre ;10;1;100;8;40940;1;A;93;
+347;Dragon ball ;Mocktail;0x;A94;1;verre boule sa;10;1;100;8;40940;1;A;94;
+348;Pina colada;rhumerie;0x;I44;1;verre coupe a glace/dans shaker 8cl mix Z2o(colada)+6rhum+jus ananas+shaker fort;12;1;50;5;38384;1;I;44;
+349;Smart mojito SANS ALCOOL(!!pas en dessous de 16ans;mojito party;0x;M0D;1;"verre strier petit /menthe fraiche/piler/broyeur/glace pilée
+
+";10;1;100;8;40940;1;M;0;D
+350;Dr. Slump;Mocktail;0x;A96;1;verre disque /bibitte+nenette;10;1;100;8;40940;1;A;96;
+351;Mojito SANS ALCOOL nature ou fruite ;mojito party;0x;M0;1;"verre diamant petit /menthe fraiche/piler/broyeur/glace pilée
+
+";10;1;100;8;41153;1;M;0;
+352;MARAGARITA PARADISE ;tequilaterie;0x;J22;1;"verre margarita /BIEN SHAKER 
+
+";12;1;50;5;38384;1;J;22;
+353;Daiquiri;Oompa LoOmpa;0x;F34;1;"verre hurricane/shaker/filtrer
+
+";12;1;35;3;38384;1;F;34;
+354;Daiquiri fraise;Oompa LoOmpa;0x;F35;1;verre hurricane ;12;1;35;3;38384;1;F;35;
+355;Small Daiquiri nature;after-workers;0x;F0M;1;verre after 25cl;7,5;1;35;3;40200;1;F;0;M
+356;Daiquiri nature ou fruite event ;;0x;I66F;0;"verre à pied/glace pilée
+
+";3;1;50;5;40473;1;I;66;F
+357;Daiquiri sb;;0x;I66B;0;"verre à pied/glace pilée
+
+";0;1;50;5;40473;1;I;66;B
+358;Daiquiri jamaicain;;0x;I66D;0;"verre à pied/glace pilée
+
+";7;1;50;5;40473;1;I;66;D
+359;Saint Germain;bulles;0x;G1;1;verre weizenbeer ;13;1;75;7;40210;1;G;1;
+360;Vanité;bulles;0x;G10;1;verre bartender ;13;1;50;1;39479;1;G;10;
+361;Luxure;bulles;0x;G11;1;verre bartender ;13;1;50;1;39114;1;G;11;
+362;Zappe le nom;bulles;0x;G12;1;verre palladio;13;1;50;4;39845;1;G;12;
+363;Dragon;bulles;0x;G13;1;verre bartender ;13;1;50;1;40210;1;G;13;
+364;Puket;bulles;0x;G14;1;verre bartender;13;1;50;1;40210;1;G;14;
+365;Amistad;bulles;0x;G15;1;verre bartender ;13;1;50;1;40210;1;G;15;
+366;Lotus;bulles;0x;G16;1;verre palladio;13;1;50;1;40575;1;G;16;
+367;Rockilie;bulles;0x;G17;1;verre weizenbeer ;13;1;75;7;39918;1;G;17;
+368;Tentation;mojito party;0x;M33;1;"verre diamant Lg/menthe fraiche/piler/broyeur/glace pilée/fluo
+
+prix fast 15euro";13;1;75;7;39114;1;M;33;
+369;Whishette;bulles;0x;G19;1;verre bartender;13;1;50;1;39479;1;G;19;
+370;Somptueux;bulles;0x;G2;1;verre bartender ;13;1;50;1;39845;1;G;2;
+371;Casanova;bulles;0x;G20;1;"verre à pied/glace pilée/fluo
+
+";13;1;50;1;39845;1;G;20;
+372;Vampire;bulles;0x;G21;1;verre V25;13;1;75;7;40940;1;G;21;
+373;Salade de cul tournee;mojito party;0x;M5;1;"verre palladio/facon mojito/glace pilée/fluo
+
+";13;1;50;4;40575;1;M;5;
+374;Tsunami;grand format;0x;Z5P;0;"
+
+pour 10 à 12 personnes ";100;1;1000;11;39479;1;Z;5;P
+375;Big badaboum;grand format;0x;Z5T;0;pour 10 à 12 personnes ;120;1;1000;11;39479;1;Z;5;T
+376;Bonne franquette;bulles;0x;G3;1;verre bartender ;13;1;50;1;39479;1;G;3;
+377;Cannibale;grand format;0x;Z5U;0;pour 10 à 12 personnes ;90;1;1000;11;40575;1;Z;5;U
+378;Loulou;grand format;0x;Z5S;0;"glace pilée/fluo
+
+pour 10 personnes";90;1;1000;11;40575;1;Z;5;S
+379;Grisha;bulles;0x;G4;1;verre bartender ;13;1;75;7;39845;1;G;4;
+380;Nuit folle;bulles;0x;G5;1;verre bartender ;13;1;50;1;39114;1;G;5;
+381;Fisty boy;bulles;0x;G6;1;verre weizenbeer ;13;1;75;7;39479;1;G;6;
+382;Champs Elysée;bulles;0x;G7;1;verre bartender ;13;1;50;1;39845;1;G;7;
+383;Poison;bulles;0x;G8;1;verre palladio;13;1;50;4;39845;1;G;8;
+384;French 75(soixante quinze);bulles;0x;G9;1;verre palladio;13;1;50;1;39845;1;G;9;
+385;Sputnik;vodkaterie;0x;H1;1;verre palladio;13;1;50;4;39479;1;H;1;
+386;S.O.S cocktail;vodkaterie;0x;H10;1;verre palladio;13;1;50;4;39479;1;H;10;
+387;Kirigan;vodkaterie;0x;H11;1;verre palladio;13;1;50;4;39845;1;H;11;
+388;Génération Z;vodkaterie;0x;H12;1;verre sangria;13;1;65;5;39479;1;H;12;
+389;Anarchy;vodkaterie;0x;H13;1;verre sangria ;12;1;65;5;38749;1;H;13;
+390;Stalingrad;vodkaterie;0x;H14;1;"verre cabernet/glace pilée
+
+";12;1;50;5;38384;1;H;14;
+391;Coco Rasputin;freaky;0x;L28;1;verre palladio/facon freaky/bien melanger ;15;1;50;4;38749;1;L;28;
+392;Nain sadique;vodkaterie;0x;H16;1;verre sangria ;12;1;50;5;39845;1;H;16;
+393;Tête de brique;vodkaterie;0x;H17;1;verre hanse/melanger ;12;1;50;6;39845;1;H;17;
+394;Prizska;vodkaterie;0x;H18;1;verre weizenbeer ;13;1;75;7;39479;1;H;18;
+395;Big Lebowsky;freaky;0x;L19;1;verre palladio/facon freaky/bien melanger ;15;1;50;4;38384;1;L;19;
+396;Sugar baby;freaky;0x;L4;1;verre diamant lg/facon freaky/bien melanger ;15;1;50;6;39845;1;L;4;
+397;Caipiroska;Oompa LoOmpa;0x;F20;1;"verre tete lego/glace pilée
+
+";12;1;35;3;38749;1;F;20;
+398;Y'est la;vodkaterie;0x;H21;1;verre cabernet/shaker ;12;1;50;5;40210;1;H;21;
+399;Bloody Lola;vodkaterie;0x;H22;0;"verre à pied
+
+";12;1;50;5;38384;1;H;22;
+400;Purple rain;vodkaterie;0x;H23;1;verre cabernet ;12;1;50;5;38384;1;H;23;
+401;Co-jito;mojito party;0x;M24;1;"verre E18/menthe fraiche/piler/broyeur/glace pilée
+
+";12;1;50;6;38384;1;M;24;
+402;Big Bang theorie;films & series incontournables;0x;D109;1;verre weizenbeer/2s violette + 10 mix Z2e(b51)+L barbe a papa+j fraise+barbe;13;1;50;4;38384;1;D;109;
+403;Barbar;vodkaterie;0x;H3;1;"verre bartender 
+
+";13;1;50;4;38749;1;H;3;
+404;Papaoutez;vodkaterie;0x;H4;1;verre coupe a glace ;12;1;50;6;39114;1;H;4;
+405;Chant russe;vodkaterie;0x;H5;1;verre ananas ;12;1;65;5;39479;1;H;5;
+406;Froid de canard;vodkaterie;0x;H6;1;verre E18;12;1;50;6;39845;1;H;6;
+407;Darth Nihilus;bulles;0x;G59;1;verre weizenbeer ;13;1;75;7;40210;1;G;59;
+408;Bilquies ;vodkaterie;0x;H8;1;verre tiki pt ;12;1;50;5;39845;1;H;8;
+409;Crystalisation;vodkaterie;0x;H9;1;verre sangria ;12;1;50;5;39845;1;H;9;
+410;Choupe;rhumerie;0x;I1;1;verre coupe plate ;12;1;50;6;38384;1;I;1;
+411;Robinson colada;rhumerie;0x;I10;1;"verre tiki gd/shaker/facon colada
+
+";12;1;50;5;39114;1;I;10;
+412;Serenity;mojito party;0x;M11;1;"verre weizenbeer /menthe fraiche/piler/broyeur/glace pilée
+
+";12;1;65;5;40210;1;M;11;
+413;Hurricane;rhumerie;0x;I12;1;verre cabernet ;12;1;50;6;39479;1;I;12;
+414;Guantanamo;rhumerie;0x;I13;1;verre tiki gd ;12;1;50;5;39479;1;I;13;
+415;Coconuts;Sweety;0x;S1B;1;"diamant lg/melanger
+
+";15;1;50;4;39479;1;S;1;B
+416;Hemingway road;rhumerie;0x;I15;1;verre tiki pt;12;1;50;5;39479;1;I;15;
+417;Nikky beach;rhumerie;0x;I16;1;verre sangria ;12;1;50;5;39845;1;I;16;
+418;Black pearl;jackdanielserie;0x;I17;1;verre tiki gd/melanger ;13;1;50;6;39479;1;I;17;
+419;Mangaroka mango;rhumerie;0x;I18;1;verre tiki gd ;12;1;50;5;39845;1;I;18;
+420;Litchi-colada;rhumerie;0x;I19;1;verre cabernet/dans shaker 6cl mix Z2o(colada)+2 l.litchis+4 rhum+jus ananas+jus litchis+shaker fort;12;1;50;5;39479;1;I;19;
+421;Mathias ;rhumerie;0x;I2;1;verre palladio;12;1;65;5;38749;1;I;2;
+422;Daytona;mojito party;0x;M23;1;"verre ananas/menthe fraiche/piler/broyeur/glace pilée
+
+";13;1;50;6;40210;1;M;23;
+423;MaÏ-taÏ revisite;rhumerie;0x;I21;1;verre tete de lego ;12;1;50;6;41671;1;I;21;
+424;Ken van poupon;rhumerie;0x;I22;1;verre cognac ;15;1;50;6;41671;1;I;22;
+425;Baie des cochons;rhumerie;0x;I23;1;verre tiki gd ;12;1;65;5;40210;1;I;23;
+426;Torero;mojito party;0x;M19;1;"verre E18/menthe fraiche/piler/broyeur/glace pilée/(sangria maison en dernier)
+
+";12;1;50;6;41671;1;M;19;
+427;Maracuja;rhumerie;0x;I3;1;verre ananas ;12;1;50;5;39114;1;I;3;
+428;Rhum Addict;rhumerie;0x;I4;1;verre tiki gd ;12;1;50;5;38749;1;I;4;
+429;Macumba;rhumerie;0x;I5;1;verre tiki gd;12;1;50;5;39479;1;I;5;
+430;Jack sparrow;rhumerie;0x;I6;1;verre tiki gd;12;1;50;5;39845;1;I;6;
+431;Tattoo;rhumerie;0x;I7;1;verre ananas;12;1;50;5;39114;1;I;7;
+432;Waikiki beach;rhumerie;0x;I8;1;verre tiki pt ;12;1;65;5;39479;1;I;8;
+433;Requin corrompu;rhumerie;0x;I9;1;verre bartender ;13;1;50;4;39479;1;I;9;
+434;Mike Tyson;tequilaterie;0x;J1;1;verre bartender /shaker  fort;12;1;50;5;40210;1;J;1;
+435;Oh lala;tequilaterie;0x;J10;1;"verre bartender /glace pilée
+
+";12;1;65;5;40940;1;J;10;
+436;Métrophyle;tequilaterie;0x;J2;1;"verre bartender/glace pilée
+
+";12;1;50;5;40210;1;J;2;
+437;Copacabana colada;tequilaterie;0x;J3;1;"verre Weizenbeer/dans shaker:8mix z2o(colada)+2 ts+4 tequila+jus ananas
+
+";13;1;75;7;40210;1;J;3;
+438;Santa Muerte;tequilaterie;0x;J4;1;skull;13;1;50;4;40210;1;J;4;
+439;Chop socky choops;Sweety;0x;S55;1;verre palladio;15;1;50;4;40940;1;S;55;
+440;Heisenberg;tequilaterie;0x;J6;1;"verre sangria/shaker
+
+";12;1;50;5;40940;1;J;6;
+441;Le doigt de Satan;tequilaterie;0x;J7;1;"verre cabernet /glace pilée
+
+";12;1;35;3;40210;1;J;7;
+442;Kalimba;tequilaterie;0x;J8;1;;13;1;50;4;40210;1;J;8;
+443;Goldie Roger;tequilaterie;0x;J9;1;verre cabernet ;12;1;50;6;40210;1;J;9;
+444;Pink lady;ginto&Co;0x;K1;1;"verre ginto/shaker/mixture et 2citron pressé sans eau petillante
+
+";12;1;50;6;39114;1;K;1;
+445;Bouddha;ginto&Co;0x;K10;1;verre E18;12;1;50;5;39114;1;K;10;
+446;Gin and dream;ginto&Co;0x;K16;1;verre pallaio;13;1;50;4;39114;1;K;16;
+447;London time;ginto&Co;0x;K3;1;verre cognac ;12;1;50;6;39479;1;K;3;
+448;Singapor sling's colada;ginto&Co;0x;K4;1;verre palladio/tout shaker sauf grenadine  et liqueur cerise en finition;12;1;50;5;39479;1;K;4;
+449;Pondichery colada;ginto&Co;0x;K5;1;verre cabernet/shaker + cerise facon colada;12;1;65;5;38749;1;K;5;
+450;Tom Collin's;ginto&Co;0x;K6;1;verre tumbler;12;1;50;6;38384;1;K;6;
+451;Vipere;ginto&Co;0x;K7;1;verre e18;12;1;50;6;39479;1;K;7;
+452;ikitos;ginto&Co;0x;K8;1;verre coupoe a glace ;12;1;50;5;39114;1;K;8;
+453;Paradise;ginto&Co;0x;K9;1;verre tiki gd ;12;1;50;5;39479;1;K;9;
+454;Secret bar;bonnes adresses;0x;X42;1;verre E18;12;1;50;6;41112;1;X;42;
+455;Happy jack mons;bonnes adresses;0x;X37;1;"skull/3pipettes
+
+";13;1;50;6;41112;1;X;37;
+456;icona;bonnes adresses;0x;X43;1;verre weizenbeer ;13;1;75;7;41112;1;X;43;
+457;Burger Queen;bonnes adresses;0x;X38;1;verre sangria ;12;1;65;5;41112;1;X;38;
+458;Zoo club y fiesta;bonnes adresses;0x;X39;1;verre palladio;13;1;50;4;41112;1;X;39;
+459;chez louise;bonnes adresses;0x;X44;1;verre sangria / melanger;13;1;50;6;41112;1;X;44;
+460;Cafe theatre;bonnes adresses;0x;X40;1;"verre tiki pt/shaker
+
+";12;1;50;5;41112;1;X;40;
+461;Pop culture ;Sweety;0x;S53;1;"verre bartender/glace pilée/fluo
+
+";15;1;50;4;41649;1;S;53;
+462;Kentucky;jackdanielserie;0x;F7G;1;"verre sangria shaker sauf grenadine
+
+";13;1;50;4;39479;1;F;7;G
+463;ça sent le sapin;mojito party;0x;M18;1;"verre ananas/facon mojito/glace pilée
+
+10 mix z2w(sour)+3 rhum+2L ananas+limonade";13;1;75;7;39479;1;M;18;
+464;Riff's club;jackdanielserie;0x;F7J;0;"verre old fashion(bord cacao)/glacer verre/ shaker/filtrer /
+
+ecorce d orange ";11;1;35;3;38384;1;F;7;J
+465;Mini moi;jackdanielserie;0x;F7H;1;verre cabernet / 10 mix z2w(sour)+2 sky+3 triple sec+j orange+1 s grenadine;12;1;50;5;39479;1;F;7;H
+466;Manneken pils flambe;beertails flambes;0x;N1A;1;"lunette/verser bière 33cl et allonger vin blanc dans pichet 1L/flamber base, servir et étouffer avec pichet
+
+";25;1;200;13;40940;1;N;1;A
+467;Fruit of the loom;beertails;0x;N10;1;verre pyramide ;12;1;75;7;41671;1;N;10;
+468;Mojito beer;mojito party;0x;N4;1;"Verre tour à empiler/servir on the rock
+
+";15;1;200;13;40940;1;N;4;
+469;Dunkerque ;beertails;0x;N2;1;verre bagarre/mix Z2q 12cl+2 gin+limonade+bouteille despe retournee dans verre ;15;1;200;13;40940;1;N;2;
+470;Tatouf métouf;beertails;0x;N3;1;verre carre/10cl de mix z2(margarita)+2s cerise+coca0+fruitesse retournee;15;1;200;13;41456;1;N;3;
+471;Karlytos flambe;beertails flambes;0x;N1D;1;"lunette/verser bière 33cl et allonger vin blanc dans pichet 1L/flamber base, servir et étouffer avec pichet
+
+";25;1;200;13;41456;1;N;1;D
+472;Dikkenek(biere flambee pour 2pers.);beertails flambes;0x;N1C;1;"lunette/verser bière 33cl et allonger vin blanc dans pichet 1L/flamber base, servir et étouffer avec pichet
+
+";25;1;200;13;41456;1;N;1;C
+473;Sein tcho;beertails;0x;N6;1;verre hanse/!!! retourner desperados dans le verre avant de servir ;13;1;50;6;41456;1;N;6;
+474;Sky-rito;mojito party;0x;N4A;1;"verre tour à emplier/facon mojito/glace pilée/servir la desperados renversé dans le verre
+
+";13;1;200;13;41426;1;N;4;A
+475;Rubicube(biere flambee pour 2pers.);beertails flambes;0x;N1B;1;"lunette/verser bière 33cl et allonger vin blanc dans pichet 1L/flamber base, servir et étouffer avec pichet
+
+";25;1;200;13;41671;1;N;1;B
+476;irish demi litre;hot;0x;O1;1;"flamber base & étouffer/verser café à la cuillère/chantilly
+
+";15;1;50;4;38384;1;O;1;
+477;Chocobailey's;hot;0x;O10;1;"flamber base & étouffer/verser cecemel/chantilly ou
+
+mousse de lait=shaker 10cl lait pour 2sachet de sucre S2
+
+";15;1;50;2;38384;1;O;10;
+478;Atomic nounours;hot;0x;O11;1;"chauffer mixture puis servir à table flambée
+
+";15;1;50;2;38384;1;O;11;
+479;Sugar Moon;hot;0x;O12;1;"flamber base & étouffer/verser café à la cuillère/chantilly
+
+
+
+";15;1;50;2;40210;1;O;12;
+480;Chaud devant flambe;hot;0x;O13;1;"chauffer mixture puis servir flamber à table+confiseries sur le cote
+
+";15;1;50;2;39479;1;O;13;
+481;Fracasseur;hot;0x;O14;1;"chauffer mixture puis servir flamber à table+confiseries sur le cote
+
+";15;1;50;2;39479;1;O;14;
+482;Pirates Coffee;hot;0x;O15;1;"flamber base & étouffer/verser café à la cuillère/chantilly
+
+";15;1;50;2;41671;1;O;15;
+483;Canipull;hot;0x;O16;1;"chauffer mixture puis verser cafe a la cuillere+1brownie avec 3 petales de chips au chocolat
+
+";15;1;50;2;39479;1;O;16;
+484;Bhiuiu;hot;0x;O33;0;"chauffer mixture puis servir flamber à table
+
+";8;1;50;2;39479;1;O;33;
+485;Caramel coffee;hot;0x;O18;1;"flamber base & étouffer/verser café à la cuillère/chantilly
+
+";15;1;50;4;39479;1;O;18;
+486;Duke togo;hot;0x;O19;1;"flamber base & étouffer/verser café à la cuillère/mousse de lait
+
+mousse de lait=shaker 10cl lait pour 2sachet de sucre S2
+
+";15;1;50;4;39845;1;O;19;
+487;italian coffee;hot;0x;O2;1;"verre bartender/flamber base & étouffer/verser café à la cuillère
+
+";15;1;50;4;38384;1;O;2;
+488;Vieille morrue;hot;0x;O20;1;"verre hanse / chauffer mixture puis verser cafr a la cuillere+chantilly+gourmandises chocolatees
+
+";15;1;50;2;39845;1;O;20;
+489;Gorky;hot;0x;O21;1;"faire couler cafe pendant que la mixture chauffe puis flamber-etouffer et verser +cafe+chantilly
+
+";15;1;50;2;40940;1;O;21;
+490;Honey coffee;hot;0x;O22;1;"flamber base & étouffer/verser café à la cuillère/chantilly
+
+";15;1;75;7;39479;1;O;22;
+491;Golgo 13;hot;0x;O23;1;"flamber base & étouffer/verser café à la cuillère/mousse de lait
+
+mousse de lait=shaker 10cl lait pour 2sachet de sucre S2
+
+";15;1;50;4;40940;1;O;23;
+492;French coffee;hot;0x;O3;0;"flamber base & étouffer/verser café à la cuillère/chantilly
+
+";13;1;50;4;38384;1;O;3;
+493;Mexican coffee;hot;0x;O4;1;"flamber base & étouffer/verser café à la cuillère/chantilly
+
+";15;1;50;4;38384;1;O;4;
+494;Amsterdam coffee;hot;0x;O5;1;"flamber base & étouffer/verser café à la cuillère/chantilly
+
+";15;1;50;2;38384;1;O;5;
+495;Jamaican coffee;hot;0x;O6;1;"flamber base & étouffer/verser café à la cuillère/chantilly
+
+";15;1;50;4;38384;1;O;6;
+496;Tournai coffee;hot;0x;O7;1;"flamber base & étouffer/verser café à la cuillère/chantilly
+
+";15;1;50;4;38384;1;O;7;
+497;Belgium coffee;hot;0x;O8;1;"flamber base & étouffer/verser café à la cuillère/chantilly
+
+";15;1;50;4;38384;1;O;8;
+498;Quai des bananes coffee;hardcore;0x;O9;1;"verre weizenbeer /flamber base & étouffer/verser café à la cuillère/chantilly
+
+";25;1;50;7;38384;1;O;9;
+499;Lille;bonnes adresses;0x;Q1;1;verre tiki gd ;12;1;50;5;38384;1;Q;1;
+500;Dien bien phu;bonnes adresses;0x;Q10;1;verre coupe a glace ;12;1;50;5;38749;1;Q;10;
+501;Bangkok;bonnes adresses;0x;Q11;1;verre E18;12;1;50;6;38749;1;Q;11;
+502;Marly gomont;bonnes adresses;0x;Q12;1;verre ananas/melanger ;12;1;50;6;38749;1;Q;12;
+503;Bodrum;bonnes adresses;0x;Q13;1;verre bartender ;12;1;50;5;38749;1;Q;13;
+504;Mururoa;bonnes adresses;0x;Q14;1;verre E18;12;1;50;6;38749;1;Q;14;
+505;Tchernobyl;bonnes adresses;0x;Q15;1;"verre palladio/3pipettes
+
+";13;1;50;4;38749;1;Q;15;
+506;Bastogne;freaky;0x;L9;1;verre bocal/facon freaky/bien melanger ;15;1;50;6;38749;1;L;9;
+507;Atlantide;bonnes adresses;0x;Q17;1;verre cognac;13;1;50;6;38749;1;Q;17;
+508;St tropez;bonnes adresses;0x;Q18;1;verre sangria ;12;1;65;5;38749;1;Q;18;
+509;Bruxelles;freaky;0x;L10;1;verre strier/facon freaky/bien melanger ;15;1;50;4;38749;1;L;10;
+510;Ravka;bonnes adresses;0x;Q2;1;verre sangria ;12;1;65;5;38384;1;Q;2;
+511;Amsterdam;bonnes adresses;0x;Q20;1;skull;12;1;50;5;38749;1;Q;20;
+512;Los Angeles;bonnes adresses;0x;Q21;1;verre sangria / melanger ;12;1;50;5;40940;1;Q;21;
+513;Hong Kong;bonnes adresses;0x;Q22;1;verre cabernet/shaker / facon colada;12;1;50;5;40940;1;Q;22;
+514;Ibiza;bonnes adresses;0x;Q23;1;verre E18;12;1;50;6;40940;1;Q;23;
+515;Bollywood;bonnes adresses;0x;Q24;1;verre tiki pt ;12;1;50;6;40940;1;Q;24;
+516;Berlin;bulles;0x;G46;1;verre diamant lg ;13;1;75;7;40940;1;G;46;
+517;Malaga;bulles;0x;G47;1;verre diamant long ;15;1;75;7;40940;1;G;47;
+518;Death trip;Sweety;0x;S19;1;"verre fist
+
+";15;1;75;7;41579;1;S;19;
+519;Gimme danger ;Sweety;0x;S20;1;"verre cognac/shaker
+
+";15;1;50;4;41577;1;S;20;
+520;Durbuy;freaky;0x;L44;1;verre bocal;15;1;75;7;41548;1;L;44;
+521;Bagdad;freaky;0x;L7;1;verre diamant lg/facon freaky/bien melanger ;15;1;50;6;38749;1;L;7;
+522;Shanghai;bonnes adresses;0x;Q30;1;verre cabernet;12;1;50;5;41557;1;Q;30;
+523;Beyrouth;bonnes adresses;0x;Q4;0;;13;1;75;7;38749;1;Q;4;
+524;Bangladesh;bonnes adresses;0x;Q5;1;verre bartender ;12;1;50;5;38384;1;Q;5;
+525;Bogota;bonnes adresses;0x;Q6;1;verre ananas ;12;1;50;5;38749;1;Q;6;
+526;Koweït city;freaky;0x;L8;1;verre cognac ;15;1;50;6;38749;1;L;8;
+527;Abhidjan;bulles;0x;G49;1;verre weizen beer ;13;1;75;7;38749;1;G;49;
+528;Babylone;bonnes adresses;0x;Q9;1;verre tiki pt;12;1;50;5;38749;1;Q;9;
+529;Trash attitude;vodkaterie;0x;H56;1;verre cabernet ;12;1;50;5;39479;1;H;56;
+530;69 Attitude;vodkaterie;0x;H57;1;"verre bartender
+
+";13;1;50;4;40210;1;H;57;
+531;Mode off attitude ;tequilaterie;0x;J26;1;"skull
+
+";13;1;50;4;40210;1;J;26;
+532;Sex attitude;mojito party;0x;M29;1;"verre V25/menthe fraiche/piler/broyeur/glace pilée/fluo
+
+";13;1;75;7;40210;1;M;29;
+533;Suicide attitude;ginto &Co;0x;K14;1;verre bartender;13;1;50;4;40210;1;K;14;
+534;Casper;Mocktail;0x;A112;1;"verre monster large 
+
+";10;1;100;8;40210;1;A;112;
+535;Rock and Roll attitude;vodkaterie;0x;H58;1;verre tiki pt ;12;1;50;6;40210;1;H;58;
+536;Clubber attitude;Sweety;0x;S38;1;verre fist ;15;1;75;7;40210;1;S;38;
+537;Belgo attitude;tequilaterie;0x;J27;1;verre bartender ;13;1;50;4;41562;1;J;27;
+538;QDB attitude on top;vodkaterie;0x;H59;1;verre cabernet;12;1;50;5;41581;1;H;59;
+539;Emouvant attitude;vodkaterie;0x;H60;1;"sverre sngria /haker sans sirop 
+
+";12;1;50;5;41557;1;H;60;
+540;Klass a Dallas attitude ;Sweety;0x;S41;1;verre monster;15;1;75;7;39479;1;S;41;
+541;Love attitude;tequilaterie;0x;J28;1;verre cabernet ;12;1;50;5;39479;1;J;28;
+542;Lolesk attitude;rhumerie;0x;I20;1;verre cabernet;12;1;50;5;39479;1;I;20;
+543;Beware attitude;rhumerie;0x;I24;1;verre weizenbeer/shaker sans piment ;13;1;75;7;39479;1;I;24;
+544;Travel attitude;tequilaterie;0x;J29;1;verre cabernet ;12;1;50;5;39479;1;J;29;
+545;Kaotik attitude;Sweety;0x;S51;1;verre fist;15;1;75;7;38384;1;S;51;
+546;Bea attitude;rhumerie;0x;I28;1;verre anans /shaker;12;1;50;5;38384;1;I;28;
+547;Garce attitude;vodkaterie;0x;H61;1;verre weizenbeer;12;1;75;7;40210;1;H;61;
+548;Darth Tyranus;bulles;0x;G29;1;"glace pilée/fluo
+
+";13;1;75;7;40210;1;G;29;
+549;Da Vinci;Sweety;0x;M17;1;"verre V25/menthe fraiche/piler/broyeur/glace pilée/fluo
+
+";15;1;75;7;40210;1;M;17;
+550;Kylo ren;bulles;0x;G30;1;verre weizenbeer ;13;1;75;7;40210;1;G;30;
+551;Clone war;"Sweety
+
+SweetY";0x;S12;1;verre monster ;15;1;75;7;40210;1;S;12;
+552;Padawan;bulles;0x;G32;1;verre organique - monster ;15;1;75;7;40940;1;G;32;
+553;C-3po;bulles;0x;G34;1;verre weizenbeer ;13;1;75;7;40210;1;G;34;
+554;Windu;bulles;0x;G35;1;verre weizenbeer ;13;1;75;7;40210;1;G;35;
+555;Jar jar binks;bulles;0x;G36;1;verre palladio;13;1;75;7;40210;1;G;36;
+556;Boba fett;bulles;0x;G37;1;verre fist;13;1;75;7;40210;1;G;37;
+557;Sam Vador;bulles;0x;G38;1;"verre weizenbeer 
+
+";13;1;75;7;40210;1;G;38;
+558;Leia;bulles;0x;G39;1;verre weizenbeer ;13;1;75;7;40210;1;G;39;
+559;Capitaine phasma;bulles;0x;G40;1;verre weizenbeer;13;1;75;7;40210;1;G;40;
+560;Yoda;bulles;0x;G41;1;verre weizenbeer ;13;1;75;7;40210;1;G;41;
+561;Biohazard;bonheur en concentré;0x;T1;1;verre bartender ;12;1;50;5;40940;1;T;1;
+562;Zoovage ;bonheur en concentré;0x;T10;1;verre ananas ;12;1;50;5;40210;1;T;10;
+563;Antiride;pharmacocktailerie;0x;T11;1;verre E18;12;1;50;6;40210;1;T;11;
+564;i love boobs ;bulles;0x;G50;1;verre weizenbeer ;13;1;75;7;40210;1;G;50;
+565;Boris le hachoir;bonheur en concentré;0x;T13;1;verre palladio;13;1;50;5;40210;1;T;13;
+566;Docteur Wasabi;bulles;0x;G51;1;verre fist ;13;1;75;7;40210;1;G;51;
+567;Luffy;bonheur en concentré;0x;T15;1;verre coupe a glace ;12;1;50;5;40210;1;T;15;
+568;Rrrrrrrrrrrrrr;bonheur en concentré;0x;T16;1;verre E18;12;1;50;6;40210;1;T;16;
+569;La part des anges ;bonheur en concentré;0x;T17;1;verre fiole ;15;1;50;6;40210;1;T;17;
+570;Nounoune slap;bonheur en concentré;0x;T18;1;verre bartender ;12;1;50;5;40210;1;T;18;
+571;Flamant rose;bonheur en concentré;0x;T19;1;verre cabernet ;12;1;50;5;40940;1;T;19;
+572;Constancia;bonheur en concentré;0x;T2;1;verre cabernet ;12;1;50;5;40210;1;T;2;
+573;Van Gogh mojito;mojito party;0x;M45;1;"verre ananas/menthe fraiche/piler/broyeur
+
+";13;1;50;4;40940;1;M;45;
+574;Woody Allen;mojito party;0x;M9;1;verre palladio/facon mojito;13;1;50;4;40940;1;M;9;
+575;Trinosphie;bonheur en concentré;0x;T22;1;verre coupe plate ;12;1;50;5;40940;1;T;22;
+576;Paintball;bonheur en concentré;0x;T23;1;verre coupe plate ;12;1;50;6;40210;1;T;23;
+577;Gazelle;bonheur en concentré;0x;T24;1;verre sangria ;12;1;50;5;40210;1;T;24;
+578;Klingon;Oompa LoOmpa;0x;F37;1;"verre à martini rafraichis/cuillere à etage /toping chocolat sur verre accorde
+
+";12;1;35;3;40210;1;F;37;
+579;Druide;bonheur en concentré;0x;T26;1;verre cabernet ;13;1;50;4;40210;1;T;26;
+580;Qui cherche embrouille goute a mes couilles;les anecdotiques;0x;V29;1;verre cabernet/melanger ;12;1;50;5;40210;1;V;29;
+581;Gland cerebral;Sweety;0x;S36;1;"verre monster/glace pilée
+
+";15;1;75;7;40210;1;S;36;
+582;Khazare;bonheur en concentré;0x;T29;1;verre ananas ;13;1;50;6;40210;1;T;29;
+583;Doudou;bonheur en concentré;0x;T3;1;verre E18;12;1;50;6;40210;1;T;3;
+584;Mother fucker;hardcore;0x;Y2D;1;verre weizenbeer ;25;1;50;7;41640;1;Y;2;D
+585;Picouze;hardcore;0x;Y0G;1;verre weizenbeer ;25;1;50;7;41671;1;Y;0;G
+586;Paradoxe de Fermi;bonheur en concentré;0x;T32;1;diamant long ;15;1;75;7;45427;1;T;32;
+587;Arsh Del tauro;hardcore;0x;Y0O;1;verre monster ;25;1;75;7;41671;1;Y;0;O
+588;Dariouska;bonheur en concentré;0x;T4;1;verre tiki pt ;12;1;50;6;40210;1;T;4;
+589;Taratata;bonheur en concentré;0x;T5;1;verre cabernet/melanger ;12;1;50;5;40179;1;T;5;
+590;izma;bonheur en concentré;0x;T6;1;verre ananas ;12;1;50;6;40210;1;T;6;
+591;Chippa munka;bonheur en concentré;0x;T7;1;verre e18;12;1;50;6;40210;1;T;7;
+592;Florby;bonheur en concentré;0x;T8;1;verre bartender ;12;1;50;5;40210;1;T;8;
+593;L'antre de Davy Jones ;bonheur en concentré;0x;T9;1;skull;15;1;75;7;40210;1;T;9;
+594;Barjot;bonheur en concentré;0x;U1;1;skull/3 pipettes absynthe ;15;1;50;6;40210;1;U;1;
+595;La mutante;bonheur en concentré;0x;U2;1;"verre bartender/3 pipettes absynthe 
+
+";13;1;50;5;40210;1;U;2;
+596;Venom;bonheur en concentré;0x;U3;1;"verre palladio/3 pipettes absynthe 
+
+";13;1;50;4;40210;1;U;3;
+597;Coeur de pierre;bonheur en concentré;0x;U4;0;;12;1;50;5;40210;1;U;4;
+598;Lundi perdu;Sweety;0x;S31;1;"verre coupe a glace/glace pilée/Liqueur banane verte en dernier dans le verre/
+
+";15;1;50;4;41671;1;S;31;
+599;Satanas;bonheur en concentré;0x;U6;1;verre palladio;13;1;50;4;41671;1;U;6;
+600;Flerken;mojito party;0x;M51;1;verre fiole facon mojito;15;1;50;6;40940;1;M;51;
+601;Team phallus;les anecdotiques;0x;V10;1;verre bartender/15cl mix z2h+2cl s orgeat+diabolo;13;1;50;4;40940;1;V;10;
+602;Let s Go Brandon;freaky;0x;L46;1;verre cognac;15;1;50;4;40940;1;L;46;
+603;Pigme morfale;bulles;0x;G56;1;verre bartender  ;13;1;50;4;40940;1;G;56;
+604;Baisse ta culotte, je pilote ;les anecdotiques;0x;V13;1;verre skull;13;1;50;4;40940;1;V;13;
+605;La pantère rose ;Mocktail;0x;A109;1;verre boule sa ;10;1;100;8;40940;1;A;109;
+606;Tiroir ananas;les anecdotiques;0x;V15;1;verre sangria ;12;1;50;6;40940;1;V;15;
+607;Picoti picota;les anecdotiques;0x;V16;1;verre ananas ;12;1;65;5;40909;1;V;16;
+608;Kaa;ginto &Co;0x;K12;1;verre cabernet  ;12;1;65;5;40909;1;K;12;
+609;Baghera;vodkaterie;0x;H45;1;verre E18;12;1;50;6;40909;1;H;45;
+610;Marsupilami;bulles;0x;G43;1;verre bartender ;13;1;50;4;40909;1;G;43;
+611;Wanna Be Your Dog ;Sweety;0x;S18;1;verre palladio;15;1;50;4;40940;1;S;18;
+612;Spider cochon;les anecdotiques;0x;V20;1;verre bartender ;13;1;50;4;40909;1;V;20;
+613;Pinpin;vodkaterie;0x;H46;1;verre bartender;12;1;65;5;40909;1;H;46;
+614;zeste d'Amour ;bulles;0x;G44;1;verre fist ;13;1;75;7;40909;1;G;44;
+615;Maracasse;Oompa LoOmpa;0x;F27;1;"oldfashion/shaker et egrainer 1 fruit de la passion/ filtrer le tout /glace pilée/garnir un fruit de la passion de framboise fraiche et feuille de menthe sur bord du verre
+
+";12;1;35;3;40909;1;F;27;
+616;Ladies night;freaky;0x;L47;1;verre bocal;15;1;50;6;40909;1;L;47;
+617;Manusse;freaky;0x;L36;1;"verre palladio
+
+";15;1;50;4;40909;1;L;36;
+618;Cunningham;les anecdotiques;0x;V25;1;verre v25/mixZ2q:11cl+2CL GIN+limonade+2 curacao bleu;13;1;50;6;41561;1;V;25;
+619;Burn out;mojito party;0x;M26;1;verre aquarium/facon mojito ;13;1;75;7;41562;1;M;26;
+620;Magritto;mojito party;0x;M7;1;"verre Weizenbeer/menthe fraiche/piler/broyeur/glace pilée
+
+";12;1;75;7;41557;1;M;7;
+621;Jerricane attitude 5L;grand format;0x;Z5M;1;"dans une jerricane de 5L pour 8 à 10 personnes 
+
+";90;1;1000;11;41275;1;Z;5;M
+622;Je crois que j ai vue un gros zizi;les anecdotiques;0x;V3;1;verre palladio;13;1;50;4;40940;1;V;3;
+623;Perle du Nord;Sweety;0x;S30;1;verre organique / Monster ;15;1;75;7;41580;1;S;30;
+624;Razta chatte ;les anecdotiques;0x;V4;1;verre sangria ;12;1;50;5;40940;1;V;4;
+625;Rien merci;les anecdotiques;0x;V5;1;;12;1;50;5;40940;1;V;5;
+626;Tit battard;Sweety;0x;S27;1;"verre coupe a glace/glace pilée/
+
+shaker";15;1;50;4;40940;1;S;27;
+627;Minautore;Sweety;0x;S21;1;"verre bartender/glace pilée/fluo
+
+";15;1;50;4;40940;1;S;21;
+628;Zoulou;bulles;0x;G45;1;verre weizenbeer ;13;1;75;7;40940;1;G;45;
+629;Chichi ;vodkaterie;0x;H48;1;verre coupe a glace/ dans shaker 8cl mix Z2o(colada)+5 vodka+jus ananas+shaker fort+cerise marascin;12;1;50;5;40940;1;H;48;
+630;Cupidon;grand format;0x;Z5A;1;"arrosoir
+
+";25;1;200;15;38384;1;Z;5;A
+631;Big mojito;grand format;0x;Z5I;0;"menthe fraiche/piler/broyeur/glace pilée
+
+pour 5 à 10 personnes 
+
+";75;1;1000;11;41196;1;Z;5;I
+632;Zamoureux;grand format;0x;Z5B;1;"arrosoir
+
+";25;1;200;15;38397;1;Z;5;B
+633;Lion;cocktails astrales;0x;Z3C;1;"arrosoir/tt fois 2
+
+";25;1;200;15;40940;1;Z;3;C
+634;Gémeaux;cocktails astrales;0x;Z3D;1;"arrosoir/tt fois 2
+
+";25;1;200;15;38384;1;Z;3;D
+635;Bélier;cocktails astrales;0x;Z3E;1;"arrosoir/tt fois 2
+
+";25;1;200;15;40940;1;Z;3;E
+636;Californication;grand format;0x;Z5F;0;;75;1;1000;11;40940;1;Z;5;F
+637;danette;grand format;0x;Z5O;0;pour 5 personnes ;50;1;1000;11;40940;1;Z;5;O
+638;Big bad wolf;grand format;0x;Z5G;0;pour 6 personnes;90;1;1000;11;40940;1;Z;5;G
+639;Poisson rouche;grand format;0x;Z5H;0;"glace pilée/fluo
+
+";90;1;1000;11;40940;1;Z;5;H
+640;Ugc villeneuve d'Ascq;bonnes adresses;0x;X1;1;verre sangria ;12;1;65;5;40940;1;X;1;
+641;Bellegem fritje huise;bonnes adresses;0x;X10;1;verre sangria ;12;1;65;5;40210;1;X;10;
+642;Pellerin;freaky;0x;L11;1;verre bocal;15;1;50;4;40210;1;L;11;
+643;Lotus bleu;bonnes adresses;0x;X11;1;verre sangria ;12;1;50;5;40940;1;X;11;
+644;La motte brulee;bonnes adresses;0x;X13;1;verre coupe a glace /shaker ;12;1;50;5;40940;1;X;13;
+645;Molotaff;mojito party;0x;M44;1;"verre ginto/menthe fraiche/piler/broyeur/verre à pied/glace pilée
+
+";12;1;50;5;40940;1;M;44;
+646;Billau Paintball ;bonnes adresses;0x;X15;1;verre cabernet ;12;1;50;5;40940;1;X;15;
+647;Health nutrition;bonnes adresses;0x;X16;1;verre monster /10 mix b86(z2s);15;1;75;7;40940;1;X;16;
+648;Gedeon gym vaulx;bonnes adresses;0x;X17;1;skull;13;1;50;4;40940;1;X;17;
+649;L'oasis de Panne;bonnes adresses;0x;X18;1;"verre palladio
+
+";13;1;50;4;40940;1;X;18;
+650;Le petit château Mouscron;bonnes adresses;0x;X19;1;verre bartender ;13;1;50;4;40949;1;X;19;
+651;Oh lounge koksijde;bonnes adresses;0x;X2;1;verre tiki gd ;12;1;65;5;40210;1;X;2;
+652;Fernez et Fernez Baudour;freaky;0x;L14;1;verre diamant lg/facon freaky/bien melanger ;15;1;50;4;40909;1;L;14;
+653;Den atelier luxembourg ville;bonnes adresses;0x;X21;1;verre sangria ;12;1;50;6;40940;1;X;21;
+654;Fleur de tonnerre ;bonnes adresses;0x;X22;1;verre cabernet /melanger ;12;1;50;5;40909;1;X;22;
+655;Dolce vita kortrijk;bonnes adresses;0x;X23;1;verre cognac ;12;1;50;6;40940;1;X;23;
+656;Bar à tapa's bruxelles;bonnes adresses;0x;X24;1;verre bartender /shaker fort ;12;1;50;5;40940;1;X;24;
+657;Lacet bleu Tournai;bonnes adresses;0x;X25;1;verre monster ;15;1;75;7;40940;1;X;25;
+658;Jardin de Majorelle Tournai;bonnes adresses;0x;X26;1;verre cabernet ;12;1;50;5;40940;1;X;26;
+659;Café d'Anvers;bonnes adresses;0x;X27;1;verre palladio;13;1;50;4;40940;1;X;27;
+660;Coco Bongo;bonnes adresses;0x;X28;1;verre palladio/2s kiwi+10cl mix z2 margarita+2 cr banane+fanta citron;13;1;50;4;40940;1;X;28;
+661;La petite madeleine Tournai;bonnes adresses;0x;X29;0;;12;1;50;6;40940;1;X;29;
+662;Chez Mia kooiegem;bonnes adresses;0x;X3;1;verre bartender ;13;1;65;5;40210;1;X;3;
+663;Cafedraal Brugge;bonnes adresses;0x;X30;1;"skull/3 pipettes
+
+";13;1;50;5;41275;1;X;30;
+664;Volcra;Sweety;0x;S52;1;verre organique-monster ;15;1;75;7;41518;1;S;52;
+665;vregqrshy;;0x;X330;0;;0;1;50;6;41487;1;X;330;
+666;Resto R à Roubaix;bonnes adresses;0x;X33;1;verre bartender ;13;1;50;4;41562;1;X;33;
+667;Mon Liban Tournai;bonnes adresses;0x;X34;1;"verre sangria /shaker hors pisang
+
+";12;1;50;5;41487;1;X;34;
+668;Azalée;freaky;0x;L55;1;verre palladio;15;1;50;5;41562;1;L;55;
+669;Tomorrowland;bonnes adresses;0x;X4;1;verre palladio;13;1;50;4;40210;1;X;4;
+670;Arche de Noé tournai;bonnes adresses;0x;X5;1;skull;15;1;75;7;40210;1;X;5;
+671;Walibi wavre;bonnes adresses;0x;X6;1;verre cabernet ;12;1;50;5;40210;1;X;6;
+672;Euro disney land Paris;bonnes adresses;0x;X7;1;"verre cabernet/shaker
+
+";12;1;50;5;40210;1;X;7;
+673;Hard rock bruxelles;bonnes adresses;0x;X8;1;"skull/shaker
+
+";13;1;50;5;40940;1;X;8;
+674;ice-kimo;bonnes adresses;0x;X9;1;verre sangria ;12;1;50;5;40210;1;X;9;
+675;The boyz;hardcore;0x;Y0A;1;verre weizenbeer ;25;1;75;7;40210;1;Y;0;A
+676;Red Hot chili peppers ;culturalisation;0x;Y10;1;"glace pilée/fluo
+
+";13;1;75;7;40940;1;Y;10;
+677;Quoicoubeh;Mocktail;0x;A110;1;"verre pot de chambre 
+
+";10;1;100;8;40940;1;A;110;
+678;Nirvana;culturalisation;0x;Y12;1;"shaker
+
+";12;1;65;5;40940;1;Y;12;
+679;Bob Marley;culturalisation;0x;Y13;1;;12;1;50;5;40940;1;Y;13;
+680;The Hu;culturalisation;0x;Y14;1;;12;1;75;7;40940;1;Y;14;
+681;White Rabbit ;mojito party;0x;M21;1;"verre bartender/facon mojito/glace pilée
+
+";12;1;50;5;40940;1;M;21;
+682;The Cure ;culturalisation;0x;Y16;1;"shaker
+
+";12;1;50;5;40940;1;Y;16;
+683;Placebo;culturalisation;0x;Y17;1;dans shaker 6cl mix Z2o(colada)+5 genievre+jus ananas+shaker fort;12;1;50;5;40940;1;Y;17;
+684;Marshmellow;culturalisation;0x;Y18;1;;12;1;50;5;40940;1;Y;18;
+685;Jim morrison;culturalisation;0x;Y19;1;;12;1;50;6;40940;1;Y;19;
+686;Ausweis;hardcore;0x;Y0C;1;verre weizenbeer ;25;1;50;7;40210;1;Y;0;C
+687;Caravan Palace;culturalisation;0x;Y20;1;shaker;12;1;50;5;40940;1;Y;20;
+688;Lindsey Stirling;culturalisation;0x;Y21;1;"glace pilée/fluo
+
+";13;1;75;7;40940;1;Y;21;
+689;Chatouille moi le nenuphar;les anecdotiques;0x;V74;1;verre organique-monster ;15;1;75;7;40940;1;V;74;
+690;Björk;culturalisation;0x;Y23;1;"shaker/verre à pied/glace pilée
+
+";13;1;50;4;40940;1;Y;23;
+691;Horribulus;mojito party;0x;M49;1;skull/3 pipettes absynthe ;12;1;50;6;40940;1;M;49;
+692;Divorce;Sweety;0x;S43;1;;15;1;75;7;40940;1;S;43;
+693;Kurt Cobain;culturalisation;0x;Y26;1;;12;1;50;6;40940;1;Y;26;
+694;Gorillaz;culturalisation;0x;Y27;1;dans shaker 6cl mix Z2o(colada)+3 tequila+5 vodka+jus pamplemousse+shaker fort+1 s orgeat;13;1;75;7;40940;1;Y;27;
+695;Boule et Bill;freaky;0x;L12;1;verre bocal/facon freaky/bien melanger ;15;1;75;7;40940;1;L;12;
+696;The Cranberries group;culturalisation;0x;Y29;1;;13;1;50;5;40940;1;Y;29;
+697;Vecna;hardcore;0x;Y0E;1;verre monster ecrase ;25;1;75;7;40210;1;Y;0;E
+698;Portishead;culturalisation;0x;Y30;1;dans shaker 6cl mix Z2o(colada)+2L.caramel+4 vodka+4 rhum+jus banane+shaker fort;13;1;50;4;40940;1;Y;30;
+699;Daft Punk;culturalisation;0x;Y31;1;verre palladio/bibite;13;1;50;4;40940;1;Y;31;
+700;Dessert;freaky;0x;L18;1;verre diamant lg/facon freaky/bien melanger ;15;1;50;4;40940;1;L;18;
+701;Wafel FACTORY;freaky;0x;L13;1;verre strier ;15;1;75;7;41197;1;L;13;
+702;Soft cell;culturalisation;0x;Y34;1;;12;1;50;6;41197;1;Y;34;
+703;Killer boulet;freaky;0x;L50;1;verre cognac ;15;1;50;4;41518;1;L;50;
+704;Cruise control;freaky;0x;L51;1;verre strier;15;1;50;4;41559;1;L;51;
+705;Guns N' Roses;culturalisation;0x;Y37;1;;12;1;50;6;40940;1;Y;37;
+706;Scarlette;Sweety;0x;S44;1;"shaker
+
+";15;1;50;4;41577;1;S;44;
+707;Fée verte;hardcore;0x;Y0H;1;"verre monster /3 pipettes absynthe
+
+";25;1;50;7;40210;1;Y;0;H
+708;Mikflik;Sweety;0x;S42;1;"glace pilée
+
+";15;1;75;7;40210;1;S;42;
+709;Die antwoord;culturalisation;0x;Y6;1;;12;1;50;6;40940;1;Y;6;
+710;Satan est parmi nous ;freaky;0x;L17;1;verre diamant lg /facon freaky/bien melanger ;15;1;75;7;40940;1;L;17;
+711;Massive attack;culturalisation;0x;Y8;1;;12;1;50;6;40940;1;Y;8;
+712;Prodigy;culturalisation;0x;Y9;1;;12;1;50;6;40940;1;Y;9;
+1508;Doornik sour ;jackdanielserie;0x;F7R;1;verre coupe glace/shaker sans la sangria qui est à verser en dernier ;13;1;65;5;;1;F;7;R
+714;Colgate;shootserie en mise en bouche;0x;Z21;0;;4;1;5;14;41562;1;Z;21;
+715;MEGA shooter 25cl Minions team;megashooter;0x;Z4E;1;megashooter ;12,5;1;150;9;41561;0;Z;4;E
+716;Tinkiete pikette;shootserie en mise en bouche;0x;Z26;1;shooter;4;1;5;14;41561;1;Z;26;
+717;Metallica;culturalisation;0x;Y39;1;dans shaker 8cl mix Z2o(colada)+3amaretto+5rhum+jus ananas+shaker fort;13;1;50;4;41579;1;Y;39;
+718;shoot biroute;shootserie en mise en bouche;0x;Z6;0;shooter 7cl;0;1;5;14;40299;1;Z;6;
+719;Transcendance;Sweety;0x;S8;1;verre weizenbeer ;15;1;75;7;41821;1;S;8;
+720;Brutus;signature;0x;B82;1;verre fiole/attention mx.15cl.jus framboise pour les couts ;15;1;50;6;41791;1;B;82;
+721;Spartiate;hardcore;0x;Y0M;1;verre monster;25;1;50;7;41821;1;Y;0;M
+722;Graine de plasir;Sweety;0x;S9;1;verre bartender/ glace pilée;15;1;50;4;41832;1;S;9;
+723;shoot  harakiri flambe dans la bouche ;shootserie en mise en bouche;0x;Z7;1;shooter/ serviette/briquet;4;1;5;14;40179;1;Z;7;
+724;shoot tequila salberiser(boom-boom);shootserie en mise en bouche;0x;Z8;1;sel/citron;5;1;5;14;25204;0;Z;8;
+725;shoot tequila paff;shootserie en mise en bouche;0x;Z9;0;carton;5;1;5;14;40179;1;Z;9;
+726;shoot liqueur pop corn ;shootserie en mise en bouche;0x;Z10;0;briquet;3;1;5;14;36557;1;Z;10;
+727;Darling cherie;tequilaterie;0x;J13;1;verre margarita + brochettes zeste orange et cerises marascin;12;1;35;3;41791;1;J;13;
+728;The inked kitty;Sweety;0x;S11;1;verre palladio;15;1;50;4;44306;1;S;11;
+729;Ceci n est pas une pipe;les anecdotiques;0x;V2;1;verre cabernet;12;1;50;6;41852;1;V;2;
+730;Martinique mojito;mojito party;0x;M39;1;verre bartender ;13;1;50;6;41897;1;M;39;
+731;Tybalt;mojito party;0x;M30;1;verre bartender/facon mojito;13;1;50;4;39918;1;M;30;
+732;Rustique ;signature;0x;B32;1;verre bartender ;13;1;50;4;41902;1;B;32;
+733;valentonine ;pharmacocktailerie;0x;C2;1;verre bartender/shaker + bleu en dernier hors shaker ;12;1;50;5;41902;1;C;2;
+734;i want to kill your father ;tequilaterie;0x;J21;1;verre bartender /10 mix z2;12;1;50;6;41902;1;J;21;
+735;Parle à ma main;les anecdotiques;0x;V77;1;verre chimiste;12;1;65;5;41902;1;V;77;
+736;Porn-pornstar (3-4 pers.);bulles;0x;G57;1;shaker sur glacon la mixture sans le champagne et verser dans vase 4 pers. en decos demi fruit de la passion simplement pose avec 1 bouteille de Drappier + bibitteS+ etincelles   ;100;1;1000;11;41902;1;G;57;
+737;Vit.D-3;pharmacocktailerie;0x;C30;1;verre tiki pt ;12;1;50;5;41902;1;C;30;
+738;Prolaps de la Stroumphette;pharmacocktailerie;0x;C38;1;verre palladio;13;1;50;4;41902;1;C;38;
+739;Merengue;rhumerie;0x;I64;1;verre sangria /shaker fort ;12;1;50;5;41902;1;I;64;
+740;Salvatore Dali;mojito party;0x;M8;1;verre disque/facon mojito;15;1;75;7;41902;1;M;8;
+741;Clitoris polyglotte;Sweety;0x;S50;1;verre monster ;15;1;75;7;41902;1;S;50;
+742;ile de Pag;bulles;0x;G24;1;verre weizenbeer ;13;1;75;7;41902;1;G;24;
+743;iphone plus mouffles;bulles;0x;G52;1;verre weizenbeer ;13;1;75;7;41903;1;G;52;
+744;liqueur creme brulee maison;bar;0x;Z0E;0;;60;1;100;10;41275;0;Z;0;E
+745;mix diabolito;mixture;0x;Z2;0;;50;1;200;15;41275;0;Z;2;
+746;mix lime litre;mixture;0x;Z2B;0;;12,5;1;100;10;41275;0;Z;2;B
+747;mixB1C3C15 litre;mixture;0x;Z2C;0;verser 8cl de la mixture/cocktails;25;1;100;10;41275;0;Z;2;C
+748;mixE13 litre;mixture;0x;Z2D;0;E13:10cl mix+energy+cava;25;1;100;10;41275;0;Z;2;D
+749;mixB51D39P17 litre;mixture;0x;Z2E;0;"b51:2cl s.fram/8cl mixt/j. frai
+
+d39:2cl s bblegum/2cl L.ananas/8cl mixture/j.frai
+
+M8:2cl s.violette+2cl L.barbepapa+8cl mixt
+
+n22:2cl s.fram/8cl mixt/allonger j.frai+qdc rouge
+
++d84+p17";25;1;100;10;41275;0;Z;2;E
+750;mixSangria maison classique4.4L;mixture;0x;Z2Y;0;;50;1;150;9;41275;0;Z;2;Y
+751;mixE18/litre;mixture;0x;Z2G;0;versez 10cl mixt E18.....allonger limonade;25;1;100;10;41275;0;Z;2;G
+752;mixBastard;mixture;0x;Z2H;0;"15cl mix pour 
+
+b93-v10-g27-v57-p40-m16";25;1;200;15;41275;0;Z;2;H
+753;mixTGV litre;mixture;0x;Z2I;0;;30;1;100;10;41275;0;Z;2;I
+754;mixB2/demi litre;mixture;0x;Z2F;0;"verser 10 cl
+
+allonger jus d'orange";20;1;100;10;41275;0;Z;2;F
+755;mixF23/litre;mixture;0x;Z2K;0;façon mojito, versez 8cl du mixt/ allonger  nalu frost;25;1;100;10;41275;0;Z;2;K
+1393;speedball;freaky;0x;L40;1;verre strier/facon freaky/bien melanger ;15;1;50;4;;1;L;40;
+757;Mojito XL nature ou fruite;mojito party;0x;M4H;1;brouette/jus fruit 2CL et Sirop fruit1cl au choix en plus  si fruite ;35;1;1000;11;41913;1;M;4;H
+758;Cuba libre event;les oublies;0x;Z9F;0;;0;1;35;3;41913;1;Z;9;F
+759;Small Pina colada;after-workers;0x;F0F;1;verre after 25cl/shaker + cerise facon colada;7,5;1;35;3;41913;1;F;0;F
+760;Elle a touche mon popol;hardcore;0x;Y2G;1;verre monster ;25;1;75;7;41913;1;Y;2;G
+761;Stalacbite;les anecdotiques;0x;P2;1;verre palladio;13;1;50;4;41913;1;P;2;
+762;The cailloux bye Joey;Sweety;0x;P3;1;verre monster ;15;1;75;7;41913;1;P;3;
+763;assortiment de 4 shoot du moment ;shootserie en mise en bouche;0x;Z19;1;;9;1;5;14;41913;0;Z;19;
+764;liqueur cafe maison;bar;0x;Z0;0;;0,1;1;150;9;41640;0;Z;0;
+765;liqueur pistache maison;bar;0x;Z0A;0;;0,1;1;150;9;41640;0;Z;0;A
+766;Gantoise;ginto&Co;0x;K11;1;"verre ginto/.sec et floral
+
+avec zeste de citron vert, jaune et d orange
+
+bonbon nenette";15;1;65;5;41640;1;K;11;
+767;Gin Bombay Sapphire botanique;ginto&Co;0x;K11E;1;"verre ginto/a la cuillere delicatement 
+
+servir avec tranche de citron vert-citron jaune et orange. 
+
+peut etre servis avec schweppes premium mixer orignal";15;1;65;5;41640;1;K;11;E
+768;Corpse reviver 3;ginto&Co;0x;K11O;1;verre palladio;15;1;65;5;41640;1;K;11;O
+769;The Ultimate Tom Collins ;ginto&Co;0x;K11C;1;"verre  ginto/ a la cuillere delicatement 
+
+avec tranches de citron jaune et  de citron vert pressé";15;1;50;4;41640;1;K;11;C
+770;Bom-bom;ginto&Co;0x;K11D;1;verre ginto/quartier de fraises coupees;15;1;50;6;41640;1;K;11;D
+771;gin london n1 botanique;ginto&Co;0x;K11Z;0;a la cuillere delicatement ;20;1;65;5;41640;1;K;11;Z
+772;mixB12/litre;mixture;0x;Z2M;0;b12: 10cl mixture + limonade;25;1;100;10;41944;0;Z;2;M
+773;AVAconda;signature;0x;B86;1;verre weizenbeer/10 mix Z2s(b86)+energy+mousseux+2 vdk rouge + jus fraise ;13;1;75;7;41944;1;B;86;
+774;mixCointreausure/ litre;mixture;0x;Z2N;0;10cl mixture;25;1;150;9;41944;0;Z;2;N
+775;first class white russian;Oompa LoOmpa;0x;F24;0;;11;1;35;3;41944;1;F;24;
+776;first class planteur;after-workers;0x;F0N;0;;6;1;35;3;41944;1;F;0;N
+777;Small Sex on the beach;after-workers;0x;F0D;1;verre after 25cl;7,5;1;35;3;41944;1;F;0;D
+778;Docteur Xplo;beertails;0x;N11;1;verre a pyramidale/retourner biere ;15;1;75;7;42237;1;N;11;
+779;Buckeuze on the rock;beertails;0x;N12;1;verre a pyramidale/2s framboise+10cl mix b51+j.litchis+bouteille leifmans fruitesse retournee;13;1;75;7;42237;1;N;12;
+780;Tintin en Absurdie ;beertails;0x;N13;1;verre bagarre/13cl Z2q(f1)+2cl gin+orangeade+dsp retournee+2 curacao bleu;15;1;200;13;42237;1;N;13;
+781;l'improviste ;Sweety;0x;S32;1;verre palladio;15;1;50;4;42237;1;S;32;
+1517;Green day;culturalisation;0x;N54;1;verre bocal/servir direct dans verre ;15;1;200;13;;1;N;54;
+783;Pinkette margarita ;beertails;0x;N16;1;verre carre/10cl de mix z2(margarita)+2 l cuberdon+jus fraise+fruitesse retournee dans verre;13;1;75;7;42237;1;N;16;
+784;Tintin en Walbanie;beertails;0x;N17;1;verre bagarre/13cl Z2q(f1)+2cl gin+monster+dsp retournee+2 curacao bleu;20;1;200;13;42237;1;N;17;
+785;Vache follasse;beertails;0x;N18;1;verre pyramide ;13;1;75;7;42237;1;N;18;
+786;CloudY lemonade;ginto&Co;0x;K11F;1;verre ginto;15;1;50;6;42237;1;K;11;F
+787;Bramble Spritz;ginto&Co;0x;K11G;1;verre ginto/lamelle de fraise ou panasse de fruits rouges ;15;1;65;5;42237;1;K;11;G
+788;Zézeste-commerciale;mojito party;0x;M14;1;verre palladio/facon mojito;15;1;50;4;42237;1;M;14;
+789;Branle-bas de combat;mojito party;0x;M25;1;verre ginto/facon mojito;15;1;65;5;42237;1;M;25;
+790;Hibiscus Spritz ;ginto &Co;0x;K11J;1;verre ginto;15;1;65;5;42237;1;K;11;J
+791;Bel-Quiri;Sweety;0x;S60;1;verre E18;15;1;50;6;42237;1;S;60;
+792;Titeuf;Mocktail;0x;A98;1;verre cruche;10;1;100;8;42237;1;A;98;
+793;Virgin mojito;after-workers sa;0x;A0E;1;verre after 33cl;7,5;1;35;3;42237;1;A;0;E
+794;Gripsou;mojito party;0x;M0C;1;verre strier petit/facon mojito;10;1;100;8;42237;1;M;0;C
+795;Virgin daiquiri fraise;Oompa LoOmpa SA;0x;F40A;1;verre hurricane+melanger a la cuillere;6;1;35;3;42237;1;F;40;A
+796;Virgin pina colada ;Oompa LoOmpa SA;0x;F40B;0;;6;1;35;3;42237;1;F;40;B
+797;virgin tchatchacha;les oublies;0x;Z9M;0;;6;1;65;5;42237;1;Z;9;M
+798;Virgin planteur;les oublies;0x;Z9N;0;;6;1;65;5;42237;1;Z;9;N
+799;Smart mojito royal;mojito party;0x;M31;1;verre fist;15;1;75;7;42237;1;M;31;
+800;Barbe rousse;mojito party;0x;M50;1;verre E18facon mojito/baton de reglise;13;1;50;6;42237;1;M;50;
+801;Papy-Vass;;0x;Z5D;0;bouteille ;25;1;100;10;42237;1;Z;5;D
+802;Capricorne;cocktails astrales;0x;Z3A;1;"arrosoir/tt fois 2
+
+";25;1;200;15;42237;1;Z;3;A
+803;Verseau;cocktails astrales;0x;Z3V;1;"arrosoir/tt fois 2
+
+";25;1;200;15;42237;1;Z;3;V
+804;Cosmos;cocktails astrales;0x;Z3W;1;"arrosoir/tt fois 2
+
+";25;1;200;15;42237;1;Z;3;W
+805;Taureau;cocktails astrales;0x;Z3K;1;"arrosoir/tt fois 2
+
+";25;1;200;15;42237;1;Z;3;K
+806;Zoubida;grand format;0x;Z5E;0;;25;1;100;10;42237;1;Z;5;E
+807;Mikazi;les oublies;0x;Z9D;0;;25;1;75;7;42237;1;Z;9;D
+808;Vierge ;cocktails astrales;0x;Z3B;1;"arrosoir/tt fois 2
+
+";25;1;200;15;42217;1;Z;3;B
+809;Balance ;cocktails astrales;0x;Z3F;1;"arrosoir/tt fois 2
+
+";25;1;200;15;42237;1;Z;3;F
+810;Scorpion;cocktails astrales;0x;Z3H;1;"arrosoir/tt fois 2
+
+";25;1;200;15;42237;1;Z;3;H
+811;Sagittaire ;cocktails astrales;0x;Z3G;1;"arrosoir/tt fois 2
+
+";25;1;200;15;42237;1;Z;3;G
+812;Jack Honey et limonade ;jackdanielserie;0x;F7D;1;verre 33cl ;10;1;50;6;42237;1;F;7;D
+813;Jack Apple et Tonic;jackdanielserie;0x;F7E;1;verre soft 33cl;10;1;35;3;42237;1;F;7;E
+814;Old fashioned;Oompa LoOmpa;0x;F19;0;verser 2sucrettes poudre et bitter angostura jusqu'a dissolution, ajouter glacon puis verser le  bourbon/allonger d'eau petillante eventuellement ;9;1;35;3;42237;1;F;19;
+815;mixColada/litre;mixture;0x;Z2O;0;"f6:8cl mix colada+6 rhum blanc+jus ananas
+
+f6a:4cl mix colada+2 rhum blanc+jus ananas
+
+v9:5cl mix colada+5 vodka+jus ananas
+
+j3: 8cl mix colada+3 tequila+2 triple sec+2 creme banane";25;1;100;10;42237;0;Z;2;O
+816;mixCubain/litre;mixture;0x;Z2P;0;f4,f9,n18;25;1;100;10;42237;0;Z;2;P
+817;MEGA shooter 25cl Cumshot ;megashooter;0x;Z4D;1;proposer en option une seringue bibite +5euro;12,5;1;150;9;42237;0;Z;4;D
+818;Pearl Jam;tequilaterie;0x;J24;1;verre cabernet /shaker fort hors bleu facon colada ;13;1;65;5;42237;1;J;24;
+819;Strawberry mojito;les oublies;0x;Z9L;0;facon mojito;11;1;65;5;42240;1;Z;9;L
+820;Caipirinha fast;after-workers;0x;F0G;1;verre after 25cl;7,5;1;35;3;42240;1;F;0;G
+821;Margarita premium;Oompa LoOmpa;0x;F14A;0;verre à margarita;7,5;1;35;3;42240;1;F;14;A
+822;Small Cointreau fizz;after-workers;0x;F0E;1;verre after 25cl;7,5;1;35;3;42240;1;F;0;E
+823;Cointreau-jito fizz;mojito party;0x;M42;1;verre ananas/facon mojito;12;1;65;5;42240;1;M;42;
+824;Fruity cointreau fizz;Oompa LoOmpa;0x;F29;1;verre bartender;12;1;35;3;42240;1;F;29;
+825;Daiquiri fruité;Oompa LoOmpa;0x;F36;1;verre hurricane ;12;1;35;3;42240;1;F;36;
+826;Margarita fruitee;Oompa LoOmpa;0x;F14B;1;verre margarita/12cl de mix z2(margarita)+2s fruit +2l fruit;12;1;35;3;42240;1;F;14;B
+827;Mojito classique fruite( 1 fruit);mojito party;0x;M4E;1;verre ananas;13;1;65;5;42240;1;M;4;E
+828;121652035;les oublies;0x;Z9C;0;long drink;0;1;35;3;42240;1;Z;9;C
+829;Long red island;rhumerie;0x;I36;1;verre v25/15 mix Z2q+2 s grenadine+2L vanille+diabolo ;13;1;50;6;42271;1;I;36;
+830;picon somersby;les oublies;0x;Z9K;0;;0;1;50;4;42240;1;Z;9;K
+831;cubes de fromage feta mediterraneens 175gr;tapas sur le pouce;0x;A1R;1;;7;1;150;9;42240;0;A;1;R
+832;chips Sans Gluten dans ce choix;tapas sur le pouce;0x;A1S;1;;5;1;150;9;42241;0;A;1;S
+1354;Yéti;hardcore;0x;Y0Q;1;verre fist;25;1;75;7;;1;Y;0;Q
+835;MEGA shooter 25cl Pinocchio;megashooter;0x;Z4A;1;bouteille 33cl;12,5;1;150;9;42240;0;Z;4;A
+836;gin fizz shazza;after-workers;0x;F0B;0;tout shaker sauf l eau petillante...;0;1;35;3;42240;1;F;0;B
+837;1,12E+12;;0x;Z20;0;sur glacon facon mojito(verser martini, menthe et broyer dans verre);0;1;65;5;42241;1;Z;20;
+1479;gorge profonde ;les anecdotiques;0x;V72;1;verre palladio;15;1;50;4;;1;V;72;
+839;Shazz coffee;hot;0x;O26;1;verre hanse;15;1;75;7;42241;1;O;26;
+840;Le P'tit grégory;ginto&Co;0x;K11L;1;long drinks/pas de glacon/preparer sur sous tasse *: 1 olive nature+ 1 sucre en morceau + 1 bout de ficelle suffisament long pour attacher lolive et le sucre ensemble;10;1;35;3;42245;1;K;11;L
+841;liqueur cookie maison;bar;0x;Z0B;0;refroidissez le copa/servez le gin/inclinez+ versez  tonic frais/remuez avec cuillere a cocktail/garnissez avec botanique;0;1;150;9;42244;0;Z;0;B
+842;liqueur donuts maison;bar;0x;Z0C;0;;0;1;150;9;42244;0;Z;0;C
+843;Jager bomber;shootserie en mise en bouche;0x;Z11;1;sous forme de sous marin dans un skull si produits frais sans glacon ou si pas avec nid de glace pilee shooter jager + redbull ;6;1;5;14;42244;1;Z;11;
+844;Komparazar;beertails;0x;N19;1;verre bagarre/15 lix z2h+coca zero+1 fruitesse retournee ;15;1;200;13;42244;1;N;19;
+845;plateau 10 shooter L'AVARIE;combo;0x;Z1H;1;;35;1;150;9;27844;1;Z;1;H
+846;Je ne crois plus aux fees;Sweety;0x;P4;1;verre organique-monster ;15;1;75;7;42250;1;P;4;
+847;C'est pour rire gamin;les anecdotiques;0x;V57;1;verre coupe a glace ;12;1;65;5;42250;1;V;57;
+848;shoot liqueur after eight maison et chocolat;shootserie en mise en bouche;0x;Z13;0;;3;1;5;14;42250;1;Z;13;
+849;Pussy net;shootserie en mise en bouche;0x;Z14;1;shooter;4;1;5;14;42250;1;Z;14;
+850;plateau 10 shooters L'ORGUEIL;combo;0x;Z1G;1;;25;1;150;9;28027;1;Z;1;G
+851;Hydromelasse;beertails;0x;N20;1;verre bagarre/;13;1;200;13;41902;1;N;20;
+852;Caligula;Oompa LoOmpa;0x;F33;1;verre oldfashion/shaker fort +sur assiette dentelle+1brownie avec 3 petale de chips chocolat plante dedans;12;1;35;3;42259;1;F;33;
+853;French mojito ;mojito party;0x;M38;1;verre tiki gd/façon mojito;13;1;50;6;42295;1;M;38;
+854;Bonanza;ginto&Co;0x;K11M;1;verre palladio;15;1;50;4;42309;1;K;11;M
+855;Martinique colada;rhumerie;0x;I63;1;verre palladio/dans shaker 6cl mix Z2o(colada)+4 st james+jus ananas+shaker fort;13;1;50;4;42309;1;I;63;
+856;Raoul;rhumerie;0x;I26;1;verre tiki gd ;15;1;50;6;42297;1;I;26;
+857;Cuba franco-libre;rhumerie;0x;I27;1;verre tiki gd ;12;1;50;6;42297;1;I;27;
+858;Bing bong;rhumerie;0x;I29;1;verre fist;13;1;75;7;42297;1;I;29;
+859;Biblique;rhumerie;0x;I30;1;verre bartender ;12;1;50;4;42297;1;I;30;
+860;Papacito;rhumerie;0x;I31;1;verre coupe a glace/shaker hors violettte ;13;1;50;4;42297;1;I;31;
+861;imperial mojito;mojito party;0x;M35;1;verre palladio/facon mojito(broye rmixture avant de completer avec glace et methode champ.);15;1;50;4;42297;1;M;35;
+862;MEGA shooter 25cl Pistachio;megashooter;0x;Z4B;1;bouteille 33cl;12,5;1;150;9;42309;0;Z;4;B
+863;MEGA shooter 25cl Stroumphette;megashooter;0x;Z4C;1;;12,5;1;150;9;42309;0;Z;4;C
+864;mixV32 litre;mixture;0x;Z2V;0;V32:10cl+1 diabolo grenadine et 2cl de vodka noire;30;1;100;10;42309;0;Z;2;V
+865;MEGA shooter 25cl Valentino ;megashooter;0x;Z4;1;;12,5;1;150;9;42309;0;Z;4;
+1355;Historion;vodkaterie;0x;H25;1;verre palladio;13;1;50;4;;1;H;25;
+868;Belgo Belge;hardcore;0x;Y1H;1;verre weizenbeer ;25;1;75;7;42323;1;Y;1;H
+869;Mojito XXL  natures ou fruites;mojito party;0x;M4L;1;verre 5 personnes ;50;1;1000;11;42323;1;M;4;L
+870;Caipirinha premium;les oublies;0x;Z9J;0;verre old fashioned/broyer 2 quartier  de lime jusqu a parfaite dissolution du sucre/glace pilee;11;1;150;9;42323;1;Z;9;J
+871;Margarita sb;Oompa LoOmpa;0x;F14C;0;presser 1lime/verre margarita original/ bord du verre salee;11;1;35;3;42323;1;F;14;C
+872;Cosmopolitain premium;Oompa LoOmpa;0x;F26;1;presser 1demi citron vert/frapper au shaker tous les ingredients sur glacon/filtrer au service/flamber ecorce orange;12;1;35;3;42323;1;F;26;
+873;Sex on the beach oldschool;vodkaterie;0x;H62;1;verre cabernet;12;1;65;5;42323;1;H;62;
+874;gin fizz sb;les oublies;0x;Z9I;0;presser 1 citron/shaker le tout sauf soda water;0;1;50;6;42323;1;Z;9;I
+875;Pina colada premium;Oompa LoOmpa;0x;F6;0;shaker vigoureusement/ ou blinder;12;1;35;3;42323;1;F;6;
+876;Cuba libre sb;after-workers;0x;F0K;1;verre after 25cl;7,5;1;35;3;42323;1;F;0;K
+877;Licorne des iles;Sweety;0x;S58;1;verre palladio;15;1;50;6;42344;1;S;58;
+878;Devil Margarita ;tequilaterie;0x;J23;1;verre v25;15;1;65;5;42344;1;J;23;
+879;Charlotte aux fraises;Mocktail;0x;A100;1;verre urne;10;1;100;8;42344;1;A;100;
+880;Le sens de la fête ;mojito party;0x;M41;1;"verre palladio/facon mojito/broyer
+
+10 mix z2w(sour)+3 l caramel+energy+j ananas+2L. framboise";13;1;50;4;42344;1;M;41;
+881;Vahine ;freaky;0x;L16;1;verre diamant lg/facon freaky/bien melanger ;15;1;50;4;42344;1;L;16;
+882;shériff fais moi peur ;films & series incontournables;0x;D71;1;verre bartender ;12;1;65;5;42344;1;D;71;
+883;Le parrain;films & series incontournables;0x;D72;1;verre sangria ;12;1;65;5;42344;1;D;72;
+884;Nurofen;pharmacocktailerie;0x;C42;1;verre tiki pt;12;1;65;5;42344;1;C;42;
+885;Morfale;shootserie en mise en bouche;0x;Z22;0;preparer dans un bol/melanger avant emploi/3euro shoot;0;1;100;10;42370;1;Z;22;
+886;Coup du cerf;les anecdotiques;0x;V19;1;verre cabernet ;12;1;65;5;42362;1;V;19;
+887;Redresseur de zizi;les anecdotiques;0x;V59;1;verre tiki pt ;12;1;65;5;42362;1;V;59;
+888;Licorne  ;signature;0x;B87;1;verre cabernet ;12;1;50;6;42362;1;B;87;
+889;Obelix;hardcore;0x;Y0N;1;verre weizenbeer ;25;1;75;7;42362;1;Y;0;N
+890;Bosned;shootserie en mise en bouche;0x;Z23;0;faire flamber absynthe et soupoudrer de cannelle;5;1;5;14;42552;1;Z;23;
+891;bouteille kamasutra;grand format;0x;Z5C;0; servir la bouteille avec des long drinks, pailles et des glacons;15;1;100;10;42552;1;Z;5;C
+1511;Maeva;signature;0x;Y1I;1;verre organique/monster ;25;1;75;7;45357;1;Y;1;I
+1510;Bip Bip;Mocktail;0x;M0A;1;verre tour à emplier /facon mojito;10;1;100;8;;1;M;0;A
+1513;Hakuna Mafuckit;anecdotique;0x;V23;1;coupe a glace plate ;13;1;50;6;45358;1;V;23;
+1512;je vais repeindre ta nénette;anecdotique;0x;V22;1;verre palladio;13;1;50;4;45358;1;V;22;
+1505;Lollipop;vodkaterie;0x;H41;1;coupe a glace plate/ajouter sucette sur brochette ;13;1;50;6;;1;H;41;
+1509;Hell Gate;hardcore;0x;Y0R;1;verre diamant Lg/3 pipettes absinthe + bonbon piment ;25;1;50;4;;1;Y;0;R
+1506;colonel Beach;mojito party;0x;I32;1;verreE18/ 3 pipette absynthe ;15;1;50;6;;1;I;32;
+899;bouteille zoumzoum;grand format;0x;Z5V;0;servir la bouteille avec des long drinks, pailles et des glacons;12;1;100;10;42552;1;Z;5;V
+900;bouteille coladada;grand format;0x;Z5X;0;servir la bouteille avec des long drinks, pailles et des glacons/ bien secouer ;12;1;100;8;42552;1;Z;5;X
+901;bouteille botox;grand format;0x;Z5W;0;servir la bouteille avec des long drinks, pailles et des glacons/ bien secouer ;12;1;100;10;42552;1;Z;5;W
+902;Dr Manhattan;Oompa LoOmpa;0x;F25;1;verre hurricane + facon mojito/broyer feuilles de menthe fraiche avec mixture sauf soda/glace pilee/allonger cola zéro;12;1;35;3;42552;1;F;25;
+903;Adom Hit l'air;ginto&Co;0x;K11W;1;verre ginto/facon ginfizz shaker le tout +chantilly puis seulement ajouter leau petillante;15;1;65;5;42552;1;K;11;W
+904;Mojito classique qdb nature;mojito party;0x;M4;1;verre tiki GD/facon mojito/broyer menthe dans mixture sans jus/glace pilee/allonger jus;13;1;50;6;42552;1;M;4;
+905;Belle et Sébastien ;Mocktail;0x;A81;1;verre diamant lg;10;1;100;8;42552;1;A;81;
+906;Beach beerito;beertails;0x;N21;1; verre bagarre/;13;1;50;6;42563;1;N;21;
+907;Bad gang mojito;mojito party;0x;M22;1;verre ananas/facon mojito;13;1;50;6;42572;1;M;22;
+908;Gland cosmique ;mojito party;0x;M54;1;verre bocal/facon mojito;15;1;50;6;42572;1;M;54;
+909;Small Lynchburg;after-workers;0x;F0H;1;verre after 25cl/6 mix z2w(sour)+2jack+limonade;7,5;1;35;3;42572;1;F;0;H
+910;Singe vert;beertails;0x;N22;1;verre pyramide/2s framboise + 10 mix Z2e(b51)+j fraise+qdc rouge retournee ;15;1;50;6;42600;1;N;22;
+911;Dark storm;jackdanielserie;0x;F7B;1;verre tiki gd ;13;1;150;9;42600;1;F;7;B
+912;Zizi coptère;les anecdotiques;0x;V31;1;;13;1;50;6;42600;1;V;31;
+913;Antidote zombie;shootserie en mise en bouche;0x;Z16;1;2 pipettes pour l absynthe;5;1;5;14;42661;1;Z;16;
+914;Papypapa ;shootserie en mise en bouche;0x;Z17;1;;5;1;5;14;42600;1;Z;17;
+915;Gueule au secour;hardcore;0x;Y0B;1;verre monster ecrase ;25;1;75;7;42600;1;Y;0;B
+916;Sodomie anecdotique;Sweety;0x;V32;1;verre fist/ monster +mix Z2v(v32): 10cl+diabolo+2 vodka noire+barbe ;15;1;75;7;42650;1;V;32;
+917;shoot seppuku;shootserie en mise en bouche;0x;Z24;1;faire flamber le cointreau ;5;1;5;14;42685;1;Z;24;
+918;Mogwai;Sweety;0x;S14;1;verre weizenbeer;15;1;75;7;42738;1;S;14;
+919;Un petit gout de paradis;Sweety;0x;S13;1;verre diamant lg;15;1;50;4;42738;1;S;13;
+920;Joker;films & series incontournables;0x;D74;1;verre palladio;13;1;50;4;42738;1;D;74;
+921;je suis ton pére;hardcore;0x;Y1B;1;verre monster ;25;1;75;7;42731;1;Y;1;B
+922;Cassoss-ophile;Sweety;0x;P13;1;verre v25;15;1;50;4;42728;1;P;13;
+923;Mr Wolf;films & series incontournables;0x;D75;1;verre palladio;13;1;50;4;42736;1;D;75;
+924;Harley queen;Sweety;0x;S45;1;;15;1;50;4;42738;1;S;45;
+925;MilF;hardcore;0x;Y0I;1;verre monster ;25;1;75;7;42742;1;Y;0;I
+926;ùùùùùù;les oublies;0x;Z9H;0;;0;1;150;9;42742;1;Z;9;H
+927;Jameson irsih coffee old school;hot;0x;O1M;1;1 dose de sucre semoule pour la meme dose de jameson/porter a ebulition sucre totalement dissoud/flamber mixture/etouffer/verser dans verre irish/verser sur cuillere a etage ou pas/chantilly en 8;15;1;65;5;42742;1;O;1;M
+928;Peche melbadasse;signature;0x;B91;1;verre B91/10 mix z2u(b91)+3 mix lime+jus peche+2 kraken;12;1;65;5;42748;1;B;91;
+929;Rebel du slip;Expressions préférées;0x;P18;1;verre bartender ;13;1;50;4;42750;1;P;18;
+930;Kamasutra;signature;0x;B92;1;verre cabernet ;12;1;65;5;42750;1;B;92;
+931;Bahamas;rhumerie;0x;I68;1;verre palladio/glace pilee/a la cuillere etage;12;1;65;5;42776;1;I;68;
+932;Poisson ;cocktails astrales;0x;Z3I;1;"arrosoir/tt fois 2
+
+";25;1;200;15;42776;1;Z;3;I
+933;NGE (Near Death Experience);hardcore;0x;Y1G;1;verre diamant lg;25;1;75;7;42776;1;Y;1;G
+934;Dirty dancing;films & series incontournables;0x;D76;1;verre sangria ;13;1;50;4;42795;1;D;76;
+935;Herogasm;Sweety;0x;V33;1;verre skull;15;1;75;7;42846;1;V;33;
+936;Hades;hardcore;0x;Y0J;1;verre monster ;25;1;75;7;42846;1;Y;0;J
+937;Delicious;Sweety;0x;S15;1;verre bartender ;15;1;50;4;42849;1;S;15;
+938;Saint barman;mojito party;0x;M47;1;tiki gd/facon mojito;15;1;50;6;42849;1;M;47;
+939;Arizona dream;signature;0x;B96;1;verre cognac ;13;1;50;4;42837;1;B;96;
+940;You fuck my wife;Sweety;0x;V34;1;verre monster;15;1;75;7;42850;1;V;34;
+941;Les 4 filles du Dr. March;Mocktail;0x;A63;1;verre diamant plat ;10;1;100;8;42736;1;A;63;
+942;Sherman;signature;0x;B97;1;skull;12;1;65;5;42887;1;B;97;
+943;Alli Lili;Sweety;0x;S17;1;verre palladio;15;1;50;4;42887;1;S;17;
+944;Despe Sunrise ;beertails;0x;N23;1;15cl de mix z2(margarita)+j orange+2 grenadine+dsp retournee;15;1;50;6;42887;1;N;23;
+945;Fulguro poing;beertails;0x;N24;1;verre pyramide ;13;1;50;6;42912;1;N;24;
+946;Kiss from Belgium;beertails;0x;N47;1;facon mojito ;13;1;150;9;42912;1;N;47;
+947;Transformers;films & series incontournables;0x;D77;1;verre monster;15;1;75;7;43022;1;D;77;
+948;Juste un doigt;Sweety;0x;V35;1;;15;1;50;4;43022;1;V;35;
+949;Micro penis;les anecdotiques;0x;V36;1;verre E18;13;1;50;6;43022;1;V;36;
+950;Hellsing;jackdanielserie;0x;F7O;1;;12;1;65;5;43022;1;F;7;O
+951;Jusqu ici tout va bien;les anecdotiques;0x;V38;1;;13;1;50;4;43022;1;V;38;
+952;Voodoo people;jackdanielserie;0x;F7P;1;verre cognac;13;1;50;4;43022;1;F;7;P
+953;Dragon des iles;jackdanielserie;0x;F7I;1;verre E18;15;1;75;7;43022;1;F;7;I
+954;Magic mushrooms;drugs;0x;E26;1;verre palladio;13;1;75;7;43022;1;E;26;
+955;Micro pointe;drugs;0x;E27;1;verre bartender/shaker fort ;13;1;50;4;43022;1;E;27;
+956;Retour vers le futur;films & series incontournables;0x;D78;1;verre ananas ;12;1;50;6;43022;1;D;78;
+957;Flappy le lapin;freaky;0x;L52;1;verre strier/facon freaky/bien melanger ;15;1;50;4;43043;1;L;52;
+958;Shazam;freaky;0x;L20;1;verre palladio/chantilly;15;1;75;7;43048;1;L;20;
+959;Yop;Sweety;0x;S1A;1;melanger;15;1;50;4;43049;1;S;1;A
+960;Hulk et Hulkette;Sweety;0x;S1C;1;diamant lg/3pipettes en dernier  dans barbe a papa;15;1;75;7;43051;1;S;1;C
+961;épic;freaky;0x;L24;1;verre strier/facon freaky/bien melanger ;15;1;50;4;43051;1;L;24;
+962;Ocean encounters;freaky;0x;L25;1;verre cognac/facon freaky/bien melanger ;15;1;75;7;43051;1;L;25;
+963;Lady GaGa;Sweety;0x;S1D;1;diamant lg/melanger;15;1;50;4;43054;1;S;1;D
+964;Katy Perry;Sweety;0x;S1E;1;diamant lg/melanger;15;1;50;4;43054;1;S;1;E
+965;Tonton Maxou;Sweety;0x;S1F;1;diamant lg/melanger;15;1;75;7;43054;1;S;1;F
+966;Papa midnight;freaky;0x;L29;1;verre diamant lg/facon freaky/bien melanger ;15;1;75;7;43054;1;L;29;
+967;Unicorn Bitch;Sweety;0x;S1G;1;diamant lg/melanger;15;1;50;4;43054;1;S;1;G
+968;Smiley;Sweety;0x;S1H;1;diamant lg/melanger;15;1;75;7;43054;1;S;1;H
+969;PRISM;freaky;0x;L32;1;verre diamant lg /facon freaky/bien melanger ;15;1;75;7;43054;1;L;32;
+970;rickey gin agrémenté d'absynthe ;ginto&Co;0x;K11N;1;verre bartender ;15;1;65;5;43054;1;K;11;N
+971;Bisounours ;Sweety SA;0x;S0A;1;diamant lg/shaker fort ;13;1;50;6;43056;1;S;0;A
+972;Simpsons;Freaky SA;0x;L0B;1;verre strier ;13;1;50;6;43056;1;L;0;B
+973;Futurama;Freaky SA;0x;L0C;1;melanger ;13;1;50;6;43057;1;L;0;C
+974;Rick et morty;Sweety SA;0x;S0D;1;ddiamant lg/melanger;13;1;50;6;43057;1;S;0;D
+975;Adventure Time;Freaky SA;0x;L0E;1;verre strier sa/facon freaky/bien melanger ;13;1;50;6;43057;1;L;0;E
+976;FamilyGuy;Sweety SA;0x;S0F;1;diamant lg/melanger;13;1;50;6;43057;1;S;0;F
+977;Oggy et les cafards;Freaky SA;0x;L0H;1;verre diamant lg /facon freaky/bien melanger ;13;1;50;6;43057;1;L;0;H
+978;South Park;Sweety SA;0x;S0I;1;verre diamant g/;13;1;50;6;43057;1;S;0;I
+979;ZinG;Sweety;0x;S35;1;verre monster/mix Z2a  mix razz: 10cl+4 mix lime+menthe et broyere + xdurance+jus litchis et  decos nid ;15;1;75;7;43057;1;S;35;
+980;titi le traître;Sweety;0x;S40;1;verre monster;15;1;75;7;43057;1;S;40;
+981;Tigrou;Freaky SA;0x;L0J;1;verre strier sa/facon freaky/bien melanger ;13;1;50;6;43058;1;L;0;J
+982;Stich;Freaky SA;0x;S0K;1;melanger;13;1;50;6;43058;1;S;0;K
+983;Betty Boop;Sweety SA;0x;S0L;1;diamant long/melanger;13;1;50;6;43066;1;S;0;L
+984;Tex Avery;Sweety SA;0x;S0M;1;diamant lg/melanger;13;1;50;6;43066;1;S;0;M
+985;Roger Rabbit;Sweety SA;0x;S0N;1;diamant lg/shaker fort sans la chantilly;13;1;50;6;43066;1;S;0;N
+1504;Fight club;films  & series incontournables;0x;D4;1;verre palladio;13;1;50;4;;1;D;4;
+987;plateau 5 shooters LA PARESSE;combo;0x;Z1A;1;plateau;8;1;150;9;43069;1;Z;1;A
+988;4 shooters pour pirates ;combo;0x;Z1E;1;;20;1;150;9;43069;1;Z;1;E
+989;4 shooters Cow-boy;combo;0x;Z1P;1;shooters 3cl + bol de gommes ;15;1;150;9;43069;1;Z;1;P
+990;5 shooters Pop's;combo;0x;Z1O;1;shooters 3cl + bol gommes parisiennes ;10;1;150;9;43069;1;Z;1;O
+991;plateau 3 shooters LA COLERE;combo;0x;Z1D;1;;7;1;150;9;43069;1;Z;1;D
+1407;Goopher;freaky;0x;L1F;1;verre palladio/8cl Z2X(mix capone)+2 s noisette+cafe glace+chantilly+deco freaky + ferrero glace;15;1;50;4;;1;L;1;F
+993;5 shooters Funcky;combo;0x;Z1I;1;shooter 3cl + bol gommes parisiennes ;10;1;150;9;43069;1;Z;1;I
+1507;Moon is a bitch;ginto&co;0x;K18;1;verre cabernet 50cl;12;1;65;5;;1;K;18;
+995;plateau 5 shooters L'ENVIE;combo;0x;Z1C;1;;11;1;150;9;43069;1;Z;1;C
+996;plateau 10 shooters LA LUXURE;combo;0x;Z1K;1;;40;1;150;9;43069;1;Z;1;K
+997;plateau 5 shooters LA GOURMANDISE;combo;0x;Z1B;1;plateau;10;1;150;9;43069;1;Z;1;B
+998;shooter une pipe;shootserie en mise en bouche;0x;Z25;0;;3;1;5;14;43092;0;Z;25;
+999;test conformite;;0x;Z805;0;;0;1;65;5;43118;1;Z;805;
+1001;Heïdi;Mocktail;0x;A102;1;;10;1;100;8;43147;1;A;102;
+1002;One peace;after-workers sa;0x;A0B;1;verre after 33cl;7,5;1;35;3;44036;1;A;0;B
+1003;Denis la Malice;Mocktail;0x;A103;1;verre urne;10;1;100;8;44036;1;A;103;
+1004;Martin matin;Mocktail;0x;A104;1;verre bocal;10;1;100;8;;1;A;104;
+1005;Jimmy Neutron(!!pas en dessous de 16ans!!);Mocktail;0x;A105;1;verre strier ;10;1;100;8;;1;A;105;
+1006;Kung fu Panda ;Mocktail;0x;A106;1;verre boule;10;1;100;8;;1;A;106;
+1007;Les Minipouss;Mocktail;0x;A107;1;verre pot de chambre ;10;1;100;8;;1;A;107;
+1008;magnum, ferrero rocher ou raffaello glace au choix;tapas sur le pouce;0x;A1Y;1;;3;1;150;9;;0;A;1;Y
+1009;assiette Belgo;tapas sur le pouce;0x;A1B;1;"brochettes micro ondes 2 min
+
+boulettes micro ondes 1 min";15;1;150;9;;0;A;1;B
+1010;bol de confiseries ;tapas sur le pouce;0x;A1Z;1;;5;1;150;9;;0;A;1;Z
+1011;assiette Cannibale;tapas sur le pouce;0x;A1C;1;"brochettes micro ondes 2 min
+
+boulettes micro ondes 1 min
+
+suacisses tv micro ondes 1 min";15;1;150;9;;0;A;1;C
+1012;olives vertes denoyautees au basilic 130gr;tapas sur le pouce;0x;A1E;1;;6;1;150;9;;0;A;1;E
+1013;petites saucisses seches nature;tapas sur le pouce;0x;A1F;1;;5;1;150;9;;0;A;1;F
+1014;Pringles(70gt.) goût au choix ;tapas sur le pouce;0x;A1G;1;;4;1;150;9;;0;A;1;G
+1015;nachos salsa ou fromage ;tapas sur le pouce;0x;A1H;1;;9;1;150;9;;0;A;1;H
+1016;chips Apero Lays ;tapas sur le pouce;0x;A1I;1;;13;1;150;9;;0;A;1;I
+1018;planche de charcuteries et fromage mediterraneen;tapas sur le pouce;0x;A1K;1;;18;1;150;9;;0;A;1;K
+1019;petites boulettes(250gr) ;tapas sur le pouce;0x;A1L;1;boulettes micro ondes 1 min;5;1;150;9;;0;A;1;L
+1020;mini brochettes de poulet (185gr);tapas sur le pouce;0x;A1M;1;appeler dominos pizza tournai et a regler au livreur ;6;1;150;9;;0;A;1;M
+1021;Maxi Hot-dog ;tapas sur le pouce;0x;A1N;1;Maxi pain et hotdog au micro ondes 1 min;6;1;150;9;;0;A;1;N
+1563;Vuki vuk;signature;0x;B104;1;verre palladio;13;1;50;4;;1;B;104;
+1023;pizza M de dominos Tournai au choix only sur place;tapas sur le pouce;0x;A1P;1;appelez dominos ;6;1;150;9;;1;A;1;P
+1024;saucisses apéro tv;tapas sur le pouce;0x;A1Q;1;;5;1;150;9;;1;A;1;Q
+1025;Barbe à papa (50gr);tapas sur le pouce;0x;A1X;1;;3,5;1;150;9;;0;A;1;X
+1027;Potatoes Country;Nos snacks Airfryer;0x;A3K;1;Airfryer 8min./four à 240°c;5;1;150;9;;0;A;3;K
+1028;assiette Mixte tapas ;tapas sur le pouce;0x;A1A;1;;15;1;150;9;;0;A;1;A
+1072;Tequitua;shootserie en mise en bouche;0x;Z18;1;;5;1;5;14;;1;Z;18;
+1030;Martini espresso tails;after-workers;0x;F0I;1;shaker fort/filtrer/grain de cafe /verre martini;7,5;1;35;3;;1;F;0;I
+1031;bouteille premium au choix ;les softs, bieres, vins,...;0x;A2N;1;;80;1;150;9;;1;A;2;N
+1032;1 biere pop dans ce choix ;les softs, bieres, vins,...;0x;A2B;1;;4;1;150;9;;1;A;2;B
+1033;1 biere speciale dans ce choix ;les softs, bieres, vins,...;0x;A2C;1;;6;1;150;9;;1;A;2;C
+1034;1 jus de fruit 33cl au choix ;les softs, bieres, vins,...;0x;A2D;1;;3;1;150;9;;1;A;2;D
+1208;vinotheque;les softs, bieres, vins,...;0x;A2F;1;verre bormioli avec raisins;6;1;150;9;;1;A;2;F
+1036;bouteille champagne brut ;les softs, bieres, vins,...;0x;A2O;1;fraise + marshmaloow avec 4 fluo ou boudoir de reims ;50;1;150;9;;1;A;2;O
+1037;bouteille au choix 70cl;les softs, bieres, vins,...;0x;A2L;1;;50;1;150;9;;1;A;2;L
+1038;Punchy bastard;signature;0x;B93;1;verre tete de lego + 15cl z2h+2 s orgeat+ jus cerise;12;1;65;5;;1;B;93;
+1039;Maître Chevalier ;signature;0x;B101;1;verre sangria ;12;1;65;5;;1;B;101;
+1040;Gaelle what else ;signature;0x;B102;1;verre cabernet :melanger ;12;1;65;5;;1;B;102;
+1041;Kamok;freaky;0x;L21;0;facon freaky;13;1;50;6;;1;L;21;
+1042;Kizoumba;Sweety;0x;S3;1;verre weizenbeer ;15;1;75;7;;1;S;3;
+1043;Geniteur ;signature;0x;B105;1;verre cabernet ;12;1;65;5;43673;1;B;105;
+1044;Devil colada;signature;0x;B106;1;verre palladio/shaker fort/liqueur piment en dernier/bonbon piment sur rondelle ananas;13;1;50;4;;1;B;106;
+1045;Plaisir d'hiver ;freaky;0x;L22;1;verre weizenbeer/facon freaky;15;1;50;4;;1;L;22;
+1046;3 cocktails event(25cl) pour prix de 2;after-workers;0x;F0A;1;;15;1;35;3;;1;F;0;A
+1047;Demoiselle Tatin;signature;0x;B108;1;verre cabernet;12;1;65;5;;1;B;108;
+1048;Catalogne;freaky;0x;L23;1;verre cognac ;15;1;50;4;;1;L;23;
+1049;Le serpent ;hardcore;0x;Y1A;1;verre monster ecrase ;25;1;75;7;;1;Y;1;A
+1050;Ricain coffee;hot;0x;O17;1;verre hanse;15;1;75;7;;1;O;17;
+1051;Karma sutra attitude;freaky;0x;L45;1;verre strier;15;1;50;6;;1;L;45;
+1052;Porn attitude ;Sweety;0x;S48;1;verre coup a glace/shaker fort sans hibiscus;15;1;50;4;;1;S;48;
+1053;Seroquel pour bipolaire;pharmacocktailerie;0x;C43;1;verre cabernet ;12;1;65;5;;1;C;43;
+1054;Marabout;pharmacocktailerie;0x;C44;1;skull/10 mix z2w(sour)+2 triple sec+2 L. ananas+3 rhum miel+2s gingembre+j orange+j mangue;12;1;75;7;;1;C;44;
+1055;Antibiotique;pharmacocktailerie;0x;C45;1;verre skull;12;1;65;5;;1;C;45;
+1056;Ghostbuster;films & series incontournables;0x;D83;1;verre cabernet ;13;1;50;6;;1;D;83;
+1057;Blade runner;mojito party;0x;M13;1;verre pyramide/menthe fraiche+10 mix z2w(sour)+3 triple sec+orangeade+j orange;13;1;50;6;;1;M;13;
+1058;zebulon;freaky;0x;L54;1;verre strier/facon freaky/bien melanger ;15;1;50;4;;1;L;54;
+1059;Peaky Blinders;films & series incontournables;0x;D90;1;verre sangria+melanger ;12;1;65;5;;1;D;90;
+1060;Deadpool;films & series incontournables;0x;D82;1;verre weizenbeer;13;1;75;7;;1;D;82;
+1061;Ayahuasca peruvienne;drugs;0x;E28;1;verre weizenbeer;15;1;75;7;;1;E;28;
+1062;Romulus ;hardcore;0x;Y2F;1;verre organique-monster/3 pipettes degustation ;25;1;75;7;;1;Y;2;F
+1063;Datura;drugs;0x;E30;1;verre monster ecrase;15;1;75;7;;1;E;30;
+1064;Souffle du diable (scopolamine);freaky;0x;L56;1;verre palladio/facon freaky;15;1;50;4;;1;L;56;
+1065;Rosin;drugs;0x;E33;1;verre E8;15;1;75;7;;1;E;33;
+1066;Pagan;vodkaterie;0x;H27;1;verre bartender ;12;1;65;5;;1;H;27;
+1067;Black Mamba ;rhumerie;0x;I69;1;verre coupe plate ;12;1;50;6;;1;I;69;
+1068;1 soft au choix (1 sirop inclus);les softs, bieres, vins,...;0x;A2A;1;;3;1;150;9;;1;A;2;A
+1069;1 smart drink au choix (!pas en dessous de 16ans!);les softs, bieres, vins,...;0x;A2E;1;;5;1;150;9;;1;A;2;E
+1070;Chupacabra;Sweety;0x;S2;1;verre fist;15;1;75;7;;1;S;2;
+1071;portion de cubes de fromages 150gr;tapas sur le pouce;0x;A1D;1;;5;1;150;9;;0;A;1;D
+1073;Mouskiklack;hardcore;0x;Y2A;1;verre monster ecrase/2 grenadine+12 mix Z2a(razz)+monster punch+j fraise+3 pipettes ;25;1;75;7;;1;Y;2;A
+1074;Takayalé colada;les anecdotiques;0x;V14;1;verre palladio/dans shaker 8cl mix Z2o(colada)+3 cachaca+jus ananas+shaker fort+2L.cerise en dernier+cerise facon colada ;13;1;50;4;;1;V;14;
+1075;cyrpine;Sweety;0x;S54;1;verre monster ;15;1;75;7;;1;S;54;
+1076;Vagi clean;sweety;0x;S47;1;;15;1;75;7;;1;S;47;
+1077;Friends;films & series incontournables;0x;D81;1;verre fist/mix marga:15+monster+j framboise +barbe;15;1;75;7;;1;D;81;
+1078;Ovni;Sweety;0x;S29;1;verre monster ;15;1;75;7;;1;S;29;
+1079;Baizuo (begueule en chinois);les anecdotiques;0x;V55;1;verre coupe plate ;15;1;50;4;;1;V;55;
+1080;Acidule decoiffe;mojito party;0x;M52;1;verre organique/monster ;15;1;75;7;;1;M;52;
+1081;le sphynx ailé ;Mojito party;0x;M12;1;verre monster/menthe fraiche +15cl mix z2h+2cl triple sec+monster paradise+assortiment bonbons et barbe papa;15;1;75;7;;1;M;12;
+1082;Totofle;les anecdotiques;0x;V58;1;verre disque ;13;1;50;6;;1;V;58;
+1083;Bubulle;Sweety;0x;S28;1;verre monster ;15;1;75;7;;1;S;28;
+1084;Revoz;Sweety;0x;S25;1;verre monster ;15;1;150;9;;1;S;25;
+1085;AC/DC;culturalisation;0x;Y44;1;verre palladio;15;1;50;4;;1;Y;44;
+1086;Porcinet the chacal;Sweety;0x;S46;1;;15;1;75;7;;1;S;46;
+1087;Pink Martini;culturalisation;0x;Y48;1;;12;1;65;5;;1;Y;48;
+1088;Cobaye attitude;rhumerie;0x;I11;1;verre cabernet/shaker ;12;1;65;5;;1;I;11;
+1089;irreversible;films & series incontournables;0x;D85;1;verre cabernet/8 mix z2o+4 rhum + j framboise et shaker fort;12;1;65;5;;1;D;85;
+1090;Sex on the beer;beertails;0x;N26;1;verre pyramide ;13;1;50;6;;1;N;26;
+1091;Madame Jinny;beertails;0x;N27;1;verre carre;15;1;50;6;;1;N;27;
+1092;Silence des loups flambe;beertails flambes;0x;N1F;1;"lunette/verser bière 33cl et allonger vin blanc dans pichet 1L/flamber base, servir et étouffer avec pichet
+
+";25;1;200;13;;1;N;1;F
+1093;Mignotitude;ginto &co;0x;K13;1;verre bartender ;12;1;65;5;;1;K;13;
+1094;Fleur de toi;Sweety;0x;P36;1;verre tour a empiler/monster/mix Z2s(b86): 10cl+monster fiesta+methode+2 vodka rouge + 5jfraise ;15;1;75;7;;1;P;36;
+1095;Arrached coffee;hot;0x;O32;1;;15;1;50;4;;1;O;32;
+1096;Hyper borean;beertails;0x;N25;1;verre pyramide ;13;1;75;7;;1;N;25;
+1097;Dokidoki ( chamade en japonais);Sweety;0x;P29;1;verre cognac ;15;1;50;6;;1;P;29;
+1098;Parlez moi d'Amour ;Sweety;0x;P31;1;verre bocal poisson;15;1;75;7;;1;P;31;
+1099;WTF;hardcore;0x;Y1C;1;verre monster ecrase ;25;1;75;7;;1;Y;1;C
+1100;ConnarO virus ;bulles;0x;G25;1;verre organique-monster ;15;1;75;7;;1;G;25;
+1101;Magie debloque;les anecdotiques;0x;V47;1;verre cabernet;12;1;65;5;;1;V;47;
+1102;Corona-pero;les anecdotiques;0x;V48;1;verre tiki pt;12;1;65;5;;1;V;48;
+1103;Medic-calineur;Sweety;0x;V50;1;verre cognac;15;1;75;7;;1;V;50;
+1104;Les Tournaisiennes;bulles;0x;G26;1;verre bartender ;13;1;65;5;;1;G;26;
+1105;Error 404;tequilaterie;0x;J11;1;verre cabernet;12;1;65;5;;1;J;11;
+1106;NR-V;Sweety;0x;S62;1;verre sweety/dans shaker 8cl mix Z2o(colada)+3 tequila+2vodka+lait+shaker;15;1;50;4;;1;S;62;
+1107;Osef;Sweety;0x;S61;1;verre sweety/dans shaker 8cl mix Z2o(colada)+2 vodka+2 rhum+fristi+shaker fort ;15;1;50;4;;1;S;61;
+1108;Saperlipopette;les anecdotiques;0x;V61;1;verre bartender/2sframboise+10cl mix b51+jus litchis;12;1;65;5;;1;V;61;
+1109;Si deux doigts passent, tout passe ;les anecdotiques;0x;V63;1;verre ananas;12;1;65;5;;1;V;63;
+1110;Missionaire et la fessee;les anecdotiques;0x;P19;1;verre palladio;13;1;50;4;;1;P;19;
+1111;itanimulli;les anecdotiques;0x;V64;1;verre tiki gd ;12;1;65;5;;1;V;64;
+1112;Smeerlap;les anecdotiques;0x;V65;1;coupe a glace/shaker / cerise facon colada et bareb a papa coco;13;1;65;5;;1;V;65;
+1113;Hotvordoom;freaky;0x;L31;1;verre cognac ;15;1;75;7;;1;L;31;
+1114;inarinla;Sweety;0x;P23;1;verre monster ecrase;15;1;75;7;;1;P;23;
+1115;Connasse va;Sweety;0x;P24;1;verre monster ecrase ;15;1;75;7;;1;P;24;
+1116;Repeat after to me;freaky;0x;L53;1;verre cognac ;15;1;75;7;;1;L;53;
+1117;D.T.G.;Sweety;0x;P26;1;verre bocal poisson;15;1;75;7;;1;P;26;
+1118;Tchote nenette;les anecdotiques;0x;P27;1;verre cabernet/shaker fort ;12;1;65;5;;1;P;27;
+1119;Kinda1kibronche tin;Sweety;0x;P28;1;verre monster ;15;1;75;7;;1;P;28;
+1120;D.T.C.;Sweety;0x;P30;1;verre bocal poisson;15;1;75;7;;1;P;30;
+1121;Gorge syphilistique ;les anecdotiques;0x;V66;1;verre cognac ;13;1;75;7;;1;V;66;
+1122;Valkyrie;Sweety;0x;S22;1;verre organique-monster ;15;1;75;7;;1;S;22;
+1123;Velvet Valentine;Sweety;0x;S16;1;facon sweety+ shaker fort ;15;1;75;7;;1;S;16;
+1124;Jean lupin;freaky;0x;L48;1;verre strier ;15;1;50;4;;1;L;48;
+1125;Gaelle d enfer ;Sweety;0x;S23;1;verre organique -monster ;15;1;75;7;;1;S;23;
+1126;Bananas fight club;Sweety;0x;S24;1;verre monster ;15;1;75;7;;1;S;24;
+1127;Wake up show NRJ;freaky;0x;L49;1;verre strier;15;1;75;7;;1;L;49;
+1128;Fais moi un truc baby;Sweety;0x;V49;1;erre organique- monster ;20;1;75;7;;1;V;49;
+1129;Brexit;les anecdotiques;0x;V51;1;verre E18;12;1;65;5;;1;V;51;
+1130;Ld photo8;les anecdotiques;0x;V52;1;verre bartender;13;1;65;5;;1;V;52;
+1131;Ripoublik bananiere;les anecdotiques;0x;V53;1;verre palladio;13;1;50;4;;1;V;53;
+1132;Cavalera Wevelgem;bonnes adresses;0x;X46;1;verre palladio;13;1;50;4;;1;X;46;
+1133;Carnavo;bonnes adresses;0x;X45;1;verre ananas;13;1;50;4;;1;X;45;
+1134;Rhodium;rhumerie;0x;I45;1;VERRE FIST;15;1;75;7;;1;I;45;
+1135;Mojito L natures ou fruites;mojito party;0x;M4J;1;arrosoire ;30;1;200;15;;1;M;4;J
+1136;Mojito Fat nature ou fruite;mojito party;0x;M4M;1;verre aquarium;15;1;50;4;;1;M;4;M
+1137;Le pere fouettard Ramone;les anecdotiques;0x;V62;1;verre FIST;15;1;75;7;;1;V;62;
+1138;Bachibouzouk coffee;hot;0x;O24;1;;15;1;50;4;;1;O;24;
+1139;Ouragan Matthew;Sweety;0x;S26;1;verre monster ;15;1;75;7;;1;S;26;
+1140;Blanckenberge;beertails;0x;N29;1;verre pyramide ;13;1;50;6;;1;N;29;
+1141;Jabs;hardcore;0x;Y2B;1;verre monster ecrase;25;1;75;7;;1;Y;2;B
+1142;Tata YoYo;tequilaterie;0x;J19;1;verre bartender ;12;1;65;5;44078;1;J;19;
+1143;Lean siZZuRp;drugs;0x;E32;1;verre palladio;15;1;50;4;;1;E;32;
+1144;Mafalda;Mocktail;0x;A113;1;verre cruche;10;1;75;7;;1;A;113;
+1145;Boogaloo;rhumerie;0x;I49;1;verre bocal poisson/15cl mix z2h+2 s orgeat+3 razz+ monster punch;15;1;75;7;;1;I;49;
+1146;Les barbapapas;Mocktail;0x;A114;1;verre pot de chambre ;10;1;100;8;;1;A;114;
+1147;Princesse coffee;hot;0x;O25;1;verre palladio;15;1;75;7;;1;O;25;
+1148;Waffel coffee;hot;0x;O27;1;verre bartender ;15;1;75;7;;1;O;27;
+1149;Geek coffee;hot;0x;O28;1;facon freaky;15;1;75;7;;1;O;28;
+1150;Brazilian coffee;hot;0x;O29;1;facon freaky;15;1;75;7;;1;O;29;
+1151;Cuban coffee;hot;0x;O30;1;;15;1;50;4;;1;O;30;
+1152;Elvira la cochonne;freaky;0x;L41;1;verre bocal;15;1;75;7;;1;L;41;
+1153;Fucking mutant N439K;beertails;0x;N30;1;verre pyramide ;13;1;75;7;;1;N;30;
+1154;Harpocrates;rhumerie;0x;I46;1;verre coupe a glace ;12;1;65;5;;1;I;46;
+1155;Zotra;mojito party;0x;M40;1;verre hanse-cognac/facon mojito;13;1;50;6;;1;M;40;
+1156;Siboney;mojito party;0x;M10;1;verre E18/facon mojito;13;1;50;6;;1;M;10;
+1157;Sex on fire ;vodkaterie;0x;H55;1;verre sangria/shaker fort et decorer piment ;12;1;65;5;;1;H;55;
+1158;Kerberos;freaky;0x;L33;1;verre cognac :melanger ;15;1;75;7;;1;L;33;
+1159;Les Tortues Ninja (-16ans!!);Mocktail;0x;A115;1;VERRE disque ;10;1;100;8;;1;A;115;
+1160;Bacchanales;Expressions préférées;0x;P6;1;verre monster ;15;1;75;7;;1;P;6;
+1161;Tyr;Sweety;0x;S4;1;verre monster ;15;1;75;7;;1;S;4;
+1162;Octopus;signature;0x;B113;1;verre monster ;15;1;75;7;;1;B;113;
+1163;L abbe tadine;pharmacocktailerie;0x;C46;1;verre V25/10 mix z2w(sour)+2 amaretto+3 triple sec+ginger beer;12;1;65;5;;1;C;46;
+1164;Dark winter;jackdanielserie;0x;F7Q;0;;12;1;75;7;;1;F;7;Q
+1165;Sephiroth;jackdanielserie;0x;F7M;1;verre cabernet ;12;1;65;5;;1;F;7;M
+1166;Mask(-16ans!!);Mocktail;0x;A116;1;verre boule sa ;10;1;100;8;;1;A;116;
+1167;African coffee;hot;0x;O31;1;chauffer mixture et flamber/cafe/chantilly;15;1;50;4;;1;O;31;
+1168;White Polynesian;freaky;0x;L34;1;verre weizenbeer/facon freaky/bien melanger ;15;1;75;7;;1;L;34;
+1169;American Gods;films & series incontournables;0x;D110;1;verre cabernet/3 pipettes bacardi razz;12;1;65;5;;1;D;110;
+1170;Skull and bones;signature;0x;B114;1;verre bartender/shaker fort ;12;1;65;5;;1;B;114;
+1171;Leprechaun;jackdanielserie;0x;F7A;1;verre weizenbeer ;12;1;75;7;;1;F;7;A
+1172;Stranger things;films & series incontournables;0x;D106;1;verre bartender ;12;1;65;5;;1;D;106;
+1173;Volte-face;films & series incontournables;0x;D89;1;verre weizenbeer;15;1;75;7;;1;D;89;
+1174;Raised by wolves ;films & series incontournables;0x;D102;1;verre weizenbeer/shaker fort sans la violette ;12;1;65;5;;1;D;102;
+1175;Tulsa king ;films & series incontournables;0x;D105;1;verre palladio;13;1;50;4;;1;D;105;
+1176;Vaxxin;les anecdotiques;0x;V21;1;;12;1;65;5;;1;V;21;
+1177;Gestapo;tequilaterie;0x;J20;1;skull;13;1;50;6;;1;J;20;
+1178;Pognontologue;freaky;0x;L1G;1;verre weizenbeer/ne pas oublier le ferrero///facon freaky;15;1;75;7;;1;L;1;G
+1179;dame blanche;ice cream;0x;Z800;0;;0;1;150;9;;1;Z;800;
+1180;Apple sour martini;Oompa LoOmpa;0x;F23;0;shaker et filtrer ;8;1;35;3;;1;F;23;
+1181;Shard;vodkaterie;0x;H28;1;verre sangria/  shaker sans vdk rouge ni hibiscus ;13;1;50;4;;1;H;28;
+1182;Grogu;bulles;0x;G33;1;verre weizenbeer ;13;1;75;7;;1;G;33;
+1183;dame noire ;ice cream;0x;Z814;0;;6;1;150;9;;1;Z;814;
+1184;Dame Martienne ;ice cream;0x;Z821;1;;6;1;150;9;;1;Z;821;
+1185;Dame Bresilienne ;ice cream;0x;Z822;1;;6;1;150;9;;1;Z;822;
+1186;coupe aux fraises du pays blanc;ice cream;0x;Z823;0;;6;1;150;9;;1;Z;823;
+1187;Banana split;ice cream;0x;Z824;0;;6;1;150;9;;1;Z;824;
+1188;coupe exotique ;ice cream;0x;Z825;0;;6;1;150;9;;1;Z;825;
+1189;ice cream bounty;ice cream;0x;Z826;0;;8;1;150;9;;0;Z;826;
+1190;ice cream snickersY;ice cream;0x;Z804;0;;0;1;150;9;;0;Z;804;
+1191;ice cream marsY;ice cream;0x;Z801;0;;8;1;150;9;;1;Z;801;
+1192;ice cream fortnite;ice cream;0x;Z802;0;;8;1;150;9;;1;Z;802;
+1193;ice cream barbie ;ice cream;0x;Z803;0;;0;1;150;9;;1;Z;803;
+1194;ice cream josephine baker ;ice cream;0x;Z806;0;;8;1;150;9;;1;Z;806;
+1195;ice cream skratt;ice cream;0x;Z807;0;;8;1;150;9;;1;Z;807;
+1196;ice cream pegasse;ice cream;0x;Z808;0;;8;1;150;9;;1;Z;808;
+1197;coupe deglinguee(2-3pers);ice cream;0x;Z810;0;;0;1;150;9;;1;Z;810;
+1198;coupe alcoolisee gniark gniark gniark;ice cream;0x;Z811;0;fruit de la passion et groseilles;12;1;50;4;;1;Z;811;
+1199;coupe alcoolisee pinacacolak;ice cream;0x;Z812;0;;12;1;50;4;;1;Z;812;
+1200;coupe alcoolisee orange givree aranciata;ice cream;0x;Z813;0;;12;1;150;9;;1;Z;813;
+1201;Sugar ;ice cream;0x;Z815;0;;13;1;50;4;;1;Z;815;
+1202;coupe glacee reunionnais;ice cream;0x;Z816;0;menthe fraiche en deco;12;1;150;9;;1;Z;816;
+1203;coupe alcoolisee lindt;ice cream;0x;Z817;0;;12;1;50;4;;1;Z;817;
+1204;compose ta glace base M;ice cream;0x;Z818;0;;6;1;150;9;;1;Z;818;
+1205;compose ta glace base L;ice cream;0x;Z819;0;;8;1;150;9;;1;Z;819;
+1206;compose ta glace base XL;ice cream;0x;Z820;0;;12;1;150;9;;1;Z;820;
+1209;bouteille de vin ;les softs, bieres, vins,...;0x;A2Z;1;avec grappes raisins ;20;1;150;9;;1;A;2;Z
+1516;Exorciste;films  & series incontournables;0x;N53;1;verre diamant palt/biere retournee ;13;1;200;13;;1;N;53;
+1211;shooter fruite unite dans ce choix 2cl;combo;0x;Z1R;1;;3;1;150;9;;1;Z;1;R
+1212;shooter premium dans ce choix 3cl;combo;0x;Z1S;1;;5;1;150;9;;1;Z;1;S
+1213;Mad Heidi;films & series incontournables;0x;D32;1;coupe plate ;12;1;50;6;;1;D;32;
+1214;Star gates;films & series incontournables;0x;D107;1;coupe plate ;12;1;50;6;;1;D;107;
+1215;Fringe;films & series incontournables;0x;D108;1;vcoupe plate ;12;1;50;6;;1;D;108;
+1216;interstellar;films & series incontournables;0x;D64;1;verre coupe plate ;12;1;50;6;;1;D;64;
+1217;Pandemonium;vodkateire;0x;H47;1;;13;1;50;4;;1;H;47;
+1218;Dionysose;rhumerie;0x;I47;1;;15;1;75;7;;1;I;47;
+1219;Vril;jackdanielserie;0x;F7N;1;;12;1;50;6;;1;F;7;N
+1220;krobon;les anecdotiques;0x;V68;1;verre bartender ;12;1;65;5;;1;V;68;
+1221;Trobocou;les anecdotiques;0x;V69;1;verre weizenbeer ;12;1;75;7;;1;V;69;
+1222;Laya veille;les anecdotiques;0x;V70;1;;13;1;50;4;;1;V;70;
+1223;Mademoiselle;AIDE CLIENT;0x;Z101;0;;0,01;1;150;9;;1;Z;101;
+1224;Moscow mule;vodkaterie;0x;H20C;1;verre a mule tete de menthe et citron vert;12;1;35;3;;1;H;20;C
+1225;un furet sous amphétamine;sweety;0x;G42;1;verre monster ecrase ;15;1;75;7;;1;G;42;
+1226;Mandalorian;films & series incontournables;0x;D98;1;verre fist;15;1;75;7;;1;D;98;
+1227;Scoobi Doo;Mocktail;0x;A117;1;verre diamant plat / bt retournee ;10;1;100;8;;1;A;117;
+1228;Bernard et Bianca ;Mocktail;0x;A118;1;verre monster ecrase sur pied ;10;1;100;8;;1;A;118;
+1229;Pikachu;Mocktail;0x;A119;1;verre diamant lond;10;1;75;7;;1;A;119;
+1230;verre 1 alcool dans ce choix 5cl;les softs, bieres, vins,...;0x;A2R;1;;10;1;150;9;;1;A;2;R
+1231;Tonton ma-nathans;Oompa LoOmpa;0x;I65;1;verre martini;12;1;35;3;;1;I;65;
+1232;Plus moche la vie (biere flambee pour 2pers.);beertails flambes;0x;N1E;1;facon biere flambee, preparer mixture, disposer a table verre vide et carraffe avec biere completee de estrella puis servir flamber micture et ettouffer/verre bagarre/;25;1;200;13;;1;N;1;E
+1233;Baroko fizz;rhumerie;0x;I61;1;verre ginto/shaker fort sur glace  avec chantilly et sans ginger beer;15;1;50;4;;1;I;61;
+1234;liqueur coco maison;bar;0x;Z0F;0;;20;1;150;9;;1;Z;0;F
+1235;liqueur ananas maison;bar;0x;Z0G;0;;20;1;150;9;;1;Z;0;G
+1236;liqueur caramel maison;bar;0x;Z0H;0;;20;1;150;9;;1;Z;0;H
+1237;Rhum miel maison;bar;0x;Z0I;0;;45;1;150;9;;1;Z;0;I
+1238;liqueur aftereight;bar;0x;Z0J;0;;20;1;150;9;;1;Z;0;J
+1239;mixB86 litre;mixture;0x;Z2S;0;"b86: 10 mix + 2 v.rouge+ energy drink + mousseux + j.fraise
+
+p36: 10 mix + 2 v.rouge+ M.mango + mousseux + j.fraise
+
+u15: 10 mix + diabolo gr.+ mousseux + v.noire ";25;1;100;10;;1;Z;2;S
+1240;liqueur piment maison;bar;0x;Z0L;0;;45;1;150;9;;1;Z;0;L
+1241;liqueur menthe  glacial maison;bar;0x;Z0M;0;;20;1;150;9;;1;Z;0;M
+1242;liqueur vanille maison;bar;0x;Z0N;0;;20;1;150;9;;1;Z;0;N
+1243;liqueur barbe a papa (pink) maison;bar;0x;Z0O;0;;20;1;150;9;;1;Z;0;O
+1244;liqueur litchis maison;bar;0x;Z0P;0;;25;1;150;9;;1;Z;0;P
+1245;liqueur fruit au choix maison;bar;0x;Z0Q;0;;20;1;150;9;;1;Z;0;Q
+1246;liqueur gingembre maison;bar;0x;Z0R;0;;40;1;150;9;;1;Z;0;R
+1247;liqueur bubble gum pink maison;bar;0x;Z0S;0;;20;1;150;9;;1;Z;0;S
+1248;liqueur noisette maison;bar;0x;Z0T;0;;40;1;150;9;;1;Z;0;T
+1249;liqueur passion maison;bar;0x;Z0U;0;;20;1;150;9;;1;Z;0;U
+1250;liqueur mangue maison;bar;0x;Z0V;0;;25;1;150;9;;1;Z;0;V
+1251;Crème pop corn maison;bar;0x;Z0W;0;;20;1;150;9;;1;Z;0;W
+1252;liqueur fraise maison ;bar;0x;Z0X;0;;20;1;150;9;;1;Z;0;X
+1253;liqueur framboise maison;bar;0x;Z0Y;0;;20;1;150;9;;1;Z;0;Y
+1254;liqueur cerise maison ;bar;0x;Z0Z;0;;20;1;150;9;;1;Z;0;Z
+1255;Mojito M nature ou fruite ;mojito party;0x;M4G;1;facon mojito;25;1;100;8;;1;M;4;G
+1256;Bohemian club;freaky;0x;L42;1;verre strier ;15;1;50;4;;1;L;42;
+1257;Gouter avec la nenette d une autre sur un baton;les anecdotiques;0x;V67;1;verre sangria ;13;1;50;4;;1;V;67;
+1258;Calasme;Sweety;0x;S5;1;verre monster ;15;1;75;7;;1;S;5;
+1259;Hirsute;mojito party;0x;M48;1;verre E18/facon mojito;12;1;50;6;;1;M;48;
+1260;Collapsonaute;bonheur en concentré;0x;T38;1;verre palladio;13;1;50;4;;1;T;38;
+1261;Chaude patate;Sweety;0x;S39;1;verre monster ecrase/mix Z2i:5cl+2L passion+3cr banane jaune +monarch+methode et barbe ;15;1;75;7;;1;S;39;
+1262;Dissident;bonheur en concentré;0x;T40;1;verre coupe a glace ;12;1;65;5;;1;T;40;
+1514;Félix le chat;Mocktail;0x;A129;1;verre bocal/bien mélanger ;10;1;100;8;;1;A;129;
+1264;Thanos ;grand format;0x;Z5N;1;servir dans 4 verres monster;100;1;1000;11;;1;Z;5;N
+1265;Alabama hot pocket;bonheur en concentré;0x;U7;1;verre bartender ;12;1;50;6;;1;U;7;
+1266;Malaise Vaggal;bonheur en concentré;0x;U8;1;verre cabernet ;12;1;65;5;;1;U;8;
+1267;SkoumOon;Sweety;0x;S37;1;verre organique-monster/5 mix tgv;15;1;75;7;;1;S;37;
+1268;Clara Morgane;bonheur en concentré;0x;U10;1;verre bartender ;12;1;50;4;;1;U;10;
+1269;Demon;beertails;0x;N32;1;verre bagarre/servir bt de biere retournee;15;1;75;7;;1;N;32;
+1270;Suzume;Mocktail;0x;A108;1;verre strier ;10;1;100;8;;1;A;108;
+1271;5 contre 1 attitude ;bulles;0x;G18;1;verre fist;15;1;75;7;;1;G;18;
+1272;Pandalette attitude ;bulles;0x;G23;1;verre monster ;15;1;75;7;;1;G;23;
+1273;Sto ca*zo (Dante WTF);beertails;0x;N33;1;verre bagarre/bt retournee dans verre;14;1;200;13;;1;N;33;
+1274;Acapulco triple;beertails;0x;N34;1;verre bagarre/bt  biere retournee dans verre ;15;1;200;13;;1;N;34;
+1275;The blue oyster;bonheur en concentré;0x;U11;1;verre palladio;13;1;50;4;;1;U;11;
+1276;El Coco;bonheur en concentré;0x;U12;1;verre coupe a glace ;12;1;50;6;;1;U;12;
+1277;Noel de battard;bonheur en concentré;0x;U13;1;verre monster ;15;1;75;7;;1;U;13;
+1278;Tortue geniale;bonheur en concentré;0x;U14;1;Weizenbeermixz2t(u14): 10cl+5 mix tgv+limonade +nenette ;13;1;75;7;;1;U;14;
+1279;Maman du sifflo;bulles;0x;G55;1;verre fist/10 mix Z2s(b86)+diabolo+mousseux+2 vdk noire;13;1;75;7;;1;G;55;
+1280;Komodo;mojito party;0x;M3;1;verre Weizenbeer/facon mojito;12;1;75;7;;1;M;3;
+1281;BeyBlade (-16ans!!);Mocktail;0x;A78;1;verre strier ;10;1;100;8;;1;A;78;
+1282;Perdolan;pharmacocktailerie;0x;C47;1;verre cognac ;12;1;50;6;;1;C;47;
+1283;Epidemie de vaginite;les anecdotiques;0x;V73;1;verre ananas;13;1;50;4;;1;V;73;
+1284;Stranger jackpot;beertails;0x;N35;1;verre bagarre/2 s framboise+15 mix z2q+2 razz+limonade+dsp retournee ;15;1;200;13;;1;N;35;
+1285;Willy Butcher ;beertails;0x;N36;1;verre bagarre/2 s bubble gum+15 mix z2q+2razz+limonade+dsp retournee ;15;1;200;13;;1;N;36;
+1286;Walbanie beer;beertails;0x;N37;1;verre bagarre/2 s cerise +15 mix z2q+ 2razz+coca 0+qdc triple retournee ;15;1;200;13;;1;N;37;
+1287;Small Long island ice tea 25cl;after-workers;0x;F0C;1;verre after 25cl;7,5;1;35;3;;1;F;0;C
+1515;Gossip Girls ;films & series incontournables;0x;D48;1;verre bartender/mélanger vigoureusement ;13;1;50;4;;1;D;48;
+1289;5L sangria maison et fruits en jerricane;les softs, bieres, vins,...;0x;A2U;1;;50;1;150;9;;1;A;2;U
+1290;mix margarita litre;mixture;0x;Z2A;0;f14 10cl;30;1;100;10;;0;Z;2;A
+1291;mixLongisland ice tea litre(f1);mixture;0x;Z2Q;0;"10cl
+
+ajouter gin dans certains (f1, n34,...)
+
+base pour f1, v25, n35, n36, n37, n13, n17";30;1;100;10;;1;Z;2;Q
+1292;verre de vin ;;0x;A2I;1;;6;1;65;5;;0;A;2;I
+1293;bouteille de Martini Bellini;les softs, bieres, vins,...;0x;A2J;1;;30;1;150;9;;0;A;2;J
+1294;Tournai plage;beertails N.A.;0x;N0;1;verre carre;13;1;100;8;;1;N;0;
+1295;Biteman et Roburn;beertails N.A.;0x;N0A;1;verre pyramide+bt biere retournee ;13;1;100;8;;1;N;0;A
+1296;Fashion victime;beertails N.A.;0x;N0B;1;verre carre;13;1;100;8;;1;N;0;B
+1297;american history X;mojito party;0x;M53;1;verre organique-monster/facon mojito;15;1;75;7;;1;M;53;
+1298;Minions;beertails;0x;N38;1;verre carre/retourner la biere dans le verre ;13;1;200;13;;1;N;38;
+1299;Thanato Girl;vodkaterie;0x;H2;1;verre palladio;13;1;50;4;;1;H;2;
+1300;Poupette;beertails;0x;N39;1;verre bagarre/biere retournee;15;1;200;13;;1;N;39;
+1301;Maboule palace;pharmacocktailerie;0x;C6;1;verre cabernet/bien mélanger ;12;1;65;5;;1;C;6;
+1302;Cobayiste;vodkaterie;0x;H19;1;verre bartender ;12;1;65;5;;1;H;19;
+1303;Enoteca Gaurain RX;bonnes adresses;0x;X20;1;verre palladio/facon colada/dans shaker 8cl mix Z2o(colada)+3 vodka+3 triple sec+jus ananas+jus banane+shaker fort+2 pisang;13;1;50;4;;1;X;20;
+1304;dark material;films & series incontournables;0x;D92;1;verre organique/monster ;15;1;75;7;;1;D;92;
+1305;Papoy;les anecdotiques;0x;V60;1;verre weizenbeer ;12;1;75;7;;1;V;60;
+1306;Poubelle la vie ;rhumerie;0x;I14;1;verre tiki gd ;12;1;65;5;;1;I;14;
+1307;Beuleuleu;signature;0x;B54;1;verre coupe a glace ;12;1;65;5;;1;B;54;
+1308;Simple Minds;culturalisation;0x;Y32;1;;12;1;65;5;;1;Y;32;
+1309;Culture club ;culturalisation;0x;Y33;1;;12;1;65;5;;1;Y;33;
+1310;Belgium  ;after-wokers sa;0x;A0A;1;verre after 33cl;7,5;1;35;3;;1;A;0;A
+1311;Pinatralala;after-workers sa;0x;A0F;1;verre after 33cl/shaker + cerise facon coladal;7,5;1;35;3;;1;A;0;F
+1312;Slipknot;culturalisation;0x;Y46;1;15cl mix Z2a(mix razz)+2cl L.litchis+1 limonade+bulles;15;1;75;7;;1;Y;46;
+1313;mixH3;mixture;0x;Z2R;0;"h3:2v red+8mix+energy+cava
+
+b37: 2s violette+8mix+energy+cava";25;1;100;10;;0;Z;2;R
+1314;Chubaka;bulles;0x;G22;1;verre Monster;15;1;75;7;;1;G;22;
+1315;Jabba le Hutt;bulles;0x;G31;1;verre fist/5 mix tgv;15;1;75;7;;1;G;31;
+1316;Planteur spacial;rhumerie;0x;I67;1;verre monster;15;1;75;7;;1;I;67;
+1317;Erik Truffaz;culturalisation;0x;Y7;1;;13;1;50;4;;1;Y;7;
+1318;mixRAZZ litre;mixture;0x;Z2J;0;10 mix Z2j+paradise + 2 l curacao bleu ;30;1;100;10;;1;Z;2;J
+1319;mixU14 litre;mixture;0x;Z2T;0;u14: 10xl mixture + 5cl mixture tgv+limonade;30;1;100;10;;0;Z;2;T
+1320;mixB91 litre;mixture;0x;Z2U;0;b91: 10cl mixture+3cl mix lime+jus peche+2cl kraken;25;1;100;10;;0;Z;2;U
+1321;Chez jannine Huy;bonnes adresses;0x;X12;1;verre palladio;13;1;50;4;;1;X;12;
+1322;Bibiteros dans sa gourde zizi (inclus);les anecdotiques;0x;V11;1;servir dans gourde bibite prix achat htva 5euro;20;1;50;6;;1;V;11;
+1323;Bondage dog;Oompa LoOmpa;0x;F39;1;verre margarita ;12;1;35;3;;1;F;39;
+1324;Spawn et s'paunette;bonheur en concentré;0x;T42;1;verre a margarita et 1 shooter jager ;12;1;65;5;;1;T;42;
+1325;On se met bien;mojito party;0x;N4B;1;verre pyramide/facon mojito;13;1;75;7;;1;N;4;B
+1326;On s'acheve;bonheur en concentré;0x;T44;1;verre palladio;13;1;50;4;;1;T;44;
+1327;Vortex;bonheur en concentré;0x;T45;1;verre monster /10 mix Z2s(b86)+monster+2 l cerise+ monster+2 vdk noire ;15;1;75;7;;1;T;45;
+1353;Buckeuze;vodkaterie;0x;H30;1;verre bartender ;12;1;65;5;;1;H;30;
+1329;Lady Boyz;bonheur en concentré;0x;T46;1;verre tiki pt/decorer piment eventre ;12;1;50;6;;1;T;46;
+1330;Moque Danoff;bonheur en concentré;0x;T47;1;verre fist ;15;1;75;7;;1;T;47;
+1331;La bagarre ;beertails;0x;N41;1;verre bagarre/13mix z2q+limonade+2 CL GIN+2 curacao+dsp retournee;15;1;200;13;;1;N;41;
+1332;Haxan city;freaky;0x;L43;1;verre bocal;15;1;50;4;;1;L;43;
+1333;Oompa LoOmpa;bonheur en concentré;0x;T48;1;verre cognac/3 pipettes absynthe ;12;1;50;6;;1;T;48;
+1334;Natuurlijk;bonheur en concentré;0x;T49;1;verre E18;12;1;65;5;;1;T;49;
+1335;Mama JoJo;bonheur en concentré;0x;T50;1;verre coupe plate ;13;1;50;4;;1;T;50;
+1336;Coptail;bulles;0x;G53;1;verre weizenbeer ;13;1;75;7;;1;G;53;
+1337;Bite au vent ;bulles;0x;G54;1;verre fist ;15;1;75;7;;1;G;54;
+1338;Geneve;bonnes adresses;0x;Q16;1;verre chimiste ;13;1;50;6;;1;Q;16;
+1339;Reims;bulles;0x;G48;1;verre weizenbeer/3 pipettes absynthe;15;1;75;7;;1;G;48;
+1340;Snoop dog;bonheur en concentré;0x;U18;1;verre chimiste ;15;1;50;4;;1;U;18;
+1341;Dark soul;beertails;0x;N14;1;verre bagarre/biere retournee;15;1;200;13;;1;N;14;
+1342;Bondage  ;beertails;0x;N15;1;verre bagarre/15 mix Z2h+2 s orgeat+limonade+dsp retournee;15;1;200;13;;1;N;15;
+1343;Berserker;beertails;0x;N42;1;verre bagarre/;12;1;200;13;;1;N;42;
+1344;Quokka;Sweety;0x;S33;1;verre E18/bonbon bite + vagin;15;1;50;6;;1;S;33;
+1345;Anis-cotine;bonheur en concentré;0x;U22;1;verre' cognac;15;1;50;6;;1;U;22;
+1346;3 de Qi;Sweety;0x;S34;1;verre weizenbeer/bonbon vagin sur paille;15;1;75;7;;1;S;34;
+1347;Gangsta;bonheur en concentré;0x;U25;1;verre chimiste ;15;1;75;7;;1;U;25;
+1348;Splattering ;beertails;0x;N43;1;verre carre /mix z2(margarita f14) 15cl+2 s fraise+2Lfraise+limonade+5jfraise+bt fruitesse  retournee dans le verre;15;1;200;13;;1;N;43;
+1349;it From Bit ;beertails;0x;N44;1;verre carre /bt. de biere retournee dans le verre / base idem h29;13;1;200;13;;1;N;44;
+1350;Balkan beach;vodkaterie;0x;H29;1;verre e18/base idem n44;13;1;50;6;;1;H;29;
+1351;Spring break;tequilaterie;0x;J12;1;verre V25/10 mix z2(margarita)+2sfraise+2l fraise+limonade+5jfraise;13;1;50;4;;1;J;12;
+1352;La Bifle;Sweety;0x;S49;1;verre monster/bonbon bite ;15;1;75;7;;1;S;49;
+1356;Vamp Orchidoclaste;vodkaterie;0x;H31;1;verre weizenbeer ;12;1;75;7;;1;H;31;
+1357;Ducobu;beertails N.A.;0x;N0C;1;verre tour a empiler/bt Desperados 0% retournee dans verre ;15;1;200;13;;1;N;0;C
+1358;Spirou;beertails N.A.;0x;N0D;1;verre tour a empiler /desperados 0% retournee ;15;1;200;13;;1;N;0;D
+1359;Gaston Lagaffe;beertails N.A.;0x;N0E;1;verre tour a empiler/bt Desperados 0% retournee dans verre ;15;1;200;13;;1;N;0;E
+1360;Marsupio;beertails N.A.;0x;N0F;1;verre tour a empiler / bt Desperados 0% retournee dans verre ;13;1;200;13;;1;N;0;F
+1361;Flipettes ;beertails N.A.;0x;N0G;1;verre tour a empiler/bt Desperados 0% retournee dans verre ;13;1;200;13;;1;N;0;G
+1362;Bernard Minet'Te;hardcore;0x;Y1F;1;verre diamant lg;25;1;75;7;;1;Y;1;F
+1363;Wouf-wouf;beertails N.A.;0x;N0H;1;verre tour a empiler /despe retournee en dernier;13;1;200;13;;1;N;0;H
+1364;Bonzangle;beertails N.A.;0x;N0I;1;verre tour a empiler /despe retournee en dernier;13;1;200;13;;1;N;0;I
+1365;Tournai l abeille;beertails;0x;N45;1;verre bagarre/despe retournee en dernier;15;1;200;13;;1;N;45;
+1366;Dieu du vent;beertails;0x;N46;1;verre bagarre/;15;1;200;13;;1;N;46;
+1367;Warrior nune ;les oublies;0x;Z9E;0;verre pornstar + shooter;0;1;35;3;;1;Z;9;E
+1368;mike ;les oublies;0x;Z9B;0;shaker ;0;1;50;6;;1;Z;9;B
+1369;assortiment de 10 cubans cocktails;combo;0x;Z1L;1;;60;1;35;3;;1;Z;1;L
+1370;Phallus;Sweety;0x;S56;1;verre palladio/10 mix Z2y(v32)+limonade+2 vdk noire+barbe +bibite;15;1;50;4;;1;S;56;
+1371;Jamaican mojito;mojito party;0x;M37;1;verre coupe a glace/facon mojito+broyeur ;12;1;50;6;;1;M;37;
+1372;Dark colada;rhumerie;0x;I70;1;verre palladio/shaker + cerise facon colada+ kraken en dernier hors shaker ;15;1;65;5;;1;I;70;
+1373;Tortuga;jackdanielserie;0x;I38;1;skull/10 mix z2w(sour)+1 s miel+ginger beer+5 kraken;15;1;50;6;;1;I;38;
+1374;Lynchburg beerade;beertails;0x;N48;1;verre carre;15;1;200;13;;1;N;48;
+1375;isis beer ;beertails;0x;N49;1;verre bagarre/bt fruitesse retournee ;14;1;200;13;;1;N;49;
+1376;Lucky Luke;beertails N.A.;0x;N0J;1;verre pyramide + biere retournee ;13;1;200;13;;1;N;0;J
+1377;Zumzum;after-workers sa;0x;A0C;1;verre after 33cl;7,5;1;35;3;;1;A;0;C
+1378;Totito;after-workers;0x;F0L;1;verre after 25cl;7,5;1;35;3;;1;F;0;L
+1379;Love, death and robots;films & series incontournables;0x;D93;1;verre fist;15;1;75;7;;1;D;93;
+1380;Creed;films & series incontournables;0x;D33;1;verre monster /10 mix z2w(sour)+3 triple sec+5 sky+ monster ;15;1;75;7;;1;D;33;
+1381;Glass onion;films & series incontournables;0x;D61;1;verre Monster /10cl mix z2G(e18)+monster+cava;15;1;75;7;;1;D;61;
+1382;Sherlock Holmes;Mocktail;0x;A80;1;verre diamant plat ;10;1;100;8;;1;A;80;
+1383;Les 101 Dalmatiens (-16ans!!);Mocktail;0x;A120;1;verre monster sur peid allonge ;10;1;100;8;;1;A;120;
+1384;Chibre;signature;0x;B60;1;verre palladio;13;1;50;4;;1;B;60;
+1385;Taloche;Expressions préférées;0x;P20;1;verre palladio;13;1;50;4;;1;P;20;
+1386;Resident alien;films & series incontournables;0x;D94;1;verre ananas/15cl mix Z2h+coca zero;12;1;50;6;;1;D;94;
+1387;Les dents de l'Amour;bulles;0x;G27;1;verre fist/15cl mix z2h+6cl vodka+1 limonade+cava+jus fraise;15;1;75;7;;1;G;27;
+1388;mixCapone/litre;mixture;0x;Z2L;0;10cl premixte+recette;25;1;150;9;;1;Z;2;L
+1389;Shadow & bone ;films & series incontournables;0x;D95;1;verre E8+15cl Z2q(mixF1)+2Lpassion+2koogaie+coca 0;15;1;50;6;;1;D;95;
+1390;Hunters;films & series incontournables;0x;D96;1;verre weizenbeer/10cl mix f14+25cl sangria;15;1;75;7;;1;D;96;
+1391;Alice in Borderland ;films & series incontournables;0x;D97;1;verre tiki gd;15;1;50;6;;1;D;97;
+1392;mixSangria rose maison 4.4L;mixture;0x;Z2Z;0;;50;1;150;9;;0;Z;2;Z
+1394;mixSky sour/2litre;mixture;0x;Z2W;0;;20;1;150;9;;1;Z;2;W
+1395;MaGnium;freaky;0x;L1A;1;verre palladio/shaker ;15;1;50;4;;1;L;1;A
+1396;Gang of London;freaky;0x;L1B;1;verre weizenbeer/facon freaky/bien melanger /10cl mix(z2L capone)+cecemel+chantilly+gourmandises et mini magnum;15;1;75;7;;1;L;1;B
+1397;mixSangria blanche 4L;mixture;0x;Z2X;0;;50;1;150;9;;1;Z;2;X
+1398;Les fous du volant;Freaky SA;0x;L0G;1;verre palladio/facon freaky/bien melanger ;13;1;50;4;;1;L;0;G
+1399;Culotte de cheval;freaky;0x;L1C;1;verre weizenbeer /facon freaky/bien melanger ;15;1;50;4;;1;L;1;C
+1400;German spritz;bulles;0x;G28;1;verre palladio/1 demi bt san pellegrino;13;1;65;5;;1;G;28;
+1401;Moulaga;tequilaterie;0x;J14;1;verrre palladio;13;1;50;4;;1;J;14;
+1402;Boulaga;tequilaterie;0x;J15;1;verre palladio;13;1;50;4;;1;J;15;
+1403;Bidasse;vodkaterie;0x;H35;1;verre palladio;13;1;50;4;;1;H;35;
+1404;Pepette;vodkaterie;0x;H34;1;verre palladio;13;1;65;5;;1;H;34;
+1405;Jean-jean;rhumerie;0x;I39;1;verre tiki pt;12;1;65;5;;1;I;39;
+1406;irish coffee event 25cl;hot;0x;O1A;0;chauffer mixture +cafe+chantilly+paille bambou+1 chocolat du moment;6;1;65;5;;1;O;1;A
+1408;Coco charnelle;freaky;0x;L1D;1;verre weizenbeer ;20;1;75;7;;1;L;1;D
+1409;Barbenheimer;films & series incontournables;0x;D86;1;verre weizenbeer/nenette + barbe a papa rose et deco rose;15;1;50;4;;1;D;86;
+1410;Antenne  fantomas;antenne livraison;0x;W1;0;;13;1;150;9;;0;W;1;
+1411;Outsider;freaky;0x;L1E;1;verre strier/facon freaky/bien melanger /10cl Z2X(mix capone)+2 s popcorn+cafe glace+chantilly+deco freaky + ferrero glace;15;1;75;7;;1;L;1;E
+1412;Antenne narco;antenne livraison;0x;W2;0;;11;1;150;9;;0;W;2;
+1413;Antenne bebe d ange;antenne livraison;0x;W3;0;;13;1;150;9;;1;W;3;
+1414;Antenne bonobo;antenne livraison;0x;W4;0;;11;1;150;9;;0;W;4;
+1415;Antenne ava-conda;antenne livraison;0x;W6;0;;13;1;150;9;;1;W;6;
+1416;Antenne peche mel-badass;antenne livraison;0x;W7;0;;12;1;150;9;;1;W;7;
+1417;Antenne dechire tout;antenne livraison;0x;W11;0;;12;1;150;9;;0;W;11;
+1418;Antenne  ebola;antenne livraison;0x;W12;0;;13;1;150;9;;0;W;12;
+1419;Antenne cocaine;antenne livraison;0x;W13;0;;12;1;150;9;;0;W;13;
+1420;Antenne  red mojito;antenne livraison;0x;W14;0;;12;1;150;9;;0;W;14;
+1421;Antenne   wisky sour;antenne livraison;0x;W15;0;;12;1;150;9;;0;W;15;
+1422;Antenne barbar;antenne livraison;0x;W16;0;;11;1;150;9;;0;W;16;
+1423;Antenne copacabana;antenne livraison;0x;W17;0;;12;1;150;9;;0;W;17;
+1424;Antenne capone;antenne livraison;0x;W5;0;;15;1;150;9;;0;W;5;
+1425;Antenne resident alien;antenne livraison;0x;W19;0;;15;1;150;9;;0;W;19;
+1426;Antenne saperlipopette;antenne livraison;0x;W20;0;;13;1;150;9;;0;W;20;
+1427;Antenne fleur de toi;antenne livraison;0x;W21;0;;15;1;150;9;;0;W;21;
+1428;Antenne chaude patate;antenne livraison;0x;W23;0;;15;1;150;9;;0;W;23;
+1429;Antenne tortue geniale;antenne livraison;0x;W25;0;nenette;13;1;150;9;;1;W;25;
+1430;Antenne cunningham;antenne livraison;0x;W26;0;;13;1;150;9;;0;W;26;
+1431;Antenne sodomie anecdotique;antenne livraison;0x;W27;0;bibite;15;1;150;9;;0;W;27;
+1432;Antenne dunkerque;antenne livraison;0x;W32;0;desperados fermee dans pack;15;1;150;9;;0;W;32;
+1433;Antenne tintin en absurdie;antenne livraison;0x;W29;0;desperados fermee ds pack;15;1;150;9;;1;W;29;
+1434;Antenne bondage ;antenne livraison;0x;W35;0;dsp fermee dans pack;15;1;150;9;;0;W;35;
+1435;Antenne pinkette margarita;antenne livraison;0x;W34;0;;13;1;150;9;;0;W;34;
+1436;Antenne tintin en walbanie;antenne livraison;0x;W30;0;dsp fermee ds pack;20;1;150;9;;0;W;30;
+1437;Antenne komparazar;antenne livraison;0x;W36;0;;15;1;150;9;;0;W;36;
+1438;Antenne bagarre;antenne livraison;0x;W31;0;dsp fermee ds pack;15;1;150;9;;0;W;31;
+1439;Antenne splattering;antenne livraison;0x;W37;0;;15;1;150;9;;0;W;37;
+1440;invasion;films & series incontournables;0x;D99;1;skull/3 pipettes absynthe 89;13;1;50;4;;1;D;99;
+1441;Gen V;films & series incontournables;0x;D101;1;verre E18;15;1;50;6;;1;D;101;
+1442;MEGA shooter 25cl Serum PX-41;megashooter;0x;Z4F;1;;12,5;1;150;9;;1;Z;4;F
+1443;irish au litre;hot;0x;O1G;1;verre caraffe/flamber mixture +cafe+chantilly;25;1;100;10;;1;O;1;G
+1444;Breaking bad;films & series incontournables;0x;D100;1;verre disque ;13;1;50;6;;1;D;100;
+1445;Game of thrones;mojito party;0x;M28;1;verre E18/facon mojito;12;1;50;6;;1;M;28;
+1446;Only God forgives ;mojito party;0x;M27;1;verre E18;12;1;50;6;;1;M;27;
+1447;Creve coeur;tequilaterie;0x;J30;1;;15;1;50;6;;1;J;30;
+1448;bouteille alcool 70cl au choix;les softs, bieres, vins,...;0x;A2V;1;seau glacon+soft+verres;60;1;150;9;;1;A;2;V
+1449;Jack Fire et Ginger;jackdanielserie;0x;F7C;1;verre lynchburg hanse /demi bt ginger beer ;10;1;50;6;;1;F;7;C
+1450;Popey (!!-16ans);Mocktail;0x;A122;1;verre strier +nenette en deco ;10;1;100;8;;1;A;122;
+1451;Pierrafeu (-16ans!!);Mocktail;0x;A123;1;verre tour a empiler +nenette en deco;10;1;100;8;;1;A;123;
+1452;Gi Joe;Mocktail;0x;A124;1;verre boule sa;10;1;100;8;;1;A;124;
+1453;Strawberry gin FiZZ;ginto&co;0x;K15;1;verre ginto/shaker sans l eau petillante puis verser dans verre et completer avec eau pet;13;1;65;5;;1;K;15;
+1454;Forain;Sweety;0x;S6;1;verre palladio;15;1;50;4;;1;S;6;
+1455;Dune;films & series incontournables;0x;D87;1;verre weizenbeer;13;1;75;7;;1;D;87;
+1456;Les dents de la Mer;films & series incontournables;0x;D88;1;verre weizenbeer;13;1;50;4;;1;D;88;
+1457;Under the silver lake;signature;0x;B117;1;verre ananas;13;1;50;6;;1;B;117;
+1458;Hourra;Expressions préférées;0x;P1;1;verre monster organique ;15;1;75;7;;1;P;1;
+1459;C'est pas le castor le plus utile du barrage;mojito party;0x;M15;1;verre Weizenbeer/facon mojito;13;1;75;7;;1;M;15;
+1460;C'est pas la truite la plus oxygénée de la rivière;Expressions préférées;0x;P5;1;verre coupe a glace shaker fort / facon colada ;12;1;65;5;;1;P;5;
+1461;imatoumi;bonheur en concentré;0x;P37;1;verre ananas;13;1;65;5;;1;P;37;
+1462;Le petit Prince;Mocktail;0x;A125;1;verre boule sa/melanger vigoureusement;10;1;100;8;;1;A;125;
+1463;Gamelle de l'enfer 3en 1;vodkaterie;0x;H36;1;servir gamelle avec deja dedans le oldfashioned et qui lui contient 1 longdrink pour supporter le shooter 4cl(genre verres poupees russes) tous sur glace pilee sauf lond drink et shooter(diabolito=z2);30;1;200;15;;1;H;36;
+1464;Gamelle pysskopath 3 en 1;vodkaterie;0x;H37;1;servir gamelle avec deja dedans le oldfashioned et qui lui contient 1 lonfdrink pour supporter le shooter 4cl(genre verres poupees russes) tous sur glace pilee sauf lond drink et shooter;30;1;200;15;;1;H;37;
+1465;Gamelle à mimil 3 en 1;vodkaterie;0x;H38;1;servir gamelle avec deja dedans le oldfashioned et qui lui contient 1 lonfdrink pour supporter le shooter 4cl(genre verres poupees russes) tous sur glace pilee sauf lond drink et shooter;30;1;200;15;;1;H;38;
+1466;Gamelle PooPoo 3 en 1;vodkaterie;0x;H39;1;servir gamelle avec deja dedans le oldfashioned et qui lui contient 1 lonfdrink pour supporter le shooter 4cl(genre verres poupees russes) tous sur glace pilee sauf lond drink et shooter;30;1;200;15;;1;H;39;
+1467;Tiger Milk;tequilaterie;0x;J16;1;verre bartender/shaker fort+strainer ;12;1;35;3;;1;J;16;
+1468;inspecteur gadget;Mocktail;0x;A126;1;verre strier ;10;1;100;8;;1;A;126;
+1469;Le faible des fèves;les anecdotiques;0x;V26;1;verre cabernet;12;1;65;5;;1;V;26;
+1470;La bourle;les anecdotiques;0x;V71;1;;12;1;65;5;;1;V;71;
+1471;madeleine de Proust;vodkaterie;0x;H40;1;verre coupe a glace /shaker;12;1;65;5;;1;H;40;
+1472;Sweet dreams;Sweety;0x;S57;1;verre palladio;15;1;50;4;;1;S;57;
+1473;Mât de laine;freaky;0x;L30;1;verre strier/facon freaky/bien melanger ;15;1;75;7;;1;L;30;
+1474;Mes couilles Ti!;vodkaterie;0x;H43;1;verre weizenbeer/sur rondelle ananas mettre 2 cerises marascin+1 bibite;12;1;75;7;;1;H;43;
+1475;NallBanGer;vodkaterie;0x;H44;1;verre sangria;12;1;65;5;;1;H;44;
+1476;Death Chic;Sweety;0x;S59;1;verre palladio;15;1;75;7;;1;S;59;
+1477;Kraken Colada;rhumerie;0x;I40;1;verre palladio/shaker + cerise facon colada- sans le kraken qui est a verser en dernier + verre bartender ;13;1;75;7;;1;I;40;
+1478;route du rhum arrangée des déglingués by Damoiseau;combo;0x;Z1Q;1;plateau shooters verres;25;1;150;9;;1;Z;1;Q
+1564;Machuca;mojito party;0x;M43;1;verre ananas + façon mojito;0;1;65;5;;1;M;43;
+1481;Mini Arancini(12u);Nos snacks Airfryer;0x;A3A;1;Airfryer 7min./four à 200°c;13;1;150;9;;1;A;3;A
+1482;Croquettes mexicaines(12u);Nos snacks Airfryer;0x;A3B;1;Airfryer 5min./four à 200°c;10;1;150;9;;1;A;3;B
+1484;Tempura de crevettes;Nos snacks Airfryer;0x;A3D;1;Airfryer 7min./four à 240°c;13;1;150;9;;1;A;3;D
+1485;Calamars frits à la Romana(10u);Nos snacks Airfryer;0x;A3E;1;Airfryer 7min./four à 240°c;10;1;150;9;;1;A;3;E
+1562;Cromenockle;signaturer;0x;B103;1;verre palladio;13;1;50;4;;1;B;103;
+1487;Poulet tenders(4u) & potatoes ;Nos snacks Airfryer;0x;A3G;1;Airfryer 8min./four à 240°c;10;1;150;9;;1;A;3;G
+1489;Poulet tenders (8u);Nos snacks Airfryer;0x;A3I;1;Airfryer 8min./four à 240°c;10;1;150;9;;1;A;3;I
+1565;Cuckoo;beertails;0x;N28;1;verre bagarre  + biere retournee ;15;1;200;13;;1;N;28;
+1491;Banderillas (160gr);tapas sur le pouce;0x;A1T;1;;5;1;150;9;;1;A;1;T
+1492;GifasuK;rhumerie;0x;I41;1;verre coupe a glace/facon colada shaker ;13;1;65;5;;1;I;41;
+1493;Cordilera ;tequilaterie;0x;J18;1;verre coupe a glace /facon colada shaker sans cassis ;13;1;65;5;;1;J;18;
+1494;Oversize ;rhumerie;0x;I42;1;verre coupe plate;13;1;50;6;;1;I;42;
+1495;Reacher ;films & series incontournables;0x;D104;1;verre E18/bonbon piment ;12;1;50;6;;1;D;104;
+1496;Naruto;Mocktail;0x;A128;1;verre diamant long ;10;1;100;8;;1;A;128;
+1497;le Belliqueux ;beertails;0x;N50;1;verre bière ikea ;15;1;200;13;;1;N;50;
+1498;Moctezuma;hot;0x;O34;1;facon irish;15;1;50;4;;1;O;34;
+1499;l'entourloop;hot;0x;O35;1;facon irish;15;1;50;4;;1;O;35;
+1500;Bordel de crottin;beertails;0x;N51;1;verre bagarre/leffe retrounee ;15;1;200;13;;1;N;51;
+1501;Zizi en chapiteau;beertails;0x;N52;1;verre bagarre/DESPE RETOURNEE ET BIBITE ;15;1;200;13;;1;N;52;
+1502;5 shooters pour aventuriers ;combo;0x;Z1F;1;shooter 3cl;25;1;150;9;;1;Z;1;F
+1503;Pénicilline;pharmacocktailerie;0x;C48;1;verre cabernet;12;1;65;5;;1;C;48;
+1518;Morcheeba;culturalisation;0x;N55;1;verre palladio/servir directement ;13;1;50;4;;1;N;55;
+1519;Foo Fighters;culturalisation;0x;N56;1;verre pyramide/biere retournee ;13;1;200;13;;1;N;56;
+1520;Abeillos;tequilaterie;0x;J32;1;verre margarita + sel pimente + bonbon piment ;12;1;35;3;;1;J;32;
+1521;potion magique ;mojito party;0x;M55;1;verre tiki gd + facon mojito;13;1;50;6;;1;M;55;
+1522;Long yellow island;rhumerie;0x;I34;1;verre v25/13mix z2q(f1)+2cl gin+jarritos;13;1;50;6;;1;I;34;
+1523;Long pink island ;rhumerie;0x;I35;1;verre v25/13mix z2q(f1)+2cl gin+jarritos;13;1;50;6;;1;I;35;
+1524;Long orange island;rhumerie;0x;I37;1;verre v25/13mix z2q(f1)+2cl gin+jarritos;13;1;50;6;;1;I;37;
+1525;Long island a kiki;rhumerie;0x;I71;1;verre v25/13mix z2q(f1)+2cl gin+gingerbeer;13;1;200;13;;1;I;71;
+1526;Long dark island ;rhumerie;0x;I72;1;verre v25/13mix z2q(f1)+2cl gin+kola;13;1;50;6;;1;I;72;
+1527;Pandor;shootserie en mise en bouche;0x;Z27;1;shoot en verre+a la cuillere delicatement+flamber a table + paille bambou;5;1;5;14;;1;Z;27;
+1528;méthamphétamine;drugs;0x;E29;1;verre cooupe a glace ;13;1;50;4;;1;E;29;
+1529;VNR;mojito party;0x;M56;1;facon mojito/verre palladio/jager en dernier ;13;1;50;4;;1;M;56;
+1530;you are Bugs ;Expressions préférées;0x;P11;1;facon mojito/verre palladio/jager en dernier ;13;1;50;4;;1;P;11;
+1531;Bikini Bottom;rhumerie;0x;I73;1;verre palladio ;13;1;50;4;;1;I;73;
+1532;Le triangle des Bermudes ;tequilaterie;0x;J33;1;verre palladio/bonbon piment ;13;1;50;4;;1;J;33;
+1533;Cools-Cools;freaky;0x;L57;1;palladio/facon freaky;15;1;50;4;;1;L;57;
+1534;liqueur  pop corn maison;bar;0x;Z0D;0;;25;1;150;9;;1;Z;0;D
+1535;La charrue avant les beuh;beertail;0x;N40;1;verre bagarre /bt biere retournee ;15;1;200;13;;1;N;40;
+1536;Ménarde le doudou;sweety;0x;S10;1;verre palladio;15;1;50;4;;1;S;10;
+1537;Les Kassos ;Mocktail;0x;A13;1;verre pyramide + ,bt retournée;10;1;100;8;;1;A;13;
+1538;la dialyse ;pharmacocktailerie;0x;C41;1;verre palladio;13;1;50;4;;1;C;41;
+1539;Game ovaires ;les anecdotiques;0x;V6;1;verre palladio;13;1;50;4;;1;V;6;
+1540;Komsébizar;mojito party;0x;M2;1;verre E18+reglisse ;13;1;50;6;;1;M;2;
+1541;clitoturbo;rhumerie;0x;I25;1;verre pyramide+bonbon piment +nenette;13;1;50;6;;1;I;25;
+1542;Komsététrange ;sweety;0x;S64;1;verre monster ecrase;15;1;75;7;;1;S;64;
+1543;Shukumei;hardcore;0x;Y1J;1;verre diamant long;25;1;75;7;;1;Y;1;J
+1544;La Sangsue ;signature;0x;B28;1;verre palladio;15;1;50;4;45419;1;B;28;
+1545;Le Floutche;signature;0x;B27;1;verre palladio;15;1;50;4;45419;1;B;27;
+1546;Cachalot Neurasthénique;vodkaterie;0x;H7;1;verre bocal poisson;15;1;200;13;45423;1;H;7;
+1547;My little Reindeer;rhumerie;0x;I43;1;verre bartender ;13;1;50;4;45423;1;I;43;
+1548;Fallout ;films & series incontournables;0x;D73;1;verre sangria ;13;1;65;5;45423;1;D;73;
+1549;Réglissada;vodkaterie;0x;H15;1;shaker fort + verre cabernet + bonbon reglisse ;13;1;65;5;45423;1;H;15;
+1550;coqueluche du cul;rhumerie;0x;I48;1;verre sangria ;13;1;65;5;;1;I;48;
+1551;Smashing Pumpkins;culturalisation;0x;Y11;1;palladio;13;1;50;4;;1;Y;11;
+1552;The Cardigans ;culturalisation;0x;Y15;1;verre bartender +cerise ;13;1;50;4;45427;1;Y;15;
+1553;Vol au dessus d'un nid de coucou;films & series incontournables;0x;D79;1;verre sangira ;13;1;65;5;45427;1;D;79;
+1554;Linkin park;culturalisation;0x;Y22;1;shaker +verre coupe a glace + cerise facon colada et bareb a papa coco;13;1;65;5;45427;1;Y;22;
+1555;Cafard-tholique;les anecdotiques;0x;V12;1;verre sangria;13;1;65;5;45427;1;V;12;
+1556;Crazy-Tropi;signature;0x;B13;1;verre palladio;13;1;50;4;45444;1;B;13;
+1557;La cage aux folles ;films & series incontournables;0x;D103;1;verre palladio ;13;1;50;4;45459;1;D;103;
+1558;La folle floche ;rhumerie;0x;I50;1;verre skull+jarritos retourenee;15;1;50;6;45459;1;I;50;
+1559;Hup Hup Hup Barbatruc;les anecdotiques;0x;V78;1;verre palladio;13;1;50;4;;1;V;78;
+1560;Mr Coincoin;signature;0x;B46;1;verre cabernet ;12;1;65;5;;1;B;46;
+1561;Limocello Spritz revisité;signature;0x;B52;1;verre cabernet - max 10cl eau pet.-tete de menthe dans tranche de citron -mélanger ;13;1;65;5;;1;B;52;

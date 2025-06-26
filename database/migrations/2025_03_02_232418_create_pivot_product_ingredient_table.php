@@ -24,6 +24,7 @@ return new class extends Migration
 
             $table->float('quantity')->nullable();
 
+            $table->integer('order')->nullable();
             $table->timestamps();
         });
     }

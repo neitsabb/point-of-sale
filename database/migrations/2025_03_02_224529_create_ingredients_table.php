@@ -17,28 +17,42 @@ return new class extends Migration
         Schema::create('ingredients', function (Blueprint $table) {
             $table->id();
 
-            $table->string('image')->nullable()
-                ->default('https://placehold.co/32x32');
+            // $table->string('image')->nullable()
+            //     ->default('https://placehold.co/32x32');
+
             $table->string('name');
 
-            $table->string('description')
-                ->nullable();
+            $table->enum('type', [
+                'aperitif',
+                'beer',
+                'coffee',
+                'cocktail',
+                'digestif',
+                'shooter',
+                'smart_drink',
+                'soft_drink',
+                'vitamin_drink',
+                'wine',
+            ])->default('cocktail');
+
+            $table->float('stock_quantity')
+                ->default(0);
+
+            $table->float('critical_stock')
+                ->default(0);
+
+            $table->boolean('is_visible')
+                ->default(true);
+
+
             $table->enum(
                 'unit',
                 array_map(fn($unit) => $unit->value, Unit::cases())
             )->default(Unit::UNIT->value);
-            $table->float('stock_quantity')
-                ->default(0);
-            $table->float('critical_stock')
-                ->default(0);
 
+            $table->float('purchase_quantity')->default(1); 
 
-            $table->enum(
-                'purchase_unit',
-                array_map(fn($unit) => $unit->value, array: array_merge(Unit::cases()))
-            )->default(Unit::UNIT->value);
-            $table->float('purchase_unit_size')->default(1); // Taille de l'unité d'achat
-            $table->float('purchase_price')->default(0); // Prix d'achat de l'unité
+            $table->float('purchase_price')->default(0); 
 
             $table->timestamps();
         });
